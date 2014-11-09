@@ -1,6 +1,6 @@
 [user]
 	name = Pierrick Bouvier
-	email = bouvier.pierrick@yahoo.fr
+	email = pierrick.bouvier@posteo.net
 [color]
 	diff = auto
 	status = auto
@@ -11,3 +11,13 @@
 [merge]
 	conflictstyle = diff3
 	ff = false
+[push]
+	default = simple
+[merge "git-crypt"]
+	name = A custom merge driver used to merge git-crypted files.
+	driver = $HOME/.gitcryptmergetool.sh %O %A %B
+	recursive = binary
+[alias]
+  sed = ! git grep -z --full-name -l '.' | xargs -0 sed -i -e
+[pull]
+	rebase = true

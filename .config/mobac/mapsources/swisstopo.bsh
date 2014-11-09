@@ -1,0 +1,24 @@
+name = "AAA Swiss topo";
+
+tileType = "jpg";
+tileSize = 256;
+minZoom = 0;
+maxZoom = 18;
+tileUpdate = TileUpdate.IfModifiedSince;
+backgroundColor = "#ffffff";
+ignoreError = "True";
+
+String getTileUrl( int zoom, int x, int y ) {
+    return
+        "https://wmts10.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/" + zoom + "/" + x + "/" + y + ".jpeg";
+}
+
+void addHeaders( java.net.HttpURLConnection conn) {
+    conn.addRequestProperty("Referer","https://s.codepen.io/boomerang/iFrameKey-bbad2023-e3af-62d3-bd27-d7d9ebcb60c0/index.html?editors=0010");
+    conn.addRequestProperty("User-Agent","Mozilla/5.0 (X11; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0");
+}
+
+/* found from tutorial at this page (geo admin api help):http://api3.geo.admin.ch/api/examples.html
+   https://codepen.io/geoadmin/pen/pyzwwL?editors=0010
+   else, a proxy is available from geoportail: https://www.geoportail.gouv.fr/donnees/suisse-cartes-swisstopo
+ */

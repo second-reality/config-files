@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <atlasFormatSpecificSettings>
+        <garminCustomMaxMapCount>100</garminCustomMaxMapCount>
+    </atlasFormatSpecificSettings>
+    <bandwidthLimit>0</bandwidthLimit>
+    <coordinateNumberFormat>DEG_LOCAL</coordinateNumberFormat>
+    <customProxyHost></customProxyHost>
+    <customProxyPassword></customProxyPassword>
+    <customProxyPort></customProxyPort>
+    <customProxyUserName></customProxyUserName>
+    <customTileSize>false</customTileSize>
+    <devMode>false</devMode>
+    <directories/>
+    <downloadRetryCount>1</downloadRetryCount>
+    <downloadThreadCount>2</downloadThreadCount>
+    <elementName>Layer</elementName>
+    <googleLanguage>en</googleLanguage>
+    <gpxFileChooserDir></gpxFileChooserDir>
+    <httpAccept>text/html, image/png, image/jpeg, image/gif, */*; q=0.1</httpAccept>
+    <httpConnectionTimeout>10</httpConnectionTimeout>
+    <httpReadTimeout>10</httpReadTimeout>
+    <ignoreDlErrors>false</ignoreDlErrors>
+    <localeCountry></localeCountry>
+    <localeLanguage>en</localeLanguage>
+    <mainWindow>
+        <size>1229/691</size>
+        <position>-1/-1</position>
+        <maximized>true</maximized>
+        <rightPanelVisible>true</rightPanelVisible>
+        <leftPanelVisible>true</leftPanelVisible>
+        <leftPanelWidth>254</leftPanelWidth>
+        <collapsedPanels>
+            <collapsedPanel>Coordinates</collapsedPanel>
+        </collapsedPanels>
+    </mainWindow>
+    <mapOverlapTiles>0</mapOverlapTiles>
+    <mapSourcesDisabled/>
+    <mapSourcesEnabled>
+        <mapSource>4uMaps</mapSource>
+        <mapSource>AAA Géoportail IGN</mapSource>
+        <mapSource>AAA Géoportail Pentes</mapSource>
+        <mapSource>AAA IGMI Italia</mapSource>
+        <mapSource>AAA Swiss topo</mapSource>
+        <mapSource>FAA Sectional Charts</mapSource>
+        <mapSource>FreemapSlovakia</mapSource>
+        <mapSource>FreemapSlovakiaCyclo</mapSource>
+        <mapSource>FreemapSlovakiaHiking</mapSource>
+        <mapSource>MapQuest</mapSource>
+        <mapSource>Mapnik</mapSource>
+        <mapSource>MapsforgeWorld</mapSource>
+        <mapSource>MoldovaPointMd</mapSource>
+        <mapSource>New Zealand Topographic Maps</mapSource>
+        <mapSource>OSM CloudMade 1</mapSource>
+        <mapSource>OSMPublicTransport</mapSource>
+        <mapSource>OSMapaTopo</mapSource>
+        <mapSource>OSMapaTopoContours</mapSource>
+        <mapSource>OpenPisteMapBCL</mapSource>
+        <mapSource>OpenSeaMap</mapSource>
+        <mapSource>OpenStreetMap Hikebikemap.de</mapSource>
+        <mapSource>Turaterkep256</mapSource>
+        <mapSource>UMP-pcPL</mapSource>
+        <mapSource>USGS National Map Base</mapSource>
+        <mapSource>USGS National Map Satellite</mapSource>
+        <mapSource>USGS National Map Satellite+</mapSource>
+        <mapSource>USGS National Map Topo</mapSource>
+        <mapSource>USGS National Map Vector</mapSource>
+        <mapSource>WanderreitkarteAbo</mapSource>
+        <mapSource>cb-enra</mapSource>
+        <mapSource>cb-enrh</mapSource>
+        <mapSource>cb-enrl</mapSource>
+        <mapSource>cb-sec</mapSource>
+        <mapSource>cb-tac</mapSource>
+        <mapSource>cb-wac</mapSource>
+    </mapSourcesEnabled>
+    <MapSourcesUpdate/>
+    <mapviewCenterCoordinate lat="45.35093888694538" lon="6.04522705078125"/>
+    <mapviewGridZoom>-1</mapviewGridZoom>
+    <mapviewMapSource>AAA Géoportail IGN</mapviewMapSource>
+    <mapviewSelectionMax>554958848/384507904</mapviewSelectionMax>
+    <mapviewSelectionMin>554958848/384507904</mapviewSelectionMin>
+    <mapviewZoom>12</mapviewZoom>
+    <maxMapSize>65536</maxMapSize>
+    <osmHikingTicket></osmHikingTicket>
+    <paperAtlas>
+        <compression>6</compression>
+        <crop>15</crop>
+        <dpi>96</dpi>
+        <marginBottom>22.6</marginBottom>
+        <marginLeft>22.6</marginLeft>
+        <marginRight>22.6</marginRight>
+        <marginTop>22.6</marginTop>
+        <overlap>28.2</overlap>
+        <compass>true</compass>
+        <pageNumbers>true</pageNumbers>
+        <scaleBar>true</scaleBar>
+        <wgsEnabled>true</wgsEnabled>
+        <paperSize>A4</paperSize>
+        <wgsDensity>SECOND_1</wgsDensity>
+    </paperAtlas>
+    <placeBookmarks/>
+    <proxyType>CUSTOM</proxyType>
+    <selectedZoomLevels/>
+    <tileDefaultExpirationTime>2433148535</tileDefaultExpirationTime>
+    <tileImageFormat>PNG</tileImageFormat>
+    <tileMaxExpirationTime>31743402975</tileMaxExpirationTime>
+    <tileMinExpirationTime>434079772</tileMinExpirationTime>
+    <tileSize>256/256</tileSize>
+    <tileStoreEnabled>true</tileStoreEnabled>
+    <unitSystem>Metric</unitSystem>
+    <userAgent>MOBAC/1.9.16</userAgent>
+    <version>2.1.4</version>
+    <wgsGrid>
+        <color>#0000ff</color>
+        <compressLabels>false</compressLabels>
+        <density>SECOND_1</density>
+        <enabled>false</enabled>
+        <font>SansSerif-PLAIN-12</font>
+        <width>1.0</width>
+    </wgsGrid>
+</settings>

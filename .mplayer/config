@@ -1,0 +1,28 @@
+# Write your default config options here!
+#osdlevel=3
+# force subs to be found automatically
+sub-fuzziness=2
+vo=gl:lscale=1
+zoom=1
+subfont-text-scale=3
+subfont-encoding=unicode
+unicode=yes
+utf8=yes
+softvol=yes
+softvol-max=400
+subpos="88"
+
+# Device, passthrough and on-the-fly-encoding
+#=====================
+# Default device is configured, so here I used just ao=alsa (not : ao=alsa:device=hw=0.1)
+ao=alsa
+#For both AC-3 and DTS passthroug, use -afm hwac3
+afm=hwac3
+channels=6
+# spdif encode to ac3
+af=scaletempo,lavcac3enc=1:640:3 
+
+# Sync
+#=====================
+autosync=30
+cache=8192

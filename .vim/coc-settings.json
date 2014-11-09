@@ -1,0 +1,52 @@
+{
+    "diagnostic.refreshOnInsertMode": true,
+    "diagnostic.checkCurrentLine": true,
+    "diagnostic.virtualText": true,
+    "diagnostic.enableMessage": "always",
+    "coc.preferences.useQuickfixForLocations": true,
+    "list.normalMappings": {
+        "<C-c>": "do:exit"
+    },
+    "list.insertMappings": {
+        "<C-c>": "do:exit"
+    },
+    "languageserver": {
+        "clangd": {
+            "command": "clangd",
+            "args": [
+                "--background-index"
+            ],
+            "filetypes": [
+                "c",
+                "cpp",
+                "objc",
+                "objcpp"
+            ]
+        },
+        "d": {
+            "command": "serve-d",
+            "filetypes": ["d"],
+            "rootPatterns": ["dub.json", "dub.sdl"]
+        },
+        "rust": {
+            "command": "rls",
+            "filetypes": [
+                "rust"
+            ],
+            "rootPatterns": [
+                "Cargo.toml"
+            ]
+        },
+        "golang": {
+            "command": "go-langserver",
+            "filetypes": [
+                "go"
+            ],
+            "initializationOptions": {
+                "gocodeCompletionEnabled": true,
+                "diagnosticsEnabled": true,
+                "lintTool": "golint"
+            }
+        }
+    }
+}

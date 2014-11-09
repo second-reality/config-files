@@ -1,0 +1,5 @@
+set zoom=fitwidth
+set fullscreen=yes 
+set continuous=yes
+set scrollbar=no
+set content=no

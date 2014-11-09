@@ -1,0 +1,3 @@
+Download tgz archive, extract qwerty-fr.bundle to:
+/Library/Keyboard Layouts/ to install for all users
+~/Library/Keyboard Layouts/ for user-local installation
