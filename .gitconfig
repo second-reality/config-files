@@ -1,0 +1,13 @@
+[user]
+	name = Pierrick Bouvier
+	email = bouvier.pierrick@yahoo.fr
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	pager = less -r
+	preloadindex = true
+[merge]
+	conflictstyle = diff3
+	ff = false
