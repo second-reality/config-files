@@ -74,12 +74,12 @@
         <mapSource>cb-wac</mapSource>
     </mapSourcesEnabled>
     <MapSourcesUpdate/>
-    <mapviewCenterCoordinate lat="45.35093888694538" lon="6.04522705078125"/>
+    <mapviewCenterCoordinate lat="45.29442233953789" lon="6.132173538208008"/>
     <mapviewGridZoom>-1</mapviewGridZoom>
     <mapviewMapSource>AAA Géoportail IGN</mapviewMapSource>
-    <mapviewSelectionMax>554958848/384507904</mapviewSelectionMax>
-    <mapviewSelectionMin>554958848/384507904</mapviewSelectionMin>
-    <mapviewZoom>12</mapviewZoom>
+    <mapviewSelectionMax>554696704/386162688</mapviewSelectionMax>
+    <mapviewSelectionMin>554696704/386162688</mapviewSelectionMin>
+    <mapviewZoom>15</mapviewZoom>
     <maxMapSize>65536</maxMapSize>
     <osmHikingTicket></osmHikingTicket>
     <paperAtlas>

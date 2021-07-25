@@ -2404,6 +2404,7 @@ libnunit-core2.6.3-cil
 libnunit-framework2.6.3-cil
 libnunit-mocks2.6.3-cil
 libnunit-util2.6.3-cil
+libnvpair3linux
 libnx-x11-6:amd64
 liboauth0:amd64
 libobjc4:amd64
@@ -3119,6 +3120,7 @@ libutempter0:amd64
 libutf8proc2:amd64
 libuuid1:amd64
 libuuid1:i386
+libuutil3linux
 libuv1:amd64
 libuv1-dev:amd64
 libv4l-0:amd64
@@ -3478,10 +3480,12 @@ libzapojit-0.0-0:amd64
 libzbar0:amd64
 libzeitgeist-2.0-0:amd64
 libzen0v5:amd64
+libzfs4linux
 libzip-dev:amd64
 libzip4:amd64
 libzmf-0.0-0:amd64
 libzmq5:amd64
+libzpool4linux
 libzstd1:amd64
 libzstd1:i386
 libzvbi-common
@@ -4376,6 +4380,7 @@ python3-nacl
 python3-neovim
 python3-netifaces
 python3-olefile
+python3-packaging
 python3-paramiko
 python3-parsedatetime
 python3-peewee
@@ -4960,6 +4965,9 @@ zeitgeist-core
 zenity
 zenity-common
 zerofree
+zfs-dkms
+zfs-zed
+zfsutils-linux
 zip
 zlib1g:amd64
 zlib1g:i386
