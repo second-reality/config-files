@@ -17,6 +17,7 @@ mkdir -p .vim
 cp ~/.vim/coc-settings.json .vim
 mkdir .config
 cp -r ~/.config/mobac .config/mobac
+rm -rf .config/mobac/settings.xml
 rm -rf bin
 cp -r /data/backup/bin/ bin
 rm -rf firefox_extensions

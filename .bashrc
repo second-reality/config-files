@@ -267,11 +267,6 @@ win()
     sudo virsh start win10
 }
 
-adobe_editions()
-{
-  WINEPREFIX=~/.wine_ade wine explorer
-}
-
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 #~/.fzf/install --all
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
