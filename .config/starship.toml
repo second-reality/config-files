@@ -5,9 +5,6 @@ add_newline = false
 [line_break]
 disabled = true
 
-[character]
-symbol = ">"
-
 [username]
 show_always = true
 
@@ -21,17 +18,17 @@ truncate_to_repo = false
 [git_branch]
 symbol = ""
 
+[python]
+disabled = true
+
 [git_status]
-modified_count.enabled = true
-untracked_count.enabled = true
-show_sync_count = true
+modified.enabled = true
+untracked.enabled = true
 stashed = "" # hide stashed
 
 [rust]
 disabled = true
 
-[python]
-disabled = true
-
 [package]
 disabled = true
+
