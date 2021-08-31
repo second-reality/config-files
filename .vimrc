@@ -256,7 +256,7 @@ nnoremap <c-n> :cnext<CR>
 nnoremap <c-p> :cprevious<CR>
 
 " FZF files
-nmap <C-f> :GFiles --recurse-submodules<CR>
+nmap <C-f> :Files .<CR>
 
 " read meson file like python
 autocmd BufNew,BufEnter meson.build setf python

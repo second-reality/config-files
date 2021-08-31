@@ -112,6 +112,7 @@ borgbackup
 brasero
 brasero-cdrkit:amd64
 brasero-common
+bsd-mailx
 bsdextrautils
 bsdutils
 btrfs-progs
@@ -330,6 +331,7 @@ expect
 extlinux
 exuberant-ctags
 f2fs-tools
+fakechroot
 fakeroot
 faketime
 fastboot
@@ -1321,6 +1323,7 @@ libdirectfb-1.7-7:amd64
 libdiscid0:amd64
 libdiscover2
 libdist-checkconflicts-perl
+libdistro-info-perl
 libdjvulibre-text
 libdjvulibre21:amd64
 libdleyna-connector-dbus-1.0-1:amd64
@@ -1452,6 +1455,7 @@ libf2fs-format4:amd64
 libf2fs5:amd64
 libfaad2:amd64
 libfabric1
+libfakechroot:amd64
 libfakeroot:amd64
 libfaketime:amd64
 libfam0:amd64
@@ -2161,6 +2165,7 @@ libloader-java
 liblocal-lib-perl
 liblocale-gettext-perl
 liblockfile-bin
+liblockfile1:amd64
 liblog-dispatch-perl
 liblog-log4perl-perl
 liblog4j1.2-java
@@ -3884,6 +3889,7 @@ meteo-qt
 meteo-qt-l10n
 mime-support
 mlocate
+mmdebstrap
 mmv
 mobile-atlas-creator
 mobile-broadband-provider-info
@@ -4691,6 +4697,7 @@ qalculate
 qalculate-gtk
 qdbus-qt5
 qemu
+qemu-block-extra
 qemu-system-common
 qemu-system-data
 qemu-system-x86
