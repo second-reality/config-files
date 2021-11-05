@@ -69,6 +69,8 @@ Plug 'tpope/vim-dispatch'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Fugitive
 Plug 'tpope/vim-fugitive'
+" Rust
+Plug 'rust-lang/rust.vim'
 " FZF
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
