@@ -9,7 +9,7 @@
 " cp coc-settings.json ~/.vim/coc-settings.json
 " sudo apt install yarnpkg #(for coc)
 "
-" in vim :CocInstall coc-json  coc-vimlsp coc-jedi
+" in vim :CocInstall coc-json  coc-vimlsp coc-jedi coc-rust-analyzer
 "
 " C/C++ completion
 " #add apt repository for clangd
@@ -18,11 +18,7 @@
 " apt update && apt install -y clang clangd clang-tools
 "
 " Rust completion
-" curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-" CARGO_PATH
-" rustup component add rls
-" rustup component add rust-analysis
-" rustup component add rust-src
+" :CocInstall coc-rust-analyzer
 "
 " Python completion (with coc-jedi)
 " apt-get install python3-venv
@@ -41,6 +37,11 @@
 " https://github.com/Pure-D/serve-d/releases
 " https://github.com/dlang-community/DCD/releases
 " https://github.com/dlang-community/D-Scanner/releases
+"
+" Use with nvim:
+" mkdir ~/.config/
+" ln -s ~/.vim ~/.config/nvim
+" ln -s ~/.vimrc ~/.config/nvim/init.vim
 
 "-------------------------------------------------------------------------------
 " use vim
@@ -69,8 +70,6 @@ Plug 'tpope/vim-dispatch'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Fugitive
 Plug 'tpope/vim-fugitive'
-" Rust
-Plug 'rust-lang/rust.vim'
 " FZF
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'

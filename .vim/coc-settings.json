@@ -28,15 +28,6 @@
             "filetypes": ["d"],
             "rootPatterns": ["dub.json", "dub.sdl"]
         },
-        "rust": {
-            "command": "rls",
-            "filetypes": [
-                "rust"
-            ],
-            "rootPatterns": [
-                "Cargo.toml"
-            ]
-        },
         "golang": {
             "command": "go-langserver",
             "filetypes": [
