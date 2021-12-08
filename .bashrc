@@ -115,6 +115,7 @@ alias feh='feh --auto-rotate'
 export LOCALE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export TERM=xterm-256color
+[ -v TMUX ] && TERM=tmux-256color
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
 export PAGER=/usr/bin/less

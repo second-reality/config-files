@@ -145,6 +145,7 @@ chromium-common
 chromium-sandbox
 cifs-utils
 cksfv
+clang-13
 clang-9
 clang-format-13
 clangd:amd64
@@ -256,6 +257,7 @@ desktop-file-utils
 detox
 device-tree-compiler
 devscripts
+dex
 dfmt
 dh-autoreconf
 dh-elpa-helper
@@ -1207,6 +1209,7 @@ libclang-cpp11
 libclang-cpp13
 libclang-cpp9
 libclang1-10
+libclang1-13
 libclang1-7
 libclang1-9
 libclass-accessor-perl
@@ -3135,6 +3138,7 @@ libsoundtouch1:amd64
 libsoup-gnome2.4-1:amd64
 libsoup2.4-1:amd64
 libsoup2.4-1:i386
+libsoup2.4-common
 libsource-highlight-common
 libsource-highlight4v5
 libsox-fmt-alsa:amd64
@@ -3821,6 +3825,7 @@ linux-perf
 linux-perf-4.19
 linux-perf-5.15
 linux-support-4.19.0-5
+lld-13
 llvm
 llvm-10
 llvm-10-dev
@@ -5189,8 +5194,10 @@ vrms
 vulkan-tools
 vulkan-utils
 w3m
+wabt
 wajig
 wamerican
+wasi-libc
 wayland-protocols
 wdiff
 wget
