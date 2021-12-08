@@ -153,6 +153,10 @@ set wildignore+=*.o,*.so,*.swp,*.a,*.git/*
 set backupdir=~/.vim/backup_files
 set directory=~/.vim/swap_files
 
+" reduce timeout for some key (faster <esc>)
+set timeoutlen=1000
+set ttimeoutlen=5
+
 "-------------------------------------------------------------------------------
 " General mappings
 
