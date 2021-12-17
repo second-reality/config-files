@@ -2,9 +2,11 @@
 "Vim configuration (for Linux 256 colors term - Debian package vim-gtk)
 "
 " SETUP NEEDED
-" cp .vimrc ~/.vimrc mkdir -p ~/.vim mkdir -p ~/.vim/swap_files/
+" cp .vimrc ~/.vimrc
+" mkdir -p ~/.vim
+" mkdir -p ~/.vim/swap_files/
 " mkdir -p ~/.vim/backup_files/
-" mkdir ~/.config/
+" mkdir -p ~/.config/
 " ln -s ~/.vim ~/.config/nvim
 " ln -s ~/.vimrc ~/.config/nvim/init.vim
 " cp coc-settings.json ~/.vim/coc-settings.json
