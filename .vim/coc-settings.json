@@ -1,43 +1,8 @@
 {
-    "diagnostic.refreshOnInsertMode": true,
+    "suggest.enablePreview": true,
     "diagnostic.checkCurrentLine": true,
+    "diagnostic.refreshOnInsertMode": true,
     "diagnostic.virtualText": true,
-    "diagnostic.enableMessage": "always",
-    "coc.preferences.useQuickfixForLocations": true,
-    "list.normalMappings": {
-        "<C-c>": "do:exit"
-    },
-    "list.insertMappings": {
-        "<C-c>": "do:exit"
-    },
-    "languageserver": {
-        "clangd": {
-            "command": "clangd",
-            "args": [
-                "--background-index"
-            ],
-            "filetypes": [
-                "c",
-                "cpp",
-                "objc",
-                "objcpp"
-            ]
-        },
-        "d": {
-            "command": "serve-d",
-            "filetypes": ["d"],
-            "rootPatterns": ["dub.json", "dub.sdl"]
-        },
-        "golang": {
-            "command": "go-langserver",
-            "filetypes": [
-                "go"
-            ],
-            "initializationOptions": {
-                "gocodeCompletionEnabled": true,
-                "diagnosticsEnabled": true,
-                "lintTool": "golint"
-            }
-        }
-    }
+    "diagnostic.virtualTextCurrentLineOnly": false,
+    "see_doc_at": "https://github.com/neoclide/coc.nvim/blob/master/data/schema.json"
 }

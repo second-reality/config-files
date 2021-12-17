@@ -1,50 +1,23 @@
 "-------------------------------------------------------------------------------
-" Vim configuration (for Linux 256 colors term - Debian package vim-gtk)
+"Vim configuration (for Linux 256 colors term - Debian package vim-gtk)
 "
 " SETUP NEEDED
-" cp .vimrc ~/.vimrc
-" mkdir -p ~/.vim
-" mkdir -p ~/.vim/swap_files/
+" cp .vimrc ~/.vimrc mkdir -p ~/.vim mkdir -p ~/.vim/swap_files/
 " mkdir -p ~/.vim/backup_files/
-" cp coc-settings.json ~/.vim/coc-settings.json
-" sudo apt install yarnpkg #(for coc)
-"
-" in vim :CocInstall coc-json  coc-vimlsp coc-jedi coc-rust-analyzer
-"
-" C/C++ completion
-" #add apt repository for clangd
-" echo "deb http://apt.llvm.org/buster/ llvm-toolchain-buster main" >> /etc/apt/sources.list
-" wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key| apt-key add -
-" apt update && apt install -y clang clangd clang-tools
-"
-" Rust completion
-" :CocInstall coc-rust-analyzer
-"
-" Python completion (with coc-jedi)
-" apt-get install python3-venv
-"
-" Go completion
-" sudo apt install golang
-" go get -u github.com/sourcegraph/go-langserver
-" sudo cp ~/go/bin/go-langserver /usr/bin
-"
-" D completion
-" sudo wget https://netcologne.dl.sourceforge.net/project/d-apt/files/d-apt.list -O /etc/apt/sources.list.d/d-apt.list
-" sudo apt-get update --allow-insecure-repositories
-" sudo apt-get -y --allow-unauthenticated install --reinstall d-apt-keyring
-" sudo apt-get update && sudo apt-get install dmd-compiler dub
-" Install serve-d + dcd
-" https://github.com/Pure-D/serve-d/releases
-" https://github.com/dlang-community/DCD/releases
-" https://github.com/dlang-community/D-Scanner/releases
-"
-" Use with nvim:
 " mkdir ~/.config/
 " ln -s ~/.vim ~/.config/nvim
 " ln -s ~/.vimrc ~/.config/nvim/init.vim
-
+" cp coc-settings.json ~/.vim/coc-settings.json
+" sudo apt install yarnpkg #(for coc)
+"
+" in vim:
+" :CocInstall coc-clangd coc-docker coc-json coc-marketplace
+" :CocInstall coc-rust-analyzer coc-sh coc-toml coc-vimlsp coc-yaml
+"
+" # too see all extensions CocList marketplace
+" :CocList marketplace
 "-------------------------------------------------------------------------------
-" use vim
+"use vim
 set nocompatible
 " change leader key
 let mapleader=','
@@ -58,21 +31,13 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-" Tabular: align text easily
-Plug 'godlygeek/tabular'
-" Airline: better status line
-Plug 'bling/vim-airline'
-" colorscheme plugin
-Plug 'vim-scripts/wombat256.vim'
-" Build in background
-Plug 'tpope/vim-dispatch'
-" LSP client
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Fugitive
-Plug 'tpope/vim-fugitive'
-" FZF
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'bling/vim-airline' " status line
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " auto complete
+Plug 'tpope/vim-fugitive' " git
+Plug 'tpope/vim-dispatch' " :Make command
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder for files
 Plug 'junegunn/fzf.vim'
+Plug 'vim-scripts/wombat256.vim' " theme
 call plug#end()
 
 "-------------------------------------------------------------------------------
@@ -181,8 +146,6 @@ hi SignColumn ctermbg=232 cterm=none guibg=#32322f
 " git grep word under cursor
 nmap <leader>s :Ggrep <C-R><C-W><CR><CR>:copen<CR>
 
-let g:coc_disable_startup_warning = 1
-
 set hidden
 set cmdheight=2
 set updatetime=100
@@ -262,7 +225,3 @@ nnoremap <c-p> :cprevious<CR>
 
 " FZF files
 nmap <C-f> :Files .<CR>
-
-" read meson file like python
-autocmd BufNew,BufEnter meson.build setf python
-

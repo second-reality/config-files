@@ -1546,6 +1546,7 @@ libfile-slurper-perl
 libfile-stripnondeterminism-perl
 libfile-touch-perl
 libfile-which-perl
+libfilezilla-common
 libfilezilla22:amd64
 libfl-dev:amd64
 libfl2:amd64
@@ -1757,7 +1758,7 @@ libgnome-games-support-common
 libgnome-menu-3-0:amd64
 libgnomekbd-common
 libgnomekbd8:amd64
-libgnustep-base1.27
+libgnustep-base1.28
 libgnutls-dane0:amd64
 libgnutls-openssl27:amd64
 libgnutls28-dev:amd64
@@ -1838,6 +1839,7 @@ libgtk-3-dev:amd64
 libgtk-4-1:amd64
 libgtk-4-bin
 libgtk-4-common
+libgtk-layer-shell0
 libgtk-vnc-2.0-0:amd64
 libgtk2.0-0:amd64
 libgtk2.0-bin
@@ -2071,6 +2073,7 @@ libjson-simple-java
 libjson-xs-perl
 libjsoncpp1:amd64
 libjsoncpp24:amd64
+libjsoncpp25:amd64
 libjsoup-java
 libjsp-api-java
 libjsr305-java
@@ -2287,6 +2290,7 @@ libmarco-private2:amd64
 libmariadb-java
 libmariadb3:amd64
 libmate-desktop-2-17:amd64
+libmate-panel-applet-4-1:amd64
 libmatekbd-common
 libmatekbd4:amd64
 libmatemixer-common
@@ -2490,6 +2494,7 @@ libmoox-handlesvia-perl
 libmount-dev:amd64
 libmount1:amd64
 libmount1:i386
+libmousepad0
 libmozjs-78-0:amd64
 libmp3lame0:amd64
 libmp3lame0:i386
@@ -2679,7 +2684,9 @@ liborc-0.4-0:amd64
 liborc-0.4-0:i386
 liborcus-0.14-0:amd64
 liborcus-0.16-0:amd64
+liborcus-0.17-0:amd64
 liborcus-parser-0.16-0:amd64
+liborcus-parser-0.17-0:amd64
 libosinfo-1.0-0:amd64
 libosmesa6:amd64
 libosmesa6:i386
@@ -4314,7 +4321,6 @@ node-npm-bundled
 node-npm-package-arg
 node-npm-run-path
 node-npmlog
-node-number-is-nan
 node-oauth-sign
 node-object-assign
 node-object-copy
@@ -4456,6 +4462,7 @@ node-validate-npm-package-license
 node-validate-npm-package-name
 node-verror
 node-wcwidth.js
+node-whatwg-fetch
 node-which
 node-which-module
 node-wide-align
@@ -4678,6 +4685,7 @@ python3-debconf
 python3-debian
 python3-debianbts
 python3-decorator
+python3-defcon
 python3-dev
 python3-distro
 python3-distro-info
@@ -4694,6 +4702,7 @@ python3-entrypoints
 python3-fasteners
 python3-feedgenerator
 python3-feedparser
+python3-fontpens
 python3-fonttools
 python3-fs
 python3-fuzzywuzzy
@@ -4842,7 +4851,6 @@ python3-ttystatus
 python3-typing-extensions
 python3-tz
 python3-tzlocal
-python3-ufolib2
 python3-unidecode
 python3-uno
 python3-urllib3
