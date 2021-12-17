@@ -4,5 +4,6 @@
     "diagnostic.refreshOnInsertMode": true,
     "diagnostic.virtualText": true,
     "diagnostic.virtualTextCurrentLineOnly": false,
+    "coc.preferences.useQuickfixForLocations": true,
     "see_doc_at": "https://github.com/neoclide/coc.nvim/blob/master/data/schema.json"
 }
