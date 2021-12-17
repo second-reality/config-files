@@ -120,23 +120,15 @@ export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
 export PAGER=/usr/bin/less
 
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin
-export PATH=$PATH:/usr/local/games:/usr/games/
-export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
-
 export PATH=$HOME/.utils/bin/:$PATH
-# qcad
 export PATH=$HOME/.qcad:$PATH
-
 source $HOME/.cargo/env
 
 export HISTSIZE=10000
 export HISTFILESIZE=50000
 
-function _update_ps1() {
-    history -a; # flush history after each command
-}
-PROMPT_COMMAND="_update_ps1"
+# flush history after each command
+PROMPT_COMMAND='history -a'
 
 # readline settings
 # ignore case for auto completion
@@ -162,60 +154,7 @@ todo()
     popd
 }
 
-# to make vm work
-# block nouveau driver
-
-# cat /etc/modprobe.d/nouveau.conf
-#blacklist nouveau
-#options nouveau modeset=0
-
-# sudo virsh edit win10
-#<features>
-#   <hyperv>
-#   ....
-#       <vendor_id state='on' value='whatever'/>
-#   ....
-#   </hyperv>
-#   <kvm>
-#   <hidden state='on'/>
-#   </kvm>
-#</features>
-
-# use barrier for sharing mouse/keyboard (assigned to vm)
-# barrier server on windows, client on linux
-# ping is not functional from host to guest due to windows firewall
-
-# vm configure network as nat (autostart to rise interface at boot)
-
-# need to passthrough all pci devices related to nvidia card
-# else error about "group X is not viable" will occur with QEMU
-
-# no need to hack around vfio module or id or anything
-# add "intel_iommu=on iommu=pt" to grub cmdline
-
-# sound: https://wiki.archlinux.org/index.php/libvirt
-#
-# The PulseAudio daemon normally runs under your regular user account, and will
-# only accept connections from the same user. This can be a problem if QEMU is
-# being run as root through libvirt. To run QEMU as a regular user, edit
-# /etc/libvirt/qemu.conf and set the user option to your username.
-# user = "dave"
-#
-# sudo systemctl restart libvirtd.service
-#
-# sudo virsh edit win10
-# <domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
-# and add
-# <qemu:commandline>
-#  <qemu:env name='QEMU_AUDIO_DRV' value='pa'/>
-#  <qemu:env name='QEMU_PA_SERVER' value='/run/user/1000/pulse/native'/>
-# </qemu:commandline>
-# 1000 is your user id
-
-win()
-{
-    sudo virsh start win10
-}
+source $HOME/.bashrc_vm
 
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 #~/.fzf/install --all
