@@ -125,9 +125,6 @@ export PATH=$PATH:/usr/local/games:/usr/games/
 export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
 
 export PATH=$HOME/.utils/bin/:$PATH
-export PATH=$HOME/.dub/packages/.bin/dls-latest/:$PATH
-# to use ccache
-export PATH=/usr/lib/ccache/:$PATH
 # qcad
 export PATH=$HOME/.qcad:$PATH
 
@@ -136,10 +133,7 @@ source $HOME/.cargo/env
 export HISTSIZE=10000
 export HISTFILESIZE=50000
 
-# sudo pip install powerline-shell
-# sudo apt-get install fonts-powerline
 function _update_ps1() {
-    #PS1=$(powerline-shell $?)
     history -a; # flush history after each command
 }
 PROMPT_COMMAND="_update_ps1"
@@ -166,51 +160,6 @@ todo()
     git commit -a -m 'up'
     git push || (echo "FAILED PUSH - press enter" && read)
     popd
-}
-
-# docker
-_docker_exec_full()
-{
-    # pulse audio must be installed in target container
-    docker run -it --privileged --rm=true\
-    -e TERM=xterm-256color -e LC_ALL=en_US.UTF-8 -e LOCALE=en_US.UTF-8\
-    -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix\
-    -w $(pwd) -v $HOME:$HOME -v $(pwd):$(pwd)\
-    -v /data:/data\
-    -e USER=$USER \
-    -e HOME=$HOME \
-    -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR\
-    -v /etc/localtime:/etc/localtime\
-    -v /dev/input/:/dev/input/\
-    -v /var/lib/docker:/var/lib/docker\
-    -v /var/run/docker.sock:/var/run/docker.sock\
-    -v /etc/passwd:/etc/passwd:ro \
-    -v /etc/group:/etc/group:ro \
-    -v /etc/shadow:/etc/shadow:ro \
-    --shm-size 4G\
-    -e PULSE_SERVER=unix:${XDG_RUNTIME_DIR}/pulse/native\
-    -v ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR}\
-    $(id -G | tr ' ' '\n' | sed -e 's/^/--group-add /g' | tr '\n' ' ') \
-    $@
-}
-
-docker_exec()
-{
-    name="$1"
-    shift
-    _docker_exec_full -u $UID local:$name "$@"
-}
-
-docker_build()
-{
-    name=$1
-    shift
-    ctx=~/.docker_build
-    docker build\
-        -t local:"$name"\
-        -f $ctx/"$name".Dockerfile\
-        "$@"\
-        $ctx
 }
 
 # to make vm work
