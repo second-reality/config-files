@@ -273,7 +273,6 @@ distro-info-data
 dkms
 dleyna-renderer
 dleyna-server
-dmd-compiler
 dmeventd
 dmg2img
 dmidecode
@@ -1231,6 +1230,7 @@ libclutter-gst-3.0-0:amd64
 libclutter-gtk-1.0-0:amd64
 libcmark-gfm-extensions0:amd64
 libcmark-gfm0:amd64
+libcmark0.30.2:amd64
 libcmis-0.5-5v5
 libcoarrays-dev:amd64
 libcoarrays-openmpi-dev:amd64
@@ -1504,7 +1504,7 @@ libextutils-pkgconfig-perl
 libf2fs-format4:amd64
 libf2fs5:amd64
 libfaad2:amd64
-libfabric1
+libfabric1:amd64
 libfakechroot:amd64
 libfakeroot:amd64
 libfaketime:amd64
@@ -1573,6 +1573,7 @@ libfm-qt-l10n
 libfm-qt8:amd64
 libfm4:amd64
 libfmt7:amd64
+libfmt8:amd64
 libfont-afm-perl
 libfontconfig-dev:amd64
 libfontconfig1:amd64
@@ -2767,7 +2768,6 @@ libpgm-5.3-0:amd64
 libpgm-5.3-0:i386
 libphobos2-89:amd64
 libphobos2-94:amd64
-libphobos2-dev:amd64
 libphobos2-ldc-shared-dev
 libphobos2-ldc-shared98:amd64
 libphodav-2.0-0:amd64
@@ -2862,6 +2862,7 @@ libpsm2-2
 libpst4:amd64
 libptexenc1:amd64
 libpthread-stubs0-dev:amd64
+libptytty0:amd64
 libpugixml1v5:amd64
 libpulse-dev:amd64
 libpulse-mainloop-glib0:amd64
@@ -4479,7 +4480,6 @@ node-yargs-parser
 node-yn
 nodejs
 nodejs-doc
-nomachine
 notification-daemon
 npm
 ntfs-3g
@@ -4655,7 +4655,6 @@ python3-apsw
 python3-apt
 python3-asn1crypto
 python3-async-generator
-python3-async-timeout
 python3-attr
 python3-babel
 python3-backcall
@@ -4727,6 +4726,7 @@ python3-jedi
 python3-jeepney
 python3-jinja2
 python3-jsonschema
+python3-jwt
 python3-keyring
 python3-keyrings.alt
 python3-kiwisolver
@@ -4810,7 +4810,6 @@ python3-pyroute2.protocols
 python3-pyrsistent:amd64
 python3-pysimplesoap
 python3-pytest
-python3-pytest-asyncio
 python3-pyxattr:amd64
 python3-regex
 python3-renderpm:amd64
@@ -4840,7 +4839,6 @@ python3-svgwrite
 python3-sympy
 python3-talloc:amd64
 python3-tdb
-python3-testpath
 python3-textile
 python3-texttable
 python3-tk:amd64
@@ -4848,7 +4846,6 @@ python3-toml
 python3-traitlets
 python3-trio
 python3-ttystatus
-python3-typing-extensions
 python3-tz
 python3-tzlocal
 python3-unidecode
@@ -5109,6 +5106,7 @@ tk
 tk-html3
 tk8.6
 tk8.6-blt2.5
+tldr
 tmux
 tor
 tor-geoipdb
