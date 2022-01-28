@@ -421,8 +421,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, }, "y", function () awful.spawn("thunar") end),
     awful.key({ modkey, }, "u", function () awful.spawn("gnome-terminal -e htop") end),
     awful.key({ modkey, }, "i", function () awful.spawn("gnome-terminal -e cmus") end),
-    awful.key({ modkey, }, "o", function () awful.spawn("x2goclient") end),
-    --awful.key({ modkey, }, "o", function () awful.spawn("x2goclient") end),
+    awful.key({ modkey, }, "o", function () awful.spawn("remmina") end),
     awful.key({ modkey, }, "l", function ()
         awful.spawn("/home/user/.screenlayout/mirror.sh")
         awful.spawn("/home/user/.utils/bin/lockscreen.sh", false)

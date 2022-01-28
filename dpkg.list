@@ -96,6 +96,8 @@ binutils-s390x-linux-gnu
 binutils-sparc64-linux-gnu
 binutils-x86-64-linux-gnu
 bison
+blender
+blender-data
 blt
 blueman
 bluetooth
@@ -128,6 +130,7 @@ ca-certificates-mono
 cabextract
 caja
 caja-common
+calculix-ccx
 calendar
 calibre
 calibre-bin
@@ -145,6 +148,7 @@ chromium-common
 chromium-sandbox
 cifs-utils
 cksfv
+clang-11
 clang-13
 clang-9
 clang-format-13
@@ -325,13 +329,9 @@ ethtool
 evemu-tools
 evince
 evince-common
-evolution
 evolution-common
 evolution-data-server
 evolution-data-server-common
-evolution-plugin-bogofilter
-evolution-plugin-pstimport
-evolution-plugins
 evtest
 exa
 exfalso
@@ -428,12 +428,16 @@ fonts-wine
 foomatic-db-compressed-ppds
 foomatic-db-engine
 four-in-a-row
+freecad
+freecad-common
+freecad-python3
 freepats
 freetuxtv
 fuse-overlayfs
 fuse3
 fuseiso
 fwupd
+fwupd-unsigned
 g++
 g++-10
 g++-11
@@ -599,6 +603,7 @@ gir1.2-zeitgeist-2.0:amd64
 gir1.2-zpj-0.0:amd64
 git
 git-crypt
+git-filter-repo
 git-man
 gitg
 gjs
@@ -790,6 +795,7 @@ init
 init-system-helpers
 initramfs-tools
 initramfs-tools-core
+inkscape
 inputattach
 installation-report
 intel-gpu-tools
@@ -858,6 +864,7 @@ ldc
 ldmtool
 less
 lftp
+lib2geom1.1.0:amd64
 lib32asan6
 lib32atomic1
 lib32gcc-10-dev
@@ -924,6 +931,7 @@ libargon2-1:amd64
 libargs4j-java
 libaria2-0:amd64
 libaribb24-0:amd64
+libarmadillo10
 libarmadillo9
 libarpack2:amd64
 libasan5:amd64
@@ -940,6 +948,7 @@ libasound2:i386
 libasound2-data
 libasound2-dev:amd64
 libasound2-plugins:amd64
+libasound2-plugins:i386
 libaspell15:amd64
 libass9:amd64
 libass9:i386
@@ -1046,6 +1055,7 @@ libblockdev-part2:amd64
 libblockdev-swap2:amd64
 libblockdev-utils2:amd64
 libblockdev2:amd64
+libblosc1:amd64
 libbluetooth-dev:amd64
 libbluetooth3:amd64
 libbluray2:amd64
@@ -1073,6 +1083,7 @@ libboost-numpy1.67.0
 libboost-numpy1.74-dev
 libboost-numpy1.74.0
 libboost-program-options1.67.0:amd64
+libboost-program-options1.74.0:amd64
 libboost-python1.67.0
 libboost-python1.74.0
 libboost-random1.67.0:amd64
@@ -1163,6 +1174,7 @@ libcap2-bin
 libcapi20-3:amd64
 libcapi20-3:i386
 libcapnp-0.7.0:amd64
+libcapnp-0.8.0:amd64
 libcapnp-dev:amd64
 libcapstone-dev:amd64
 libcapstone3:amd64
@@ -1186,6 +1198,7 @@ libcdparanoia0:i386
 libcdr-0.1-1:amd64
 libcdt5:amd64
 libcephfs2
+libcfitsio9:amd64
 libcgi-fast-perl
 libcgi-pm-perl
 libcglib-java
@@ -1208,6 +1221,7 @@ libclang-cpp11
 libclang-cpp13
 libclang-cpp9
 libclang1-10
+libclang1-11
 libclang1-13
 libclang1-7
 libclang1-9
@@ -1228,8 +1242,8 @@ libclutter-1.0-0:amd64
 libclutter-1.0-common
 libclutter-gst-3.0-0:amd64
 libclutter-gtk-1.0-0:amd64
-libcmark-gfm-extensions0:amd64
-libcmark-gfm0:amd64
+libcmark-gfm-extensions0.29.0.gfm.2:amd64
+libcmark-gfm0.29.0.gfm.2:amd64
 libcmark0.30.2:amd64
 libcmis-0.5-5v5
 libcoarrays-dev:amd64
@@ -1245,6 +1259,7 @@ libcogl-common
 libcogl-pango20:amd64
 libcogl-path20:amd64
 libcogl20:amd64
+libcoin80c
 libcolamd2:amd64
 libcolord-gtk1:amd64
 libcolord2:amd64
@@ -1343,6 +1358,7 @@ libdc1394-22:amd64
 libdc1394-25:amd64
 libdc1394-dev:amd64
 libdca0:amd64
+libdcmtk16
 libdconf1:amd64
 libde265-0:amd64
 libdebconfclient0:amd64
@@ -1446,6 +1462,7 @@ libelf-dev:amd64
 libelf1:amd64
 libelf1:i386
 libemail-date-format-perl
+libembree3-3:amd64
 libenca0:amd64
 libenchant-2-2:amd64
 libenchant1c2a:amd64
@@ -1547,7 +1564,7 @@ libfile-stripnondeterminism-perl
 libfile-touch-perl
 libfile-which-perl
 libfilezilla-common
-libfilezilla22:amd64
+libfilezilla23:amd64
 libfl-dev:amd64
 libfl2:amd64
 libflac++6v5:amd64
@@ -1583,6 +1600,7 @@ libfontembed1:amd64
 libfontenc1:amd64
 libfonts-java
 libformula-java
+libfreecad-python3-0.19
 libfreehand-0.1-1
 libfreeimage3:amd64
 libfreerdp-client2-2:amd64
@@ -1605,6 +1623,7 @@ libfuse3-3:amd64
 libfuse3-dev:amd64
 libfwupd2:amd64
 libfwupdplugin1:amd64
+libfwupdplugin5:amd64
 libfyba0:amd64
 libgail-3-0:amd64
 libgail-common:amd64
@@ -1645,6 +1664,7 @@ libgcrypt20:amd64
 libgcrypt20:i386
 libgd3:amd64
 libgd3:i386
+libgdal30
 libgdata-common
 libgdata22:amd64
 libgdbm-compat4:amd64
@@ -1652,6 +1672,7 @@ libgdbm-compat4:i386
 libgdbm6:amd64
 libgdbm6:i386
 libgdcm2.8:amd64
+libgdcm3.0:amd64
 libgdiplus
 libgdk-pixbuf-2.0-0:amd64
 libgdk-pixbuf-2.0-0:i386
@@ -1674,8 +1695,9 @@ libgeoip1:amd64
 libgeos-3.7.1:amd64
 libgeos-3.9.0:amd64
 libgeos-c1v5:amd64
-libgeos3.10.1:amd64
+libgeos3.10.2:amd64
 libgeotiff2:amd64
+libgeotiff5:amd64
 libgeronimo-annotation-1.3-spec-java
 libgeronimo-ejb-3.2-spec-java
 libgeronimo-interceptor-3.0-spec-java
@@ -1719,6 +1741,7 @@ libgles-dev:amd64
 libgles1:amd64
 libgles2:amd64
 libglew2.1:amd64
+libglew2.2:amd64
 libglib-object-introspection-perl
 libglib-perl:amd64
 libglib2.0-0:amd64
@@ -1893,6 +1916,7 @@ libhd21:amd64
 libhdf4-0-alt
 libhdf5-103-1:amd64
 libhdf5-hl-100:amd64
+libhdf5-openmpi-103-1:amd64
 libheif1:amd64
 libhfsp0
 libhfstospell11:amd64
@@ -1954,6 +1978,8 @@ libieee1284-3:amd64
 libieee1284-3:i386
 libigdgmm11:amd64
 libigdgmm11:i386
+libigdgmm12:amd64
+libigdgmm12:i386
 libigdgmm5:amd64
 libigdgmm5:i386
 libijs-0.35:amd64
@@ -2057,12 +2083,14 @@ libjs-mathjax
 libjs-modernizr
 libjs-mootools
 libjs-psl
+libjs-regenerate
 libjs-simile-timeline
 libjs-source-map
 libjs-sphinxdoc
 libjs-sprintf-js
 libjs-typedarray-to-buffer
 libjs-underscore
+libjs-util
 libjs-xmlextras
 libjson-c3:amd64
 libjson-c4:amd64
@@ -2219,9 +2247,8 @@ liblivemedia64:amd64
 libllvm10:amd64
 libllvm11:amd64
 libllvm11:i386
-libllvm12:amd64
-libllvm12:i386
 libllvm13:amd64
+libllvm13:i386
 libllvm7:amd64
 libllvm7:i386
 libllvm9:amd64
@@ -2233,6 +2260,7 @@ liblockfile-bin
 liblockfile1:amd64
 liblog-dispatch-perl
 liblog-log4perl-perl
+liblog4cplus-2.0.5:amd64
 liblog4j1.2-java
 liblognorm5:amd64
 liblouis-data
@@ -2315,6 +2343,7 @@ libmbim-proxy
 libmd0:amd64
 libmd0:i386
 libmd4c0:amd64
+libmedc11:amd64
 libmediaart-2.0-0:amd64
 libmediainfo0v5:amd64
 libmenu-cache-bin
@@ -2622,6 +2651,12 @@ libobjc-11-dev:amd64
 libobjc4:amd64
 libobrender32v5
 libobt2v5
+libocct-data-exchange-7.5:amd64
+libocct-foundation-7.5:amd64
+libocct-modeling-algorithms-7.5:amd64
+libocct-modeling-data-7.5:amd64
+libocct-ocaf-7.5:amd64
+libocct-visualization-7.5:amd64
 libodbc1:amd64
 libodbc1:i386
 libodbc2:amd64
@@ -2632,6 +2667,7 @@ libodbcinst2:amd64
 libodfgen-0.1-1:amd64
 libofa0:amd64
 libogdi3.2
+libogdi4.1
 libogg0:amd64
 libogg0:i386
 libonig5:amd64
@@ -2652,6 +2688,7 @@ libopencv-flann-dev:amd64
 libopencv-flann3.2:amd64
 libopencv-flann4.5:amd64
 libopencv-flann4.5d:amd64
+libopencv-imgcodecs4.5d:amd64
 libopencv-imgproc-dev:amd64
 libopencv-imgproc3.2:amd64
 libopencv-imgproc4.5:amd64
@@ -2666,11 +2703,13 @@ libopencv-photo4.5:amd64
 libopencv-photo4.5d:amd64
 libopencv-shape3.2:amd64
 libopencv-video3.2:amd64
+libopencv-videoio4.5d:amd64
 libopenexr-dev
 libopenexr23:amd64
 libopenexr25:amd64
 libopengl-dev:amd64
 libopengl0:amd64
+libopenimageio2.2:amd64
 libopenjp2-7:amd64
 libopenjp2-7:i386
 libopenmpi3:amd64
@@ -2678,6 +2717,7 @@ libopenmpt-modplug1:amd64
 libopenmpt0:amd64
 libopenmpt0:i386
 libopenni2-0:amd64
+libopenvdb8.1
 libopus0:amd64
 libopus0:i386
 libopusfile0
@@ -2688,6 +2728,7 @@ liborcus-0.16-0:amd64
 liborcus-0.17-0:amd64
 liborcus-parser-0.16-0:amd64
 liborcus-parser-0.17-0:amd64
+libosdcpu3.4.4:amd64
 libosinfo-1.0-0:amd64
 libosmesa6:amd64
 libosmesa6:i386
@@ -2786,7 +2827,7 @@ libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
 libpkcs11-helper1:amd64
-libplacebo120:amd64
+libplacebo157:amd64
 libplacebo7:amd64
 libplacebo72:amd64
 libplexus-archiver-java
@@ -2871,6 +2912,7 @@ libpulse0:i386
 libpulsedsp:amd64
 libpwquality-common
 libpwquality1:amd64
+libpyside2-py3-5.15
 libpython-all-dev:amd64
 libpython2-dev:amd64
 libpython2-stdlib:amd64
@@ -2951,6 +2993,7 @@ libqt5x11extras5:amd64
 libqt5xdg3:amd64
 libqt5xdgiconloader3:amd64
 libqt5xml5:amd64
+libqt5xmlpatterns5:amd64
 libqtermwidget5-0:amd64
 libquadmath0:amd64
 libquadmath0:i386
@@ -3092,6 +3135,7 @@ libserializer-java
 libservlet-api-java
 libservlet3.1-java
 libsgutils2-2:amd64
+libshiboken2-py3-5.15
 libshine3:amd64
 libshine3:i386
 libshout3:amd64
@@ -3139,6 +3183,7 @@ libsodium23:i386
 libsoftware-license-perl
 libsombok3:amd64
 libsonic0:amd64
+libsoqt520
 libsord-0-0:amd64
 libsord-0-0:i386
 libsort-naturally-perl
@@ -3177,6 +3222,8 @@ libspice-client-gtk-3.0-dev:amd64
 libspice-protocol-dev
 libspice-server-dev:amd64
 libspice-server1:amd64
+libspnav0
+libspooles2.2:amd64
 libspring-aop-java
 libspring-beans-java
 libspring-context-java
@@ -3188,6 +3235,7 @@ libspring-transaction-java
 libsqlite3-0:amd64
 libsqlite3-0:i386
 libsqlite3-tcl
+libsquish0:amd64
 libsratom-0-0:amd64
 libsratom-0-0:i386
 libsrt1.4-gnutls:amd64
@@ -3482,6 +3530,7 @@ libvte-2.91-common
 libvte-2.91-dev:amd64
 libvte-2.91-doc
 libvterm0:amd64
+libvtk9:amd64
 libvulkan-dev:amd64
 libvulkan1:amd64
 libvulkan1:i386
@@ -3517,6 +3566,8 @@ libwildmidi2:amd64
 libwin-hivex-perl
 libwine:amd64
 libwine:i386
+libwine-development:amd64
+libwine-development:i386
 libwinpr2-2:amd64
 libwireshark-data
 libwireshark11:amd64
@@ -3652,7 +3703,7 @@ libxcursor1:i386
 libxdamage-dev:amd64
 libxdamage1:amd64
 libxdamage1:i386
-libxdelta2
+libxdelta2:amd64
 libxdg-basedir1
 libxdmcp-dev:amd64
 libxdmcp6:amd64
@@ -3773,6 +3824,7 @@ libxz-java
 libyajl2:amd64
 libyaml-0-2:amd64
 libyaml-cpp0.6:amd64
+libyaml-cpp0.7:amd64
 libyaml-tiny-perl
 libyara3:amd64
 libyelp0:amd64
@@ -3780,6 +3832,7 @@ libykpers-1-1:amd64
 libytnef0:amd64
 libyubikey-udev
 libyubikey0
+libz-mingw-w64
 libz3-4:amd64
 libz3-4:i386
 libz3-dev:amd64
@@ -3791,6 +3844,7 @@ libzimg2:amd64
 libzimg2:i386
 libzip-dev:amd64
 libzip4:amd64
+libzipios++0v5
 libzmf-0.0-0:amd64
 libzmq5:amd64
 libzmq5:i386
@@ -3813,14 +3867,14 @@ linux-compiler-gcc-11-x86
 linux-cpupower
 linux-headers-5.10.0-6-amd64
 linux-headers-5.10.0-6-common
-linux-headers-5.15.0-1-amd64
-linux-headers-5.15.0-1-common
 linux-headers-5.15.0-2-amd64
 linux-headers-5.15.0-2-common
+linux-headers-5.15.0-3-amd64
+linux-headers-5.15.0-3-common
 linux-headers-amd64
 linux-image-5.10.0-9-amd64
-linux-image-5.15.0-1-amd64
 linux-image-5.15.0-2-amd64
+linux-image-5.15.0-3-amd64
 linux-image-amd64
 linux-kbuild-4.19
 linux-kbuild-5.10
@@ -3839,6 +3893,11 @@ llvm-10
 llvm-10-dev
 llvm-10-runtime
 llvm-10-tools
+llvm-11
+llvm-11-dev
+llvm-11-linker-tools
+llvm-11-runtime
+llvm-11-tools
 llvm-13
 llvm-13-dev
 llvm-13-linker-tools
@@ -3974,6 +4033,7 @@ mate-user-guide
 mawk
 mbrola
 mbrola-fr4
+mcomix
 mdadm
 mdevctl
 media-player-info
@@ -4084,15 +4144,21 @@ node-arr-diff
 node-arr-flatten
 node-arr-union
 node-array-find-index
+node-array-union
+node-array-uniq
 node-array-unique
 node-arrify
 node-asap
 node-asn1
+node-assert
 node-assert-plus
 node-async-each
 node-asynckit
 node-aws-sign2
 node-aws4
+node-babel-plugin-add-module-exports
+node-babel7
+node-babel7-runtime
 node-balanced-match
 node-base
 node-bcrypt-pbkdf
@@ -4119,6 +4185,7 @@ node-chokidar
 node-chownr
 node-ci-info
 node-class-utils
+node-clean-yaml-object
 node-cli-boxes
 node-cli-cursor
 node-cli-spinners
@@ -4126,6 +4193,7 @@ node-cli-table
 node-cli-width
 node-cliui
 node-clone
+node-clone-deep
 node-co
 node-collection-visit
 node-color-convert
@@ -4134,15 +4202,18 @@ node-colors
 node-columnify
 node-combined-stream
 node-commander
+node-commondir
 node-component-emitter
 node-concat-map
 node-concat-stream
 node-config-chain
 node-console-control-strings
+node-convert-source-map
 node-copy-concurrently
 node-copy-descriptor
 node-core-js
 node-core-util-is
+node-coveralls
 node-cross-spawn
 node-css
 node-currently-unhandled
@@ -4158,6 +4229,7 @@ node-deep-extend
 node-defaults
 node-define-properties
 node-define-property
+node-del
 node-delayed-stream
 node-delegates
 node-depd
@@ -4175,9 +4247,11 @@ node-encoding
 node-end-of-stream
 node-err-code
 node-errno
+node-error-ex
 node-es-abstract
 node-escape-string-regexp
 node-esprima
+node-esutils
 node-events
 node-execa
 node-exit-hook
@@ -4190,16 +4264,20 @@ node-extsprintf
 node-fancy-log
 node-fast-deep-equal
 node-fast-levenshtein
+node-fetch
 node-filename-regex
 node-fill-range
+node-find-cache-dir
 node-find-up
 node-flush-write-stream
 node-for-in
 node-for-own
+node-foreground-child
 node-forever-agent
 node-form-data
 node-fragment-cache
 node-from2
+node-fs-readdir-recursive
 node-fs-vacuum
 node-fs-write-stream-atomic
 node-fs.realpath
@@ -4212,6 +4290,8 @@ node-getpass
 node-glob
 node-glob-base
 node-glob-parent
+node-globals
+node-globby
 node-got
 node-graceful-fs
 node-growl
@@ -4230,6 +4310,7 @@ node-http-signature
 node-https-proxy-agent
 node-iconv-lite
 node-iferr
+node-ignore
 node-import-lazy
 node-imports-loader
 node-imurmurhash
@@ -4242,6 +4323,7 @@ node-invariant
 node-invert-kv
 node-ip
 node-ip-regex
+node-is-arrayish
 node-is-binary-path
 node-is-buffer
 node-is-builtin-module
@@ -4254,6 +4336,8 @@ node-is-glob
 node-is-npm
 node-is-number
 node-is-object
+node-is-path-cwd
+node-is-path-inside
 node-is-plain-obj
 node-is-plain-object
 node-is-primitive
@@ -4270,6 +4354,7 @@ node-js-tokens
 node-js-yaml
 node-jsbn
 node-jschardet
+node-jsesc
 node-json-buffer
 node-json-parse-better-errors
 node-json-schema
@@ -4286,16 +4371,19 @@ node-latest-version
 node-lazy-cache
 node-lazy-property
 node-lcid
+node-lcov-parse
 node-libnpx
 node-loader-utils
 node-locate-path
 node-lockfile
 node-lodash
 node-lodash-packages
+node-log-driver
 node-loose-envify
 node-loud-rejection
 node-lowercase-keys
 node-lru-cache
+node-make-dir
 node-map-cache
 node-map-visit
 node-mem
@@ -4343,13 +4431,19 @@ node-p-timeout
 node-package-json
 node-parallel-transform
 node-parse-glob
+node-parse-json
 node-pascalcase
 node-path-dirname
 node-path-exists
 node-path-is-absolute
 node-path-is-inside
+node-path-type
 node-performance-now
+node-picocolors
+node-pify
+node-pkg-dir
 node-posix-character-classes
+node-postcss
 node-prepend-http
 node-process-nextick-args
 node-promise-inflight
@@ -4370,13 +4464,20 @@ node-randombytes
 node-rc
 node-read
 node-read-package-json
+node-read-pkg
 node-readable-stream
 node-readdirp
+node-regenerate
+node-regenerate-unicode-properties
 node-regenerator-runtime
+node-regenerator-transform
 node-regex-cache
 node-regex-not
+node-regexpu-core
 node-registry-auth-token
 node-registry-url
+node-regjsgen
+node-regjsparser
 node-repeat-element
 node-repeat-string
 node-request
@@ -4411,6 +4512,7 @@ node-snapdragon
 node-sorted-object
 node-source-map
 node-source-map-resolve
+node-source-map-support
 node-spdx-correct
 node-spdx-exceptions
 node-spdx-expression-parse
@@ -4418,6 +4520,7 @@ node-spdx-license-ids
 node-sprintf-js
 node-sshpk
 node-ssri
+node-stack-utils
 node-static-extend
 node-stream-each
 node-stream-iterate
@@ -4429,6 +4532,9 @@ node-strip-bom
 node-strip-eof
 node-strip-json-comments
 node-supports-color
+node-tap
+node-tap-mocha-reporter
+node-tap-parser
 node-tar
 node-tar-stream
 node-term-size
@@ -4437,7 +4543,9 @@ node-through
 node-through2
 node-time-stamp
 node-timed-out
+node-tmatch
 node-tmp
+node-to-fast-properties
 node-to-object-path
 node-to-regex
 node-to-regex-range
@@ -4448,6 +4556,10 @@ node-tweetnacl
 node-typedarray
 node-typedarray-to-buffer
 node-uid-number
+node-unicode-canonical-property-names-ecmascript
+node-unicode-match-property-ecmascript
+node-unicode-match-property-value-ecmascript
+node-unicode-property-aliases-ecmascript
 node-union-value
 node-unique-filename
 node-universalify
@@ -4457,8 +4569,10 @@ node-uri-js
 node-url-parse-lax
 node-url-to-options
 node-use
+node-util
 node-util-deprecate
 node-uuid
+node-v8flags
 node-validate-npm-package-license
 node-validate-npm-package-name
 node-verror
@@ -4641,7 +4755,6 @@ python-cairo:amd64
 python-dbus
 python-matplotlib-data
 python-peewee-doc
-python-pip-whl
 python-tk
 python2
 python2-minimal
@@ -4773,8 +4886,11 @@ python3-pikepdf
 python3-pil:amd64
 python3-pil.imagetk:amd64
 python3-pip
+python3-pip-whl
+python3-pivy
 python3-pkg-resources
 python3-pluggy
+python3-ply
 python3-powerline
 python3-prompt-toolkit
 python3-protobuf
@@ -4808,6 +4924,13 @@ python3-pyroute2.nftables
 python3-pyroute2.nslink
 python3-pyroute2.protocols
 python3-pyrsistent:amd64
+python3-pyside2.qtcore
+python3-pyside2.qtgui
+python3-pyside2.qtopengl
+python3-pyside2.qtsvg
+python3-pyside2.qtuitools
+python3-pyside2.qtwidgets
+python3-pyside2.qtxml
 python3-pysimplesoap
 python3-pytest
 python3-pyxattr:amd64
@@ -4827,6 +4950,7 @@ python3-scour
 python3-secretstorage
 python3-setproctitle:amd64
 python3-setuptools
+python3-setuptools-whl
 python3-sgmllib3k
 python3-sip
 python3-six
@@ -4999,6 +5123,8 @@ sensible-utils
 sgml-base
 sgml-data
 shared-mime-info
+shiboken2
+signal-desktop
 simple-scan
 sleuthkit
 slirp4netns
@@ -5210,8 +5336,12 @@ wget
 whiptail
 wifite
 wine
+wine-development
 wine32:i386
+wine32-development:i386
 wine64
+wine64-development
+winetricks
 wireguard-dkms
 wireguard-tools
 wireless-regdb
