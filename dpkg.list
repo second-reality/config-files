@@ -3530,7 +3530,7 @@ libvte-2.91-common
 libvte-2.91-dev:amd64
 libvte-2.91-doc
 libvterm0:amd64
-libvtk9:amd64
+libvtk9.1:amd64
 libvulkan-dev:amd64
 libvulkan1:amd64
 libvulkan1:i386
@@ -4395,6 +4395,7 @@ node-mimic-fn
 node-mimic-response
 node-minimatch
 node-minimist
+node-minipass
 node-mississippi
 node-mixin-deep
 node-mkdirp
@@ -5379,13 +5380,8 @@ x11proto-xf86vidmode-dev
 x11proto-xinerama-dev
 x11vnc
 x2goclient
-x2goserver
 x2goserver-common
-x2goserver-extensions
-x2goserver-fmbindings
-x2goserver-printing
 x2goserver-x2goagent
-x2goserver-xsession
 xarchiver
 xauth
 xbitmaps

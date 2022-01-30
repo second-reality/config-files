@@ -57,6 +57,9 @@ set vb t_vb=
 set autoindent
 set smartindent
 
+" let end of file like it is
+set nofixendofline
+
 " incremental highlighted search with smartcase
 set incsearch
 set hlsearch
