@@ -1102,7 +1102,7 @@ libboost-type-erasure1.67.0:amd64
 libboost-wave1.67.0:amd64
 libboost1.74-tools-dev
 libbotan-2-17:amd64
-libbotan-2-18:amd64
+libbotan-2-19:amd64
 libbox2d2:amd64
 libbpf0:amd64
 libbrasero-media3-1:amd64
@@ -2827,7 +2827,7 @@ libpixman-1-0:amd64
 libpixman-1-0:i386
 libpixman-1-dev:amd64
 libpkcs11-helper1:amd64
-libplacebo157:amd64
+libplacebo192:amd64
 libplacebo7:amd64
 libplacebo72:amd64
 libplexus-archiver-java
@@ -3277,6 +3277,7 @@ libsub-install-perl
 libsub-name-perl
 libsub-override-perl
 libsub-quote-perl
+libsubid4:amd64
 libsugarext-data
 libsugarext0:amd64
 libsuil-0-0:amd64
@@ -3576,8 +3577,10 @@ libwireshark15:amd64
 libwiretap11:amd64
 libwiretap12:amd64
 libwiretap8:amd64
+libwmf-0.2-7:amd64
 libwmf-bin
 libwmf0.2-7:amd64
+libwmflite-0.2-7:amd64
 libwnck-3-0:amd64
 libwnck-3-common
 libwnck-common
@@ -3700,6 +3703,7 @@ libxcompshad3:amd64
 libxcursor-dev:amd64
 libxcursor1:amd64
 libxcursor1:i386
+libxcvt0:amd64
 libxdamage-dev:amd64
 libxdamage1:amd64
 libxdamage1:i386
