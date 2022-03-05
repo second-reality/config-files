@@ -13,7 +13,7 @@
 " sudo apt install yarnpkg #(for coc)
 "
 " in vim:
-" :CocInstall coc-clangd coc-docker coc-json coc-marketplace
+" :CocInstall coc-clangd coc-docker coc-json coc-marketplace coc-jedi
 " :CocInstall coc-rust-analyzer coc-sh coc-toml coc-vimlsp coc-yaml
 "
 " # too see all extensions CocList marketplace
