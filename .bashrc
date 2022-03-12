@@ -121,7 +121,6 @@ export PAGER=/usr/bin/less
 
 export PATH=$HOME/.utils/bin/:$PATH
 export PATH=$HOME/.qcad:$PATH
-#source $HOME/.cargo/env
 
 export HISTSIZE=10000
 export HISTFILESIZE=50000
@@ -170,3 +169,5 @@ source $HOME/.bashrc_work
 
 # curl -fsSL https://starship.rs/install.sh | bash
 eval "$(starship init bash)"
+
+. "$HOME/.cargo/env"

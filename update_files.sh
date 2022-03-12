@@ -59,5 +59,5 @@ mkdir -p .config/zathura/
 cp -r ~/.config/zathura/zathurarc .config/zathura/
 cp -r ~/.config/redshift.conf .config/
 cp -f ~/.config/starship.toml .config/
-dpkg --get-selections | grep -v "deinstall$" | cut -f 1 > dpkg.list
+sudo apt-clone clone packages
 git add .
