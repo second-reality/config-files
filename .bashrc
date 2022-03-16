@@ -152,6 +152,16 @@ todo()
     popd
 }
 
+pomodoro()
+{
+  while [ true ]; do
+    zenity --warning --text="Back to work!"
+    sleep 1500
+    zenity --warning --text="25 minutes passed - take a 5 minutes break"
+    sleep 180
+  done
+}
+
 source $HOME/.bashrc_vm
 
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -164,8 +174,6 @@ fif() {
   if [ ! "$#" -gt 0 ]; then echo "Need a string to search for!"; return 1; fi
   rg --files-with-matches --no-messages "$1" | fzf --preview "highlight -O ansi -l {} 2> /dev/null | rg --colors 'match:bg:yellow' --ignore-case --pretty --context 10 '$1' || rg --ignore-case --pretty --context 10 '$1' {}"
 }
-
-source $HOME/.bashrc_work
 
 # curl -fsSL https://starship.rs/install.sh | bash
 eval "$(starship init bash)"
