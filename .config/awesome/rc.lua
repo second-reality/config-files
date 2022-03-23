@@ -427,7 +427,7 @@ globalkeys = awful.util.table.join(
         awful.spawn("/home/user/.utils/bin/lockscreen.sh", false)
     end),
     awful.key({ modkey, }, "b", function () awful.spawn("/home/user/.utils/bin/switch_off_screen.sh", false) end),
-    awful.key({ modkey, }, "v", function () awful.spawn("virt-manager --show-domain-editor win10 --connect qemu:///system") end),
+    awful.key({ modkey, }, "v", function () awful.spawn("virt-manager") end),
     awful.key({ modkey, "Shift"}, "s", function ()
         awful.spawn("/home/user/.screenlayout/mirror.sh")
         awful.spawn("/home/user/.utils/bin/suspend.sh", false)

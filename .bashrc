@@ -140,6 +140,8 @@ bind "set completion-prefix-display-length 2"
 # do not complete hidden files
 bind "set match-hidden-files off"
 
+[ -n TMUX ] && export TERM=tmux-256color
+
 ###############################################################################
 todo()
 {
@@ -157,12 +159,13 @@ pomodoro()
   while [ true ]; do
     zenity --warning --text="Back to work!"
     sleep 1500
-    zenity --warning --text="25 minutes passed - take a 5 minutes break"
+    zenity --warning --text="25 minutes passed - take a 5 minutes break (move!)"
     sleep 180
   done
 }
 
 source $HOME/.bashrc_vm
+source $HOME/.bashrc_work
 
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 #~/.fzf/install --all

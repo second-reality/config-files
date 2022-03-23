@@ -100,9 +100,9 @@ set wildmode=longest,full
 " format to 80 chars, using tabs of size 4
 set textwidth=80
 set colorcolumn=+1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 " respect textwidth
 autocmd Filetype * set formatoptions+=t
@@ -231,3 +231,6 @@ nnoremap <c-p> :cprevious<CR>
 
 " FZF files
 nmap <C-f> :Files .<CR>
+
+" open vsix as zip
+au BufReadCmd *.vsix call zip#Browse(expand("<amatch>"))
