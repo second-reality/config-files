@@ -166,6 +166,7 @@ pomodoro()
 
 source $HOME/.bashrc_vm
 source $HOME/.bashrc_work
+source $HOME/.bashrc_private
 
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 #~/.fzf/install --all
