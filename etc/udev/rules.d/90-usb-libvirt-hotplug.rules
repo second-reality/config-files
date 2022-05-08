@@ -1,0 +1,7 @@
+# automatically connect devices from a given usb port to virtual machine
+#
+# to identify DEVPATH, connect your device while running:
+# udevadm monitor --property --udev --subsystem-match=usb/usb_device
+#
+# uses: https://github.com/olavmrk/usb-libvirt-hotplug
+SUBSYSTEM=="usb",DEVPATH=="/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.1",RUN+="/opt/usb-libvirt-hotplug/usb-libvirt-hotplug.sh win10"
