@@ -55,9 +55,6 @@ cp -r /etc/pulse/default.pa  etc/pulse
 rm -rf etc/samba
 mkdir -p etc/samba
 cp -r /etc/samba/smb.conf etc/samba
-rm -rf etc/udev
-mkdir -p etc/udev/rules.d
-cp -r /etc/udev/rules.d/90-usb-libvirt-hotplug.rules etc/udev/rules.d/
 mkdir -p .config/zathura/
 cp -r ~/.config/zathura/zathurarc .config/zathura/
 cp -r ~/.config/redshift.conf .config/
