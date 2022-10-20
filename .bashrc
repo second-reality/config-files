@@ -164,6 +164,12 @@ pomodoro()
   done
 }
 
+update()
+{
+    sudo apt update
+    sudo apt full-upgrade
+}
+
 source $HOME/.bashrc_vm
 source $HOME/.bashrc_work
 source $HOME/.bashrc_private
