@@ -145,7 +145,6 @@ bind "set match-hidden-files off"
 ###############################################################################
 todo()
 {
-    # using git-crypt
     pushd ~/.todo
     git pull --rebase || (echo "FAILED PULL - press enter" && read)
     vi todo
