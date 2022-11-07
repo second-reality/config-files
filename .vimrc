@@ -131,7 +131,7 @@ set ttimeoutlen=5
 " General mappings
 
 " format text paragraph
-nmap <C-i> mn{v}gq'n
+nmap <C-l> mn{v}gq'n
 
 " remove all bad leading/trailing whitespace
 nmap <C-d> :%s/\s\+$/<CR>

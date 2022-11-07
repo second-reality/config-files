@@ -167,6 +167,7 @@ update()
 {
     sudo apt update
     sudo apt full-upgrade
+    sudo apt autoremove
 }
 
 source $HOME/.bashrc_vm
