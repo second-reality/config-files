@@ -248,7 +248,6 @@ device-tree-compiler				install
 dex						install
 dh-autoreconf					install
 dh-dkms						install
-dh-elpa-helper					install
 dh-python					install
 dh-strip-nondeterminism				install
 dictionaries-common				install
@@ -307,6 +306,7 @@ eog						install
 epiphany-browser				install
 epiphany-browser-data				install
 equivs						install
+eslint						install
 espeak-ng-data:amd64				install
 etc1tool					install
 ethstatus					install
@@ -650,6 +650,7 @@ gpgconf						install
 gpgsm						install
 gpgv						install
 gpicview					install
+graphicsmagick					install
 graphviz					install
 grep						install
 grilo-plugins-0.3:amd64				install
@@ -973,6 +974,7 @@ libayatana-appindicator3-1			install
 libayatana-ido3-0.4-0:amd64			install
 libayatana-indicator3-7:amd64			install
 libayatana-indicator7:amd64			install
+libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl:amd64			install
 libb2-1:amd64					install
 libbabeltrace1:amd64				install
@@ -1134,6 +1136,7 @@ libclang1-13					install
 libclang1-14					install
 libclass-accessor-perl				install
 libclass-c3-perl				install
+libclass-data-inheritable-perl			install
 libclass-method-modifiers-perl			install
 libclass-xsaccessor-perl			install
 libclc-dev					install
@@ -1209,7 +1212,7 @@ libcurl3-gnutls:i386				install
 libcurl3-nss:amd64				install
 libcurl4:amd64					install
 libcurl4:i386					install
-libcurl4-gnutls-dev:amd64			install
+libcurl4-gnutls-dev				install
 libcurvesapi-java				install
 libcvc0:amd64					install
 libcvc4-7:amd64					install
@@ -1220,6 +1223,7 @@ libdap27:amd64					install
 libdapclient6v5:amd64				install
 libdapserver7v5:amd64				install
 libdata-dump-perl				install
+libdata-optlist-perl				install
 libdata-password-perl				install
 libdate-manip-perl				install
 libdatrie-dev:amd64				install
@@ -1261,6 +1265,10 @@ libdee-1.0-4:amd64				install
 libdeflate-dev:amd64				install
 libdeflate0:amd64				install
 libdeflate0:i386				install
+libdevel-callchecker-perl:amd64			install
+libdevel-caller-perl:amd64			install
+libdevel-globaldestruction-perl			install
+libdevel-lexalias-perl				install
 libdevel-stacktrace-perl			install
 libdevmapper-event1.02.1:amd64			install
 libdevmapper1.02.1:amd64			install
@@ -1268,6 +1276,7 @@ libdiodon0:amd64				install
 libdirectfb-1.7-7:amd64				install
 libdiscid0:amd64				install
 libdiscover2					install
+libdist-checkconflicts-perl			install
 libdjvulibre-text				install
 libdjvulibre21:amd64				install
 libdleyna-connector-dbus-1.0-1:amd64		install
@@ -1342,6 +1351,7 @@ libelf-dev:amd64				install
 libelf1:amd64					install
 libelf1:i386					install
 libelfin-dev:amd64				install
+libemail-date-format-perl			install
 libenca0:amd64					install
 libenchant-2-2:amd64				install
 libencode-locale-perl				install
@@ -1356,6 +1366,7 @@ libestools2.5:amd64				install
 libestr0:amd64					install
 libetonyek-0.1-1:amd64				install
 libev4:amd64					install
+libeval-closure-perl				install
 libevdev-dev:amd64				install
 libevdev2:amd64					install
 libevdocument3-4:amd64				install
@@ -1369,6 +1380,7 @@ libevent-pthreads-2.1-7:amd64			install
 libevolution					install
 libevview3-3:amd64				install
 libewf2						install
+libexception-class-perl				install
 libexecs0:amd64					install
 libexempi8:amd64				install
 libexif-dev:amd64				install
@@ -1514,7 +1526,7 @@ libgcrypt20:amd64				install
 libgcrypt20:i386				install
 libgd3:amd64					install
 libgd3:i386					install
-libgdal31					install
+libgdal32					install
 libgdata-common					install
 libgdata22:amd64				install
 libgdbm-compat4:amd64				install
@@ -1543,7 +1555,7 @@ libgeocode-glib-2-0:amd64			install
 libgeocode-glib0:amd64				install
 libgeoip1:amd64					install
 libgeos-c1v5:amd64				install
-libgeos3.11.0:amd64				install
+libgeos3.11.1:amd64				install
 libgeotiff5:amd64				install
 libgeronimo-annotation-1.3-spec-java		install
 libgeronimo-ejb-3.2-spec-java			install
@@ -1664,13 +1676,16 @@ libgpod-common					install
 libgpod4:amd64					install
 libgprofng0:amd64				install
 libgraphene-1.0-0:amd64				install
+libgraphicsmagick-q16-3				install
 libgraphite2-3:amd64				install
 libgraphite2-3:i386				install
 libgraphite2-dev:amd64				install
 libgrilo-0.3-0:amd64				install
 libgrpc++1:amd64				install
 libgrpc10:amd64					install
-libgs9:amd64					install
+libgs-common					install
+libgs10:amd64					install
+libgs10-common					install
 libgs9-common					install
 libgsf-1-114:amd64				install
 libgsf-1-common					install
@@ -1777,6 +1792,7 @@ libhunspell-1.7-0:amd64				install
 libhwloc-dev:amd64				install
 libhwloc-plugins:amd64				install
 libhwloc15:amd64				install
+libhwy1:amd64					install
 libhyphen0:amd64				install
 libib-util:amd64				install
 libibumad-dev:amd64				install
@@ -1794,7 +1810,8 @@ libicu4j-java					install
 libicu67:amd64					install
 libicu67:i386					install
 libicu71:amd64					install
-libicu71:i386					install
+libicu72:amd64					install
+libicu72:i386					install
 libid3-3.8.3v5:amd64				install
 libid3tag0:amd64				install
 libidn12:amd64					install
@@ -1829,6 +1846,7 @@ libio-stringy-perl				install
 libip4tc2:amd64					install
 libip6tc2:amd64					install
 libipc-run-perl					install
+libipc-shareable-perl				install
 libipc-system-simple-perl			install
 libipsec-mb1					install
 libipt2						install
@@ -1916,6 +1934,7 @@ libjte2:amd64					install
 libjtidy-java					install
 libjts-java					install
 libjudydebian1					install
+libjxl0.7:amd64					install
 libjxr-tools					install
 libjxr0:amd64					install
 libk5crypto3:amd64				install
@@ -1927,6 +1946,7 @@ libkeyutils1:amd64				install
 libkeyutils1:i386				install
 libkf5activities5:amd64				install
 libkf5activitiesstats1:amd64			install
+libkf5archive-data				install
 libkf5archive5:amd64				install
 libkf5attica5:amd64				install
 libkf5auth-data					install
@@ -2051,6 +2071,7 @@ liblangtag1:amd64				install
 liblapack3:amd64				install
 liblayout-java					install
 liblbfgsb0:amd64				install
+liblc3-0:amd64					install
 liblcms2-2:amd64				install
 liblcms2-2:i386					install
 liblcms2-utils					install
@@ -2085,6 +2106,8 @@ liblocal-lib-perl				install
 liblocale-gettext-perl				install
 liblockfile-bin					install
 liblockfile1:amd64				install
+liblog-dispatch-perl				install
+liblog-log4perl-perl				install
 liblog4j1.2-java				install
 liblognorm5:amd64				install
 liblouis-data					install
@@ -2108,10 +2131,10 @@ liblvm2cmd2.03:amd64				install
 liblwp-mediatypes-perl				install
 liblwp-protocol-https-perl			install
 liblwres161:amd64				install
-liblxqt-globalkeys-ui0:amd64			install
-liblxqt-globalkeys0:amd64			install
+liblxqt-globalkeys-ui1:amd64			install
+liblxqt-globalkeys1:amd64			install
 liblxqt-l10n					install
-liblxqt0					install
+liblxqt1					install
 liblz4-1:amd64					install
 liblz4-1:i386					install
 liblz4-dev:amd64				install
@@ -2177,6 +2200,8 @@ libmfx1:amd64					install
 libmhash2:amd64					install
 libmicrohttpd12:amd64				install
 libmime-charset-perl				install
+libmime-lite-perl				install
+libmime-types-perl				install
 libminiupnpc17:amd64				install
 libminizip1:amd64				install
 libmission-control-plugins0:amd64		install
@@ -2188,6 +2213,8 @@ libmnl0:amd64					install
 libmodplug1:amd64				install
 libmodule-build-perl				install
 libmodule-cpanfile-perl				install
+libmodule-implementation-perl			install
+libmodule-runtime-perl				install
 libmodule-signature-perl			install
 libmono-2.0-1					install
 libmono-2.0-dev					install
@@ -2374,9 +2401,12 @@ libmypaint-1.5-1:amd64				install
 libmypaint-common				install
 libmysofa1:amd64				install
 libmythes-1.2-0:amd64				install
+libnamespace-autoclean-perl			install
+libnamespace-clean-perl				install
 libnatpmp1:amd64				install
 libnautilus-extension1a:amd64			install
 libnautilus-extension4:amd64			install
+libnbd0						install
 libncurses-dev:amd64				install
 libncurses5-dev:amd64				install
 libncurses6:amd64				install
@@ -2412,7 +2442,6 @@ libnl-genl-3-200:amd64				install
 libnl-route-3-200:amd64				install
 libnl-route-3-dev:amd64				install
 libnm0:amd64					install
-libnm0:i386					install
 libnma-common					install
 libnma-gtk4-0:amd64				install
 libnma0:amd64					install
@@ -2563,7 +2592,10 @@ libostree-1-1:amd64				install
 libp11-kit-dev:amd64				install
 libp11-kit0:amd64				install
 libp11-kit0:i386				install
+libpackage-stash-perl				install
+libpackage-stash-xs-perl:amd64			install
 libpackagekit-glib2-18:amd64			install
+libpadwalker-perl				install
 libpagemaker-0.0-0:amd64			install
 libpam-gnome-keyring:amd64			install
 libpam-modules:amd64				install
@@ -2582,6 +2614,9 @@ libpangomm-1.4-1v5:amd64			install
 libpangoxft-1.0-0:amd64				install
 libpaper-utils					install
 libpaper1:amd64					install
+libparams-classify-perl:amd64			install
+libparams-util-perl				install
+libparams-validationcompiler-perl		install
 libparse-pmfile-perl				install
 libparted-fs-resize0:amd64			install
 libparted2:amd64				install
@@ -2639,6 +2674,7 @@ libpixman-1-0:amd64				install
 libpixman-1-0:i386				install
 libpixman-1-dev:amd64				install
 libpkcs11-helper1:amd64				install
+libpkgconf3:amd64				install
 libplacebo208:amd64				install
 libplexus-archiver-java				install
 libplexus-cipher-java				install
@@ -2694,7 +2730,9 @@ libproj25:amd64					install
 libprotobuf-c1:amd64				install
 libprotobuf-java				install
 libprotobuf-lite23:amd64			install
+libprotobuf-lite32:amd64			install
 libprotobuf23:amd64				install
+libprotobuf32:amd64				install
 libproxy-tools					install
 libproxy1v5:amd64				install
 libproxy1v5:i386				install
@@ -2730,6 +2768,10 @@ libpython3.10:amd64				install
 libpython3.10-dev:amd64				install
 libpython3.10-minimal:amd64			install
 libpython3.10-stdlib:amd64			install
+libpython3.11:amd64				install
+libpython3.11-dev:amd64				install
+libpython3.11-minimal:amd64			install
+libpython3.11-stdlib:amd64			install
 libpython3.9:amd64				install
 libpython3.9-dev:amd64				install
 libpython3.9-minimal:amd64			install
@@ -2913,6 +2955,7 @@ librubberband2:amd64				install
 libruby:amd64					install
 libruby2.7:amd64				install
 libruby3.0:amd64				install
+libruby3.1:amd64				install
 librygel-core-2.6-2:amd64			install
 librygel-core-2.8-0:amd64			install
 librygel-db-2.6-2:amd64				install
@@ -3037,6 +3080,7 @@ libspandsp2:amd64				install
 libspatialaudio0:amd64				install
 libspatialite7:amd64				install
 libspdlog1.10:amd64				install
+libspecio-perl					install
 libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex1:amd64					install
@@ -3093,7 +3137,9 @@ libstdc++6:i386					install
 libstemmer0d:amd64				install
 libstreambuffer-java				install
 libstrictures-perl				install
+libstring-crc32-perl				install
 libstring-shellquote-perl			install
+libsub-exporter-perl				install
 libsub-exporter-progressive-perl		install
 libsub-identify-perl				install
 libsub-install-perl				install
@@ -3150,6 +3196,7 @@ libteamdctl0:amd64				install
 libteckit0:amd64				install
 libtelepathy-glib0:amd64			install
 libtelepathy-logger3:amd64			install
+libtepl-6-1:amd64				install
 libterm-shellui-perl				install
 libtermkey1:amd64				install
 libtesseract4:amd64				install
@@ -3159,7 +3206,7 @@ libtevent0:amd64				install
 libtexlua53-5:amd64				install
 libtexluajit2:amd64				install
 libtext-glob-perl				install
-libtext-iconv-perl				install
+libtext-iconv-perl:amd64			install
 libtext-template-perl				install
 libthai-data					install
 libthai-dev:amd64				install
@@ -3236,6 +3283,7 @@ libumfpack5:amd64				install
 libunac1:amd64					install
 libunbound8:amd64				install
 libunibilium4:amd64				install
+libunicode-linebreak-perl			install
 libunistring2:amd64				install
 libunistring2:i386				install
 libunity-protocol-private0:amd64		install
@@ -3248,6 +3296,7 @@ libuno-sal3					install
 libuno-salhelpergcc3-3				install
 libunoloader-java				install
 libunwind-12:amd64				install
+libunwind-dev:amd64				install
 libunwind8:amd64				install
 libunwind8:i386					install
 libupnp13:amd64					install
@@ -3280,13 +3329,13 @@ libv4lconvert0:amd64				install
 libv4lconvert0:i386				install
 libva-drm2:amd64				install
 libva-drm2:i386					install
-libva-glx2:i386					install
 libva-wayland2:amd64				install
 libva-x11-2:amd64				install
 libva-x11-2:i386				install
 libva2:amd64					install
 libva2:i386					install
 libvamp-hostsdk3v5:amd64			install
+libvariable-magic-perl				install
 libvde-dev					install
 libvde0						install
 libvdeplug-dev:amd64				install
@@ -3491,6 +3540,7 @@ libxcb-xfixes0:amd64				install
 libxcb-xfixes0:i386				install
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
+libxcb-xinput-dev:amd64				install
 libxcb-xinput0:amd64				install
 libxcb-xkb1:amd64				install
 libxcb-xrm0:amd64				install
@@ -3602,6 +3652,7 @@ libxsom-java					install
 libxss-dev:amd64				install
 libxss1:amd64					install
 libxss1:i386					install
+libxstring-perl:amd64				install
 libxt-dev:amd64					install
 libxt6:amd64					install
 libxtables12:amd64				install
@@ -3623,6 +3674,7 @@ libxz-java					install
 libyajl2:amd64					install
 libyaml-0-2:amd64				install
 libyaml-cpp0.7:amd64				install
+libyaml-tiny-perl				install
 libyelp0:amd64					install
 libykpers-1-1:amd64				install
 libytnef0:amd64					install
@@ -3662,13 +3714,13 @@ linux-base					install
 linux-compiler-gcc-11-x86			install
 linux-compiler-gcc-12-x86			install
 linux-cpupower					install
-linux-headers-6.0.0-1-amd64			install
-linux-headers-6.0.0-1-common			install
-linux-headers-6.0.0-2-amd64			install
-linux-headers-6.0.0-2-common			install
+linux-headers-6.0.0-4-amd64			install
+linux-headers-6.0.0-4-common			install
+linux-headers-6.0.0-5-amd64			install
+linux-headers-6.0.0-5-common			install
 linux-headers-amd64				install
-linux-image-6.0.0-1-amd64			install
-linux-image-6.0.0-2-amd64			install
+linux-image-6.0.0-4-amd64			install
+linux-image-6.0.0-5-amd64			install
 linux-image-amd64				install
 linux-kbuild-6.0				install
 linux-libc-dev:amd64				install
@@ -3882,6 +3934,7 @@ ncurses-term					install
 neovim						install
 neovim-runtime					install
 net-tools					install
+netavark					install
 netbase						install
 netcat-openbsd					install
 netcat-traditional				install
@@ -3898,7 +3951,6 @@ nmap						install
 nmap-common					install
 nmon						install
 nnn						install
-node-abab					install
 node-abbrev					install
 node-acorn					install
 node-agent-base					install
@@ -3943,6 +3995,7 @@ node-babel7					install
 node-babel7-runtime				install
 node-balanced-match				install
 node-base					install
+node-base64-js					install
 node-bcrypt-pbkdf				install
 node-big.js					install
 node-binary-extensions				install
@@ -3966,6 +4019,7 @@ node-caseless					install
 node-chalk					install
 node-chokidar					install
 node-chownr					install
+node-chrome-trace-event				install
 node-ci-info					install
 node-cjs-module-lexer				install
 node-class-utils				install
@@ -4003,11 +4057,10 @@ node-coveralls					install
 node-css					install
 node-css-loader					install
 node-css-selector-tokenizer			install
-node-cssom					install
-node-cssstyle					install
 node-currently-unhandled			install
 node-cyclist					install
 node-dashdash					install
+node-data-uri-to-buffer				install
 node-death					install
 node-debbundle-es-to-primitive			install
 node-debug					install
@@ -4026,8 +4079,7 @@ node-depd					install
 node-detect-indent				install
 node-detect-newline				install
 node-diff					install
-node-domelementtype				install
-node-domhandler					install
+node-doctrine					install
 node-duplexer3					install
 node-duplexify					install
 node-ecc-jsbn					install
@@ -4037,15 +4089,22 @@ node-emoji					install
 node-emojis-list				install
 node-encoding					install
 node-end-of-stream				install
-node-entities					install
+node-enhanced-resolve				install
 node-err-code					install
 node-errno					install
 node-error-ex					install
 node-es-abstract				install
+node-es-module-lexer				install
 node-es6-error					install
 node-escape-string-regexp			install
 node-escodegen					install
+node-eslint-scope				install
+node-eslint-utils				install
+node-eslint-visitor-keys			install
+node-espree					install
 node-esprima					install
+node-esquery					install
+node-esrecurse					install
 node-estraverse					install
 node-esutils					install
 node-events					install
@@ -4061,10 +4120,13 @@ node-fancy-log					install
 node-fast-deep-equal				install
 node-fast-levenshtein				install
 node-fetch					install
+node-file-entry-cache				install
 node-filename-regex				install
 node-fill-range					install
 node-find-cache-dir				install
 node-find-up					install
+node-flat-cache					install
+node-flatted					install
 node-flush-write-stream				install
 node-for-in					install
 node-for-own					install
@@ -4079,6 +4141,7 @@ node-fs-vacuum					install
 node-fs-write-stream-atomic			install
 node-fs.realpath				install
 node-function-bind				install
+node-functional-red-black-tree			install
 node-gauge					install
 node-get-caller-file				install
 node-get-stream					install
@@ -4107,6 +4170,7 @@ node-http-signature				install
 node-https-proxy-agent				install
 node-iconv-lite					install
 node-icss-utils					install
+node-ieee754					install
 node-iferr					install
 node-ignore					install
 node-import-lazy				install
@@ -4117,6 +4181,7 @@ node-inflight					install
 node-inherits					install
 node-ini					install
 node-inquirer					install
+node-interpret					install
 node-invariant					install
 node-invert-kv					install
 node-ip						install
@@ -4151,11 +4216,11 @@ node-isstream					install
 node-istanbul					install
 node-isurl					install
 node-jest-debbundle				install
+node-jest-worker				install
 node-js-tokens					install
 node-js-yaml					install
 node-jsbn					install
 node-jschardet					install
-node-jsdom					install
 node-jsesc					install
 node-json-buffer				install
 node-json-parse-better-errors			install
@@ -4175,6 +4240,7 @@ node-lazy-property				install
 node-lcid					install
 node-lcov-parse					install
 node-levn					install
+node-loader-runner				install
 node-loader-utils				install
 node-locate-path				install
 node-lockfile					install
@@ -4189,6 +4255,8 @@ node-make-dir					install
 node-map-cache					install
 node-map-visit					install
 node-mem					install
+node-memfs					install
+node-memory-fs					install
 node-merge-stream				install
 node-micromatch					install
 node-mime					install
@@ -4238,7 +4306,6 @@ node-package-json				install
 node-parallel-transform				install
 node-parse-glob					install
 node-parse-json					install
-node-parse5					install
 node-pascalcase					install
 node-path-dirname				install
 node-path-exists				install
@@ -4257,6 +4324,7 @@ node-postcss-value-parser			install
 node-prelude-ls					install
 node-prepend-http				install
 node-process-nextick-args			install
+node-progress					install
 node-promise-inflight				install
 node-promise-retry				install
 node-promzard					install
@@ -4278,12 +4346,14 @@ node-read-package-json				install
 node-read-pkg					install
 node-readable-stream				install
 node-readdirp					install
+node-rechoir					install
 node-regenerate					install
 node-regenerate-unicode-properties		install
 node-regenerator-runtime			install
 node-regenerator-transform			install
 node-regex-cache				install
 node-regex-not					install
+node-regexpp					install
 node-regexpu-core				install
 node-registry-auth-token			install
 node-registry-url				install
@@ -4324,6 +4394,7 @@ node-slice-ansi					install
 node-slide					install
 node-snapdragon					install
 node-sorted-object				install
+node-source-list-map				install
 node-source-map					install
 node-source-map-resolve				install
 node-source-map-support				install
@@ -4349,9 +4420,11 @@ node-supports-color				install
 node-tap					install
 node-tap-mocha-reporter				install
 node-tap-parser					install
+node-tapable					install
 node-tar					install
 node-tar-stream					install
 node-term-size					install
+node-terser					install
 node-text-table					install
 node-through					install
 node-through2					install
@@ -4376,7 +4449,6 @@ node-unicode-match-property-ecmascript		install
 node-unicode-match-property-value-ecmascript	install
 node-unicode-property-aliases-ecmascript	install
 node-union-value				install
-node-uniq					install
 node-unique-filename				install
 node-universalify				install
 node-unpipe					install
@@ -4388,13 +4460,15 @@ node-use					install
 node-util					install
 node-util-deprecate				install
 node-uuid					install
+node-v8-compile-cache				install
 node-v8flags					install
 node-validate-npm-package-license		install
 node-validate-npm-package-name			install
 node-verror					install
+node-watchpack					install
 node-wcwidth.js					install
-node-webidl-conversions				install
-node-whatwg-fetch				install
+node-webassemblyjs				install
+node-webpack-sources				install
 node-which					install
 node-which-module				install
 node-wide-align					install
@@ -4402,6 +4476,7 @@ node-widest-line				install
 node-wordwrap					install
 node-wrap-ansi					install
 node-wrappy					install
+node-write					install
 node-write-file-atomic				install
 node-ws						install
 node-xdg-basedir				install
@@ -4526,7 +4601,9 @@ pipewire-bin					install
 pixiewps					install
 pixz						install
 pkexec						install
-pkg-config					install
+pkg-config:amd64				install
+pkgconf:amd64					install
+pkgconf-bin					install
 plocate						install
 plymouth					install
 plymouth-label					install
@@ -4860,6 +4937,9 @@ python3.10					install
 python3.10-dev					install
 python3.10-minimal				install
 python3.10-venv					install
+python3.11					install
+python3.11-dev					install
+python3.11-minimal				install
 python3.9					install
 python3.9-dev					install
 python3.9-minimal				install
@@ -4997,7 +5077,7 @@ ruby-webrick					install
 ruby-xmlparser:amd64				install
 ruby-xmlrpc					install
 ruby2.7						install
-ruby3.0						install
+ruby3.1						install
 rubygems-integration				install
 runit-helper					install
 rxvt-unicode					install
@@ -5013,6 +5093,8 @@ samba-testsuite					install
 samba-vfs-modules:amd64				install
 sane-utils					install
 scour						install
+scrcpy						install
+scrcpy-server					install
 screen						install
 screengrab					install
 scrot						install
@@ -5056,8 +5138,8 @@ sse3-support					install
 ssh-tools					install
 sshfs						install
 sshpass						install
+sshuttle					install
 ssl-cert					install
-steam:i386					install
 steam-devices					install
 strace						install
 stress						install
@@ -5106,11 +5188,13 @@ teams						install
 telepathy-idle					install
 telepathy-logger				install
 telepathy-mission-control-5			install
+terser						install
 tex-common					install
 tex-gyre					install
 texlive						install
 texlive-base					install
 texlive-binaries				install
+texlive-extra-utils				install
 texlive-fonts-recommended			install
 texlive-latex-base				install
 texlive-latex-recommended			install
@@ -5239,6 +5323,7 @@ webcamoid					install
 webcamoid-data					install
 webcamoid-plugins:amd64				install
 webp-pixbuf-loader				install
+webpack						install
 wget						install
 whiptail					install
 wifite						install
@@ -5405,7 +5490,7 @@ youtube-dl					install
 yudit-common					install
 z3						install
 zathura						install
-zathura-pdf-poppler				install
+zathura-pdf-poppler:amd64			install
 zbar-tools					install
 zeitgeist-core					install
 zenity						install

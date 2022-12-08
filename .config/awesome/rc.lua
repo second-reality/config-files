@@ -742,6 +742,8 @@ run_once("vorta")
 os.execute("setxkbmap us qwerty-fr")
 --os.execute("setxkbmap fr")
 os.execute("numlockx")
+--disable screen saver
+os.execute("xset s off")
 -- screen mirror
 os.execute("/home/user/.screenlayout/mirror.sh")
 -- power-line communication (CPL in french)
