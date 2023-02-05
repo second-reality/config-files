@@ -231,6 +231,3 @@ nnoremap <c-p> :cprevious<CR>
 
 " FZF files
 nmap <C-f> :Files .<CR>
-
-" open vsix as zip
-au BufReadCmd *.vsix call zip#Browse(expand("<amatch>"))
