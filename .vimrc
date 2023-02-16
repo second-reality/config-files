@@ -35,8 +35,8 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline' " status line
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " auto complete
-Plug 'tpope/vim-fugitive' " git
 Plug 'tpope/vim-dispatch' " :Make command
+Plug 'tpope/vim-fugitive' " git
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder for files
 Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/wombat256.vim' " theme

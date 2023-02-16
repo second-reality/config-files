@@ -352,7 +352,7 @@ end)
 
 -- {{{ Mouse bindings
 root.buttons(awful.util.table.join(
-    awful.button({ }, 3, function () mymainmenu:toggle() end),
+    --awful.button({ }, 3, function () mymainmenu:toggle() end),
     awful.button({ }, 4, awful.tag.viewnext),
     awful.button({ }, 5, awful.tag.viewprev)
 ))
@@ -745,7 +745,7 @@ os.execute("numlockx")
 --disable screen saver
 os.execute("xset s off")
 -- screen mirror
-os.execute("/home/user/.screenlayout/mirror.sh")
+os.execute("/home/user/.screenlayout/default.sh")
 -- power-line communication (CPL in french)
 os.execute("/home/user/.utils/bin/keep_network_alive.sh&")
 -- set sound
