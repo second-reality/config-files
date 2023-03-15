@@ -59,7 +59,5 @@ mkdir -p .config/zathura/
 cp -r ~/.config/zathura/zathurarc .config/zathura/
 cp -r ~/.config/redshift.conf .config/
 cp -f ~/.config/starship.toml .config/
-# apt-clone is broken on debian sid
-#sudo apt-clone clone packages
 dpkg --get-selections | grep -v deinstall > packages
 git add .
