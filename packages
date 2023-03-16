@@ -1128,6 +1128,7 @@ libcairo2:amd64					install
 libcairo2:i386					install
 libcairo2-dev:amd64				install
 libcairomm-1.0-1v5:amd64			install
+libcairomm-1.16-1:amd64				install
 libcaja-extension1:amd64			install
 libcamd2:amd64					install
 libcamel-1.2-63:amd64				install
@@ -1688,6 +1689,7 @@ libglib2.0-data					install
 libglib2.0-dev:amd64				install
 libglib2.0-dev-bin				install
 libglibmm-2.4-1v5:amd64				install
+libglibmm-2.68-1:amd64				install
 libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libglu1-mesa-dev:amd64				install
@@ -1811,6 +1813,7 @@ libgtk2.0-common				install
 libgtk3-perl					install
 libgtkmm-2.4-1v5:amd64				install
 libgtkmm-3.0-1v5:amd64				install
+libgtkmm-4.0-0:amd64				install
 libgtksourceview-3.0-1:amd64			install
 libgtksourceview-3.0-common			install
 libgtksourceview-4-0:amd64			install
@@ -2702,6 +2705,7 @@ libpangocairo-1.0-0:i386			install
 libpangoft2-1.0-0:amd64				install
 libpangoft2-1.0-0:i386				install
 libpangomm-1.4-1v5:amd64			install
+libpangomm-2.48-1:amd64				install
 libpangoxft-1.0-0:amd64				install
 libpaper-utils					install
 libpaper1:amd64					install
@@ -3099,7 +3103,7 @@ libserializer-java				install
 libservlet-api-java				install
 libservlet3.1-java				install
 libset-scalar-perl				install
-libsgutils2-2:amd64				install
+libsgutils2-1.46-2:amd64			install
 libshine3:amd64					install
 libshine3:i386					install
 libshout3:amd64					install
@@ -3108,6 +3112,7 @@ libsidplay1v5:amd64				install
 libsidplay2					install
 libsidplayfp6:amd64				install
 libsigc++-2.0-0v5:amd64				install
+libsigc++-3.0-0:amd64				install
 libsigsegv2:amd64				install
 libsisu-inject-java				install
 libsisu-plexus-java				install
@@ -3327,6 +3332,7 @@ libtirpc3:amd64					install
 libtirpc3:i386					install
 libtk-img:amd64					install
 libtk8.6:amd64					install
+libtomcat10-java				install
 libtomcat9-java					install
 libtommath1:amd64				install
 libtool						install
@@ -3815,13 +3821,13 @@ linux-base					install
 linux-compiler-gcc-11-x86			install
 linux-compiler-gcc-12-x86			install
 linux-cpupower					install
-linux-headers-6.1.0-4-amd64			install
-linux-headers-6.1.0-4-common			install
 linux-headers-6.1.0-5-amd64			install
 linux-headers-6.1.0-5-common			install
+linux-headers-6.1.0-6-amd64			install
+linux-headers-6.1.0-6-common			install
 linux-headers-amd64				install
-linux-image-6.1.0-4-amd64			install
 linux-image-6.1.0-5-amd64			install
+linux-image-6.1.0-6-amd64			install
 linux-image-amd64				install
 linux-kbuild-6.1				install
 linux-libc-dev:amd64				install
@@ -4605,6 +4611,7 @@ nodejs						install
 nodejs-doc					install
 notification-daemon				install
 npm						install
+nss-plugin-pem:amd64				install
 ntfs-3g						install
 numlockx					install
 nvidia-alternative				install
