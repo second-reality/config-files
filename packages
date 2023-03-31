@@ -27,6 +27,8 @@ android-libutils:amd64				install
 android-libziparchive:amd64			install
 android-sdk-platform-tools			install
 android-sdk-platform-tools-common		install
+ansible						install
+ansible-core					install
 ant						install
 ant-contrib					install
 ant-optional					install
@@ -36,6 +38,7 @@ apparmor					install
 appstream					install
 apt						install
 apt-config-icons				install
+apt-file					install
 apt-listbugs					install
 apt-listchanges					install
 apt-transport-https				install
@@ -154,6 +157,7 @@ cinnamon-session				install
 cinnamon-session-common				install
 cinnamon-settings-daemon			install
 cksfv						install
+clang						install
 clang-13					install
 clang-14					install
 clang-15					install
@@ -287,7 +291,6 @@ dnstop						install
 dnsutils					install
 doc-debian					install
 docbook-xml					install
-docker-buildx-plugin				install
 docker-ce					install
 docker-ce-cli					install
 docker-ce-rootless-extras			install
@@ -916,6 +919,7 @@ libapr1:amd64					install
 libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
 libaprutil1-ldap:amd64				install
+libapt-pkg-perl					install
 libapt-pkg6.0:amd64				install
 libarchive-cpio-perl				install
 libarchive-zip-perl				install
@@ -1058,6 +1062,7 @@ libboost-dev:amd64				install
 libboost-filesystem1.74.0:amd64			install
 libboost-iostreams1.74.0:amd64			install
 libboost-locale1.74.0:amd64			install
+libboost-log1.74.0				install
 libboost-numpy-dev				install
 libboost-numpy1.74-dev				install
 libboost-numpy1.74.0				install
@@ -1221,7 +1226,9 @@ libcogl-common					install
 libcogl-pango20:amd64				install
 libcogl-path20:amd64				install
 libcogl20:amd64					install
+libcoin80c:amd64				install
 libcolamd2:amd64				install
+libcollada-dom2.5-dp0:amd64			install
 libcolord-gtk1:amd64				install
 libcolord-gtk4-1:amd64				install
 libcolord2:amd64				install
@@ -2216,7 +2223,7 @@ liblouisutdml-bin				install
 liblouisutdml-data				install
 liblouisutdml9:amd64				install
 liblqr-1-0:amd64				install
-liblrdf0					install
+liblrdf0:amd64					install
 liblsan0:amd64					install
 liblsan0-arm64-cross				install
 liblsan0-ppc64-cross				install
@@ -2479,6 +2486,7 @@ libmpcdec6:amd64				install
 libmpdec3:amd64					install
 libmpeg2-4:amd64				install
 libmpeg2encpp-2.1-0:amd64			install
+libmpfr-dev:amd64				install
 libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmpg123-0:i386				install
@@ -2670,6 +2678,8 @@ libopenmpi3:amd64				install
 libopenmpt-modplug1:amd64			install
 libopenmpt0:amd64				install
 libopenni2-0:amd64				install
+libopenscenegraph161:amd64			install
+libopenthreads21:amd64				install
 libopus0:amd64					install
 libopus0:i386					install
 libopusenc0:amd64				install
@@ -3821,13 +3831,14 @@ linux-base					install
 linux-compiler-gcc-11-x86			install
 linux-compiler-gcc-12-x86			install
 linux-cpupower					install
-linux-headers-6.1.0-5-amd64			install
 linux-headers-6.1.0-5-common			install
 linux-headers-6.1.0-6-amd64			install
 linux-headers-6.1.0-6-common			install
+linux-headers-6.1.0-7-amd64			install
+linux-headers-6.1.0-7-common			install
 linux-headers-amd64				install
-linux-image-6.1.0-5-amd64			install
 linux-image-6.1.0-6-amd64			install
+linux-image-6.1.0-7-amd64			install
 linux-image-amd64				install
 linux-kbuild-6.1				install
 linux-libc-dev:amd64				install
@@ -4883,6 +4894,7 @@ python3-jaraco.classes				install
 python3-jedi					install
 python3-jeepney					install
 python3-jinja2					install
+python3-jmespath				install
 python3-json-pointer				install
 python3-jsonschema				install
 python3-jwt					install
@@ -4894,12 +4906,14 @@ python3-lazr.uri				install
 python3-ldb					install
 python3-levenshtein				install
 python3-lib2to3					install
+python3-libcloud				install
 python3-libdiscid				install
 python3-libevdev				install
 python3-libvirt					install
 python3-libxml2:amd64				install
 python3-lldb-14					install
 python3-llfuse:amd64				install
+python3-lockfile				install
 python3-lxml:amd64				install
 python3-mako					install
 python3-markdown				install
@@ -4918,7 +4932,9 @@ python3-mutagen					install
 python3-mysqldb					install
 python3-nacl					install
 python3-neovim					install
+python3-netaddr					install
 python3-netifaces:amd64				install
+python3-ntlm-auth				install
 python3-numpy					install
 python3-oauthlib				install
 python3-olefile					install
@@ -4983,7 +4999,10 @@ python3-reportlab				install
 python3-reportlab-accel:amd64			install
 python3-repoze.lru				install
 python3-requests				install
+python3-requests-kerberos			install
+python3-requests-ntlm				install
 python3-requests-toolbelt			install
+python3-resolvelib				install
 python3-rfc3986					install
 python3-rfc3987					install
 python3-rich					install
@@ -4992,10 +5011,12 @@ python3-routes					install
 python3-samba					install
 python3-scour					install
 python3-secretstorage				install
+python3-selinux					install
 python3-setproctitle:amd64			install
 python3-setuptools				install
 python3-setuptools-whl				install
 python3-sgmllib3k				install
+python3-simplejson				install
 python3-sip					install
 python3-sipbuild				install
 python3-six					install
@@ -5035,9 +5056,11 @@ python3-webob					install
 python3-websocket				install
 python3-websockets				install
 python3-wheel					install
+python3-winrm					install
 python3-xapp					install
 python3-xdg					install
 python3-xlib					install
+python3-xmltodict				install
 python3-yaml					install
 python3-zeroconf				install
 python3-zipp					install
@@ -5205,6 +5228,8 @@ scrcpy						install
 scrcpy-server					install
 screen						install
 screengrab					install
+scribus						install
+scribus-data					install
 scrot						install
 scrub						install
 seabios						install
@@ -5255,6 +5280,7 @@ stunnel4					install
 subversion					install
 suckless-tools					install
 sudo						install
+sunshine					install
 supermin					install
 swell-foop					install
 swh-plugins					install
@@ -5326,6 +5352,7 @@ tigervnc-viewer					install
 tightvncpasswd					install
 tightvncserver					install
 time						install
+timeshift					install
 timgm6mb-soundfont				install
 tini						install
 tipa						install
@@ -5560,6 +5587,7 @@ xmms2-plugin-alsa				install
 xmms2-plugin-id3v2				install
 xmms2-plugin-mad				install
 xmms2-plugin-vorbis				install
+xonsh						install
 xorg						install
 xorg-docs-core					install
 xorg-sgml-doctools				install
