@@ -733,8 +733,6 @@ run_once("redshift")
 run_once("keepassxc")
 -- vm control
 run_once("barrier")
--- bluetooth
-run_once("blueman-applet")
 -- backup
 run_once("vorta")
 -- 

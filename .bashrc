@@ -121,6 +121,7 @@ export PAGER=/usr/bin/less
 
 export PATH=$HOME/.utils/bin/:$PATH
 export PATH=$HOME/.qcad:$PATH
+export PATH=$HOME/.local/share/yuzu/bin/:$PATH
 
 export HISTSIZE=10000
 export HISTFILESIZE=50000
@@ -168,6 +169,16 @@ update()
     sudo apt update
     sudo apt full-upgrade
     sudo apt autoremove
+}
+
+cpu_min()
+{
+    sudo cpupower frequency-set -u 1MHz
+}
+
+cpu_max()
+{
+    sudo cpupower frequency-set -u 10GHz
 }
 
 source $HOME/.bashrc_vm
