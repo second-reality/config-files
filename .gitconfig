@@ -1,7 +1,12 @@
 [user]
 	name = Pierrick Bouvier
-    #email = pierrick.bouvier@linaro.org
-    email = pierrick.bouvier@posteo.net
+    email = pierrick.bouvier@linaro.org
+    #email = pierrick.bouvier@posteo.net
+[sendemail]
+    smtpserver = smtp.gmail.com
+    smtpencryption = tls
+    smtpserverport = 587
+    smtpuser = pierrick.bouvier@linaro.org
 [color]
 	diff = auto
 	status = auto

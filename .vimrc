@@ -40,6 +40,7 @@ Plug 'tpope/vim-fugitive' " git
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder for files
 Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/wombat256.vim' " theme
+Plug 'dart-lang/dart-vim-plugin'
 call plug#end()
 
 "-------------------------------------------------------------------------------
