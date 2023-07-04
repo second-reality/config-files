@@ -122,6 +122,7 @@ export PAGER=/usr/bin/less
 export PATH=$HOME/.utils/bin/:$PATH
 export PATH=$HOME/.qcad:$PATH
 export PATH=$HOME/.local/share/yuzu/bin/:$PATH
+# git clone https://github.com/flutter/flutter ~/.flutter
 export PATH=$HOME/.flutter/bin:$PATH
 
 export HISTSIZE=10000
