@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<atlas version="1" name="Unnamed atlas" outputFormat="OruxMaps"/>
+<atlas version="1" name="Unnamed atlas" outputFormat="OruxMaps">
+    <Layer name="Layer">
+        <Map maxTileCoordinate="4322047/3016959" minTileCoordinate="4321792/3014656" mapSource="AAA Géoportail IGN" zoom="15" name="Layer 15"/>
+        <Map maxTileCoordinate="8644095/6033919" minTileCoordinate="8643840/6029312" mapSource="AAA Géoportail IGN" zoom="16" name="Layer 16"/>
+        <Map maxTileCoordinate="17288191/12067839" minTileCoordinate="17287680/12058624" mapSource="AAA Géoportail IGN" zoom="17" name="Layer 17"/>
+        <Map maxTileCoordinate="34576127/24135423" minTileCoordinate="34575360/24117248" mapSource="AAA Géoportail IGN" zoom="18" name="Layer 18"/>
+    </Layer>
+</atlas>

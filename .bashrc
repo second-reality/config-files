@@ -121,9 +121,9 @@ export PAGER=/usr/bin/less
 
 export PATH=$HOME/.utils/bin/:$PATH
 export PATH=$HOME/.qcad:$PATH
-export PATH=$HOME/.local/share/yuzu/bin/:$PATH
 # git clone https://github.com/flutter/flutter ~/.flutter
 export PATH=$HOME/.flutter/bin:$PATH
+export PATH=/data/work/repository/linux-emulation/bin/:$PATH
 
 export HISTSIZE=10000
 export HISTFILESIZE=50000
@@ -170,7 +170,6 @@ update()
 {
     sudo apt update
     sudo apt full-upgrade
-    sudo apt autoremove
 }
 
 cpu_min()
@@ -185,7 +184,7 @@ cpu_max()
 
 connectxboxpad()
 {
-    bluetoothctl connect 98:7A:14:3C:1A:82
+    bluetoothctl connect  98:7A:14:3C:1A:82
 }
 
 source $HOME/.bashrc_vm
