@@ -35,8 +35,8 @@ mkdir -p .config/parcellite
 cp -r ~/.config/parcellite .config
 mkdir -p .config/aria2
 cp -r ~/.config/aria2 .config
-mkdir -p etc/dhcp
-cp /etc/dhcp/dhclient.conf etc/dhcp/dhclient.conf
+mkdir -p etc/systemd
+cp /etc/systemd/resolved.conf etc/systemd/resolved.conf
 mkdir -p etc
 mkdir -p etc/sudoers.d
 cp /etc/sudoers.d/user etc/sudoers.d/user

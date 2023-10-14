@@ -123,7 +123,7 @@ export PATH=$HOME/.utils/bin/:$PATH
 export PATH=$HOME/.qcad:$PATH
 # git clone https://github.com/flutter/flutter ~/.flutter
 export PATH=$HOME/.flutter/bin:$PATH
-export PATH=/data/work/repository/linux-emulation/bin/:$PATH
+export PATH=$HOME/.data/work/repository/linux-emulation/bin/:$PATH
 
 export HISTSIZE=10000
 export HISTFILESIZE=50000

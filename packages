@@ -590,6 +590,7 @@ gir1.2-totem-1.0:amd64				install
 gir1.2-totemplparser-1.0:amd64			install
 gir1.2-upowerglib-1.0:amd64			install
 gir1.2-vte-2.91:amd64				install
+gir1.2-webkit2-4.0:amd64			install
 gir1.2-wnck-3.0:amd64				install
 gir1.2-zeitgeist-2.0:amd64			install
 gir1.2-zpj-0.0:amd64				install
@@ -2633,6 +2634,7 @@ libnss-nis:amd64				install
 libnss-nis:i386					install
 libnss-nisplus:amd64				install
 libnss-nisplus:i386				install
+libnss-resolve:amd64				install
 libnss-systemd:amd64				install
 libnss3:amd64					install
 libnss3:i386					install
@@ -3618,6 +3620,7 @@ libwayland-server0:amd64			install
 libwayland-server0:i386				install
 libwbclient-dev:amd64				install
 libwbclient0:amd64				install
+libwebkit2gtk-4.0-37:amd64			install
 libwebp-dev:amd64				install
 libwebp6:amd64					install
 libwebp6:i386					install
@@ -3985,6 +3988,7 @@ lua-luv:amd64					install
 lua-socket:amd64				install
 lua5.2						install
 lua5.3						install
+lutris						install
 lvm2						install
 lxappearance					install
 lxappearance-obconf				install
@@ -4944,6 +4948,7 @@ python3-docopt					install
 python3-docutils				install
 python3-enchant					install
 python3-entrypoints				install
+python3-evdev					install
 python3-exceptiongroup				install
 python3-executing				install
 python3-feedgenerator				install
@@ -5004,6 +5009,7 @@ python3-llfuse:amd64				install
 python3-lockfile				install
 python3-lxml:amd64				install
 python3-lz4					install
+python3-magic					install
 python3-mako					install
 python3-markdown				install
 python3-markdown-it				install
@@ -5281,7 +5287,6 @@ remmina-plugin-vnc:amd64			install
 rename						install
 repo						install
 reportbug					install
-resolvconf					install
 retext						install
 rfkill						install
 rhythmbox					install
@@ -5421,6 +5426,7 @@ system-config-printer-udev			install
 systemd						install
 systemd-container				install
 systemd-dev					install
+systemd-resolved				install
 systemd-sysv					install
 systemd-timesyncd				install
 systemsettings					install
@@ -5499,6 +5505,7 @@ tzdata						install
 ucf						install
 udev						install
 udisks2						install
+udptunnel					install
 uglifyjs					install
 uidmap						install
 uml-utilities					install
@@ -5580,6 +5587,7 @@ wget						install
 whiptail					install
 wifite						install
 wimtools					install
+winbind						install
 wine						install
 wine-staging-amd64				install
 wine32:i386					install
@@ -5630,6 +5638,7 @@ xclip						install
 xcvt						install
 xdelta						install
 xdelta3						install
+xdg-dbus-proxy					install
 xdg-desktop-portal				install
 xdg-desktop-portal-gtk				install
 xdg-utils					install
