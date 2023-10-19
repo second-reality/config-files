@@ -119,6 +119,7 @@ export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
 export PAGER=/usr/bin/less
 
+export PATH=$HOME/.ryujinx:$PATH
 export PATH=$HOME/.utils/bin/:$PATH
 export PATH=$HOME/.qcad:$PATH
 # git clone https://github.com/flutter/flutter ~/.flutter
