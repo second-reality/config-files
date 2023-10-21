@@ -265,10 +265,7 @@ awful.screen.connect_for_each_screen(function(s)
         widget = wibox.widget.imagebox
     }
 
-    local net_name = "enp4s0"
-    if file_exists("/.laptop") then
-        net_name = "wlp2s0"
-    end
+    local net_name = "wlp113s0"
     net_iowidget = wibox.widget.textbox()
         vicious.register(net_iowidget, vicious.widgets.net,
                          "d${" .. net_name .. " down_kb}/u${" .. net_name .. " up_kb}kB", up_delay)
@@ -720,7 +717,7 @@ end
 run_once("xfce4-power-manager")
 run_once("nm-applet")
 -- screen tearing
---run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
+run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
 --  Driver      "modesetting"
 -- in /etc/X11/xorg.conf (apt purge xserver-xorg-video-intel)
 -- stop X, then: sudo X -configure, move xorg.conf to /etc/X11/xorg.conf

@@ -167,27 +167,6 @@ pomodoro()
   done
 }
 
-update()
-{
-    sudo apt update
-    sudo apt full-upgrade
-}
-
-cpu_min()
-{
-    sudo cpupower frequency-set -u 1MHz
-}
-
-cpu_max()
-{
-    sudo cpupower frequency-set -u 10GHz
-}
-
-connectxboxpad()
-{
-    bluetoothctl connect  98:7A:14:3C:1A:82
-}
-
 source $HOME/.bashrc_vm
 source $HOME/.bashrc_work
 source $HOME/.bashrc_private

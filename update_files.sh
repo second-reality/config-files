@@ -19,7 +19,7 @@ mkdir .config
 cp -r ~/.config/mobac .config/mobac
 rm -rf .config/mobac/settings.xml
 rm -rf bin
-cp -r /data/backup/bin/ bin
+cp -r ~/.data/backup/bin/ bin
 rm -rf firefox_extensions
 cp -r /home/user/.mozilla/firefox/9rs7lmoo.default/extensions firefox_extensions
 rm -rf thunderbird_extensions
