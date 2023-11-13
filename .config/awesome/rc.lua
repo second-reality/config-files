@@ -419,6 +419,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, }, "u", function () awful.spawn("gnome-terminal -e htop") end),
     awful.key({ modkey, }, "i", function () awful.spawn("gnome-terminal -e cmus") end),
     awful.key({ modkey, }, "o", function () awful.spawn("remmina") end),
+    awful.key({ modkey, }, "k", function () awful.spawn("pavucontrol") end),
     awful.key({ modkey, }, "l", function ()
         awful.spawn("/home/user/.screenlayout/mirror.sh")
         awful.spawn("/home/user/.utils/bin/lockscreen.sh", false)
@@ -436,8 +437,8 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Shift"}, "v", function () awful.spawn("/home/user/.screenlayout/vertical.sh") end),
     awful.key({ modkey, "Shift"}, "b", function () awful.spawn("/home/user/.screenlayout/only_other.sh") end),
     awful.key({ modkey, "Shift"}, "n", function () awful.spawn("/home/user/.screenlayout/mirror.sh") end),
-    awful.key({ }, "XF86AudioRaiseVolume", function () awful.spawn("amixer set Master 2%+", false) end),
-    awful.key({ }, "XF86AudioLowerVolume", function () awful.spawn("amixer set Master 2%-", false) end),
+    awful.key({ }, "XF86AudioRaiseVolume", function () awful.spawn("pactl -- set-sink-volume 0 +2%", false) end),
+    awful.key({ }, "XF86AudioLowerVolume", function () awful.spawn("pactl -- set-sink-volume 0 -2%", false) end),
     awful.key({ }, "XF86AudioMute", function () awful.spawn("amixer set Master toggle", false) end),
     awful.key({ modkey, "Shift"}, "m", function () awful.spawn("amixer set Master toggle", false) end),
 
@@ -729,7 +730,7 @@ run_once("redshift")
 -- keepassxc
 run_once("keepassxc")
 -- vm control
-run_once("barrier")
+-- run_once("barrier")
 -- backup
 run_once("vorta")
 -- 
@@ -744,7 +745,7 @@ os.execute("/home/user/.screenlayout/default.sh")
 -- power-line communication (CPL in french)
 os.execute("/home/user/.utils/bin/keep_network_alive.sh&")
 -- set sound
-os.execute("pacmd set-card-profile 0 output:iec958-stereo")
+--os.execute("pacmd set-card-profile 0 output:iec958-stereo")
 -- to fix feh fullscreen
 -- to fix feh fullscreen
 awful.util.spawn_with_shell("urxvt -e exit")

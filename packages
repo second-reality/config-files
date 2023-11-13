@@ -168,7 +168,6 @@ clipit						install
 cmake						install
 cmake-data					install
 cmatrix						install
-cmdtest						install
 cmus						install
 cmus-plugin-ffmpeg				install
 codium						install
@@ -434,6 +433,7 @@ fonts-sil-gentium-basic				install
 fonts-symbola					install
 fonts-texgyre					install
 fonts-texgyre-math				install
+fonts-tuffy					install
 fonts-urw-base35				install
 fonts-vlgothic					install
 fonts-wine					install
@@ -612,7 +612,9 @@ glx-alternative-mesa				install
 gnome-2048					install
 gnome-accessibility-themes			install
 gnome-backgrounds				install
+gnome-bluetooth-3-common			install
 gnome-bluetooth-common				install
+gnome-bluetooth-sendto				install
 gnome-brave-icon-theme				install
 gnome-calculator				install
 gnome-calendar					install
@@ -622,6 +624,7 @@ gnome-clocks					install
 gnome-color-manager				install
 gnome-colors					install
 gnome-colors-common				install
+gnome-control-center				install
 gnome-control-center-data			install
 gnome-desktop3-data				install
 gnome-dust-icon-theme				install
@@ -642,9 +645,11 @@ gnome-noble-icon-theme				install
 gnome-online-accounts				install
 gnome-online-miners				install
 gnome-paint					install
+gnome-remote-desktop				install
 gnome-screenshot				install
 gnome-session-bin				install
 gnome-session-common				install
+gnome-settings-daemon				install
 gnome-settings-daemon-common			install
 gnome-shell-common				install
 gnome-shell-pomodoro-data			install
@@ -661,6 +666,7 @@ gnome-tetravex					install
 gnome-themes-extra:amd64			install
 gnome-themes-extra-data				install
 gnome-user-docs					install
+gnome-user-share				install
 gnome-video-effects				install
 gnome-weather					install
 gnome-wine-icon-theme				install
@@ -953,6 +959,7 @@ libaom3:i386					install
 libaopalliance-java				install
 libapache-poi-java				install
 libapache-pom-java				install
+libapache2-mod-dnssd				install
 libapparmor1:amd64				install
 libappimage1.0abi1:amd64			install
 libappstream-glib8:amd64			install
@@ -1310,6 +1317,7 @@ libcolamd2:amd64				install
 libcolamd3:amd64				install
 libcollada-dom2.5-dp0:amd64			install
 libcolord-gtk1:amd64				install
+libcolord-gtk4-1:amd64				install
 libcolord2:amd64				install
 libcolord2:i386					install
 libcolorhug2:amd64				install
@@ -1379,7 +1387,8 @@ libdatrie-dev:amd64				install
 libdatrie1:amd64				install
 libdatrie1:i386					install
 libdav1d6:amd64					install
-libdav1d6:i386					install
+libdav1d7:amd64					install
+libdav1d7:i386					install
 libdaxctl1:amd64				install
 libdazzle-1.0-0:amd64				install
 libdazzle-common				install
@@ -1602,6 +1611,7 @@ libfile-touch-perl				install
 libfile-which-perl				install
 libfilezilla-common				install
 libfilezilla40:amd64				install
+libfilezilla41:amd64				install
 libfl-dev:amd64					install
 libfl2:amd64					install
 libflac++10:amd64				install
@@ -1639,6 +1649,7 @@ libfreeaptx0:amd64				install
 libfreehand-0.1-1				install
 libfreeimage3:amd64				install
 libfreerdp-client2-2:amd64			install
+libfreerdp-server2-2:amd64			install
 libfreerdp2-2:amd64				install
 libfreetype-dev:amd64				install
 libfreetype6:amd64				install
@@ -1799,12 +1810,16 @@ libgmp10:i386					install
 libgmpxx4ldbl:amd64				install
 libgnome-autoar-0-0:amd64			install
 libgnome-autoar-gtk-0-0:amd64			install
+libgnome-bg-4-2:amd64				install
+libgnome-bluetooth-3.0-13:amd64			install
+libgnome-bluetooth-ui-3.0-13:amd64		install
 libgnome-bluetooth13:amd64			install
 libgnome-desktop-3-20:amd64			install
 libgnome-desktop-4-2:amd64			install
 libgnome-games-support-1-3:amd64		install
 libgnome-games-support-common			install
 libgnome-menu-3-0:amd64				install
+libgnome-rr-4-2:amd64				install
 libgnomekbd-common				install
 libgnomekbd8:amd64				install
 libgnustep-base1.29				install
@@ -1835,6 +1850,7 @@ libgpg-error0:i386				install
 libgpgme11:amd64				install
 libgpgmepp6:amd64				install
 libgphobos3:amd64				install
+libgphobos4:amd64				install
 libgphobos76:amd64				install
 libgphoto2-6:amd64				install
 libgphoto2-6:i386				install
@@ -2398,7 +2414,10 @@ libmagic1:amd64					install
 libmagick++-6.q16-8:amd64			install
 libmagickcore-6.q16-6:amd64			install
 libmagickcore-6.q16-6-extra:amd64		install
+libmagickcore-6.q16-7:amd64			install
+libmagickcore-6.q16-7-extra:amd64		install
 libmagickwand-6.q16-6:amd64			install
+libmagickwand-6.q16-7:amd64			install
 libmail-java					install
 libmail-sendmail-perl				install
 libmailtools-perl				install
@@ -2623,12 +2642,14 @@ libmonosgen-2.0-1				install
 libmonosgen-2.0-dev				install
 libmoo-perl					install
 libmoox-handlesvia-perl				install
+libmotif-common					install
 libmount-dev:amd64				install
 libmount1:amd64					install
 libmount1:i386					install
 libmousepad0:amd64				install
 libmovit8:amd64					install
 libmozjs-102-0:amd64				install
+libmozjs-115-0:amd64				install
 libmozjs-78-0:amd64				install
 libmp3lame0:amd64				install
 libmp3lame0:i386				install
@@ -2658,6 +2679,7 @@ libmunge2:amd64					install
 libmuparser2v5:amd64				install
 libmusicbrainz5-2:amd64				install
 libmusicbrainz5cc2v5:amd64			install
+libmutter-12-0:amd64				install
 libmwaw-0.3-3:amd64				install
 libmypaint-1.5-1:amd64				install
 libmypaint-common				install
@@ -2904,11 +2926,13 @@ libpfm4:amd64					install
 libpgm-5.3-0:amd64				install
 libphobos2-ldc-shared-dev			install
 libphobos2-ldc-shared100:amd64			install
+libphobos2-ldc-shared105:amd64			install
 libphodav-2.0-0:amd64				install
 libphodav-2.0-common				install
 libphodav-3.0-0:amd64				install
 libphodav-3.0-common				install
 libphonenumber8:amd64				install
+libphonon-l10n					install
 libphonon4qt5-4:amd64				install
 libphonon4qt5-data				install
 libpipeline1:amd64				install
@@ -2922,6 +2946,7 @@ libpixman-1-dev:amd64				install
 libpkcs11-helper1:amd64				install
 libpkgconf3:amd64				install
 libplacebo292:amd64				install
+libplacebo338:amd64				install
 libplexus-archiver-java				install
 libplexus-cipher-java				install
 libplexus-classworlds-java			install
@@ -3313,6 +3338,7 @@ libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsmbios-c2					install
 libsmi2ldbl:amd64				install
+libsnapd-glib-2-1:amd64				install
 libsnappy-dev:amd64				install
 libsnappy-java					install
 libsnappy-jni					install
@@ -3432,6 +3458,7 @@ libsuperlu6:amd64				install
 libsvgsalamander-java				install
 libsvn1:amd64					install
 libsvtav1enc1d1:amd64				install
+libsvtav1enc1d1:i386				install
 libswitch-perl					install
 libswresample-dev:amd64				install
 libswresample3:amd64				install
@@ -3623,6 +3650,7 @@ libusbredirparser1:amd64			install
 libuser1:amd64					install
 libutempter0:amd64				install
 libutf8proc2:amd64				install
+libutf8proc3:amd64				install
 libuuid1:amd64					install
 libuv1:amd64					install
 libuv1-dev:amd64				install
@@ -3742,6 +3770,7 @@ libwim15:amd64					install
 libwine:amd64					install
 libwine:i386					install
 libwinpr2-2:amd64				install
+libwireplumber-0.4-0:amd64			install
 libwireshark-data				install
 libwireshark16:amd64				install
 libwiretap13:amd64				install
@@ -3925,6 +3954,7 @@ libxkbcommon0:i386				install
 libxkbfile1:amd64				install
 libxkbregistry0:amd64				install
 libxklavier16:amd64				install
+libxm4:amd64					install
 libxml++2.6-2v5:amd64				install
 libxml-commons-external-java			install
 libxml-commons-resolver1.1-java			install
@@ -4014,6 +4044,7 @@ libzen0v5:amd64					install
 libzimg2:amd64					install
 libzip-dev:amd64				install
 libzip4:amd64					install
+libzix-0-0:amd64				install
 libzmf-0.0-0:amd64				install
 libzmq5:amd64					install
 libzstd-dev:amd64				install
@@ -4034,17 +4065,17 @@ linux-base					install
 linux-compiler-gcc-11-x86			install
 linux-compiler-gcc-13-x86			install
 linux-cpupower					install
-linux-headers-6.5.0-1-amd64			install
-linux-headers-6.5.0-1-common			install
-linux-headers-6.5.0-2-amd64			install
-linux-headers-6.5.0-2-common			install
+linux-headers-6.5.0-3-amd64			install
+linux-headers-6.5.0-3-common			install
+linux-headers-6.5.0-4-amd64			install
+linux-headers-6.5.0-4-common			install
 linux-headers-amd64				install
 linux-image-6.0.0-5-amd64			install
-linux-image-6.5.0-1-amd64			install
-linux-image-6.5.0-2-amd64			install
+linux-image-6.5.0-3-amd64			install
+linux-image-6.5.0-4-amd64			install
 linux-image-amd64				install
-linux-kbuild-6.5.0-1				install
-linux-kbuild-6.5.0-2				install
+linux-kbuild-6.5.0-3				install
+linux-kbuild-6.5.0-4				install
 linux-libc-dev:amd64				install
 linux-libc-dev-alpha-cross			install
 linux-libc-dev-arm64-cross			install
@@ -4261,6 +4292,7 @@ mtp-tools					install
 mtr						install
 mupdf-tools					install
 mutter-common					install
+mutter-common-bin				install
 mysql-common					install
 mysql-sandbox					install
 mythes-en-us					install
@@ -4276,6 +4308,7 @@ ncdu						install
 ncurses-base					install
 ncurses-bin					install
 ncurses-term					install
+nedit						install
 needrestart					install
 nemo						install
 nemo-data					install
@@ -4931,6 +4964,7 @@ perl-modules-5.32				install
 perl-modules-5.36				install
 perl-openssl-defaults:amd64			install
 perl-tk						install
+phonon-backend-vlc-common			install
 phonon4qt5:amd64				install
 phonon4qt5-backend-vlc:amd64			install
 picom						install
@@ -4938,6 +4972,11 @@ pigz						install
 pinentry-curses					install
 pinentry-gnome3					install
 pinta						install
+pipewire:amd64					install
+pipewire-alsa:amd64				install
+pipewire-audio					install
+pipewire-bin					install
+pipewire-pulse					install
 pixiewps					install
 pixz						install
 pkexec						install
@@ -4962,6 +5001,7 @@ popularity-contest				install
 posterazor					install
 povray						install
 povray-includes					install
+power-profiles-daemon				install
 powerline					install
 powermgmt-base					install
 powertop					install
@@ -4999,9 +5039,7 @@ proot						install
 psmisc						install
 psutils						install
 publicsuffix					install
-pulseaudio					install
 pulseaudio-dlna					install
-pulseaudio-module-bluetooth			install
 pulseaudio-utils				install
 pv						install
 pwgen						install
@@ -5648,6 +5686,7 @@ tcl8.6						install
 tcllib						install
 tcpd						install
 tdb-tools					install
+tecla						install
 telepathy-idle					install
 telepathy-logger				install
 telepathy-mission-control-5			install
@@ -5747,6 +5786,7 @@ usbip						install
 usbmuxd						install
 usbutils					install
 usermode					install
+usr-is-merged					install
 usrmerge					install
 util-linux					install
 util-linux-extra				install
@@ -5817,6 +5857,7 @@ wireguard					install
 wireguard-tools					install
 wireless-regdb					install
 wireless-tools					install
+wireplumber					install
 wireshark					install
 wireshark-common				install
 wireshark-qt					install
@@ -5968,6 +6009,7 @@ xvfb						install
 xwayland					install
 xxd						install
 xz-utils					install
+yarn						install
 yelp						install
 yelp-xsl					install
 youtube-dl					install

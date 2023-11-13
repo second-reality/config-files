@@ -171,6 +171,11 @@ source $HOME/.bashrc_vm
 source $HOME/.bashrc_work
 source $HOME/.bashrc_private
 
+t()
+{
+    tmux attach || tmux
+}
+
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 #~/.fzf/install --all
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
