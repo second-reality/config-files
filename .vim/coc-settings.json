@@ -7,5 +7,6 @@
     "coc.preferences.useQuickfixForLocations": true,
     "see_doc_at": "https://github.com/neoclide/coc.nvim/blob/master/data/schema.json",
     "rust-analyzer.updates.prompt": false,
-    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd"
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd",
+    "java.import.gradle.java.home": "/home/user/.gradle/jdks/eclipse_adoptium-11-amd64-linux/jdk-11.0.21+9"
 }

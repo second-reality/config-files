@@ -1309,6 +1309,7 @@ libclutter-gst-3.0-0:amd64			install
 libclutter-gtk-1.0-0:amd64			install
 libcmark0.30.2:amd64				install
 libcmis-0.5-5v5					install
+libcmis-0.6-6					install
 libcodec2-1.0:amd64				install
 libcodec2-1.2:amd64				install
 libcodec2-1.2:i386				install
@@ -1771,6 +1772,7 @@ libgirara-gtk3-3:amd64				install
 libgirepository-1.0-1:amd64			install
 libgit2-1.1:amd64				install
 libgit2-1.5:amd64				install
+libgit2-1.7:amd64				install
 libgit2-glib-1.0-0:amd64			install
 libgjs0g:amd64					install
 libgl-dev:amd64					install
@@ -2321,7 +2323,7 @@ libkmod2:amd64					install
 libkomparediff2-5:amd64				install
 libkompareinterface5:amd64			install
 libkpathsea6:amd64				install
-libkpmcore12					install
+libkpmcore12:amd64				install
 libkrb5-3:amd64					install
 libkrb5-3:i386					install
 libkrb5support0:amd64				install
@@ -2424,6 +2426,7 @@ libmagic-dev:amd64				install
 libmagic-mgc					install
 libmagic1:amd64					install
 libmagick++-6.q16-8:amd64			install
+libmagick++-6.q16-9:amd64			install
 libmagickcore-6.q16-6:amd64			install
 libmagickcore-6.q16-6-extra:amd64		install
 libmagickcore-6.q16-7:amd64			install
@@ -2742,6 +2745,7 @@ libnftables1:amd64				install
 libnftnl11:amd64				install
 libnghttp2-14:amd64				install
 libnghttp2-14:i386				install
+libnghttp3-3:amd64				install
 libnice10:amd64					install
 libnl-3-200:amd64				install
 libnl-3-dev:amd64				install
@@ -2861,7 +2865,9 @@ libopusfile0:amd64				install
 liborc-0.4-0:amd64				install
 liborc-0.4-0:i386				install
 liborcus-0.17-0:amd64				install
+liborcus-0.18-0:amd64				install
 liborcus-parser-0.17-0:amd64			install
+liborcus-parser-0.18-0:amd64			install
 libosinfo-1.0-0:amd64				install
 libosinfo-l10n					install
 libosmesa6:amd64				install
@@ -3056,6 +3062,10 @@ libpython3.11:amd64				install
 libpython3.11-dev:amd64				install
 libpython3.11-minimal:amd64			install
 libpython3.11-stdlib:amd64			install
+libpython3.12:amd64				install
+libpython3.12-dev:amd64				install
+libpython3.12-minimal:amd64			install
+libpython3.12-stdlib:amd64			install
 libpython3.9:amd64				install
 libpython3.9-dev:amd64				install
 libpython3.9-minimal:amd64			install
@@ -3128,9 +3138,11 @@ libqt5xdg3:amd64				install
 libqt5xdgiconloader3:amd64			install
 libqt5xml5:amd64				install
 libqt6concurrent6:amd64				install
+libqt6core5compat6:amd64			install
 libqt6core6:amd64				install
 libqt6dbus6:amd64				install
 libqt6gui6:amd64				install
+libqt6multimedia6:amd64				install
 libqt6network6:amd64				install
 libqt6opengl6:amd64				install
 libqt6openglwidgets6:amd64			install
@@ -3224,6 +3236,14 @@ libreoffice-sdbc-mysql				install
 libreoffice-sdbc-postgresql			install
 libreoffice-style-colibre			install
 libreoffice-style-elementary			install
+libreoffice-uiconfig-base			install
+libreoffice-uiconfig-calc			install
+libreoffice-uiconfig-common			install
+libreoffice-uiconfig-draw			install
+libreoffice-uiconfig-impress			install
+libreoffice-uiconfig-math			install
+libreoffice-uiconfig-report-builder		install
+libreoffice-uiconfig-writer			install
 libreoffice-wiki-publisher			install
 libreoffice-writer				install
 libreofficekit-data				install
@@ -3238,6 +3258,7 @@ librhythmbox-core10:amd64			install
 librist4:amd64					install
 librngom-java					install
 librnp0:amd64					install
+libroc0.3:amd64					install
 librole-tiny-perl				install
 librsvg2-2:amd64				install
 librsvg2-2:i386					install
@@ -3288,6 +3309,9 @@ libsdl-ttf2.0-0:amd64				install
 libsdl1.2debian:amd64				install
 libsdl2-2.0-0:amd64				install
 libsdl2-2.0-0:i386				install
+libsdl2-gfx-1.0-0:amd64				install
+libsdl2-image-2.0-0:amd64			install
+libsdl2-mixer-2.0-0:amd64			install
 libsdl2-ttf-2.0-0:amd64				install
 libseccomp-dev:amd64				install
 libseccomp2:amd64				install
@@ -3312,11 +3336,16 @@ libservlet3.1-java				install
 libset-scalar-perl				install
 libsexpp0:amd64					install
 libsfml-audio2.5:amd64				install
+libsfml-audio2.6:amd64				install
 libsfml-dev:amd64				install
 libsfml-graphics2.5:amd64			install
+libsfml-graphics2.6:amd64			install
 libsfml-network2.5:amd64			install
+libsfml-network2.6:amd64			install
 libsfml-system2.5:amd64				install
+libsfml-system2.6:amd64				install
 libsfml-window2.5:amd64				install
+libsfml-window2.6:amd64				install
 libsframe1:amd64				install
 libsgutils2-1.46-2:amd64			install
 libsharpyuv-dev:amd64				install
@@ -3786,7 +3815,9 @@ libwinpr2-2:amd64				install
 libwireplumber-0.4-0:amd64			install
 libwireshark-data				install
 libwireshark16:amd64				install
+libwireshark17:amd64				install
 libwiretap13:amd64				install
+libwiretap14:amd64				install
 libwmf-0.2-7:amd64				install
 libwmf-bin					install
 libwmf0.2-7:amd64				install
@@ -3803,6 +3834,7 @@ libwpg-0.3-3:amd64				install
 libwps-0.4-4:amd64				install
 libwrap0:amd64					install
 libwsutil14:amd64				install
+libwsutil15:amd64				install
 libwww-perl					install
 libwww-robotrules-perl				install
 libwxbase3.0-0v5:amd64				install
@@ -4078,17 +4110,17 @@ linux-base					install
 linux-compiler-gcc-11-x86			install
 linux-compiler-gcc-13-x86			install
 linux-cpupower					install
-linux-headers-6.5.0-3-amd64			install
-linux-headers-6.5.0-3-common			install
 linux-headers-6.5.0-4-amd64			install
 linux-headers-6.5.0-4-common			install
+linux-headers-6.5.0-5-amd64			install
+linux-headers-6.5.0-5-common			install
 linux-headers-amd64				install
 linux-image-6.0.0-5-amd64			install
-linux-image-6.5.0-3-amd64			install
 linux-image-6.5.0-4-amd64			install
+linux-image-6.5.0-5-amd64			install
 linux-image-amd64				install
-linux-kbuild-6.5.0-3				install
 linux-kbuild-6.5.0-4				install
+linux-kbuild-6.5.0-5				install
 linux-libc-dev:amd64				install
 linux-libc-dev-alpha-cross			install
 linux-libc-dev-arm64-cross			install
@@ -4565,6 +4597,7 @@ node-has-value					install
 node-has-values					install
 node-he						install
 node-hosted-git-info				install
+node-http-proxy-agent				install
 node-http-signature				install
 node-https-proxy-agent				install
 node-iconv-lite					install
@@ -4944,7 +4977,6 @@ p7zip-full					install
 p7zip-rar					install
 packagekit					install
 packagekit-tools				install
-pandoc						install
 pandoc-data					install
 pango1.0-tools					install
 papirus-icon-theme				install
@@ -5414,6 +5446,9 @@ python3.11					install
 python3.11-dev					install
 python3.11-minimal				install
 python3.11-venv					install
+python3.12					install
+python3.12-dev					install
+python3.12-minimal				install
 python3.9					install
 python3.9-dev					install
 python3.9-minimal				install
@@ -5770,6 +5805,11 @@ tshark						install
 ttf-bitstream-vera				install
 tumbler:amd64					install
 tumbler-common					install
+tuxpaint					install
+tuxpaint-config					install
+tuxpaint-data					install
+tuxpaint-plugins-default			install
+tuxpaint-stamps-default				install
 tzdata						install
 tzdata-legacy					install
 ucf						install
@@ -5879,7 +5919,6 @@ wireless-tools					install
 wireplumber					install
 wireshark					install
 wireshark-common				install
-wireshark-qt					install
 wodim						install
 wpasupplicant					install
 wx-common					install
@@ -6031,7 +6070,6 @@ xz-utils					install
 yarn						install
 yelp						install
 yelp-xsl					install
-youtube-dl					install
 yt-dlp						install
 yudit-common					install
 z3						install

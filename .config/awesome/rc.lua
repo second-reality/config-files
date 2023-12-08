@@ -434,9 +434,7 @@ globalkeys = awful.util.table.join(
         awful.spawn("/home/user/.screenlayout/mirror.sh")
         awful.spawn("sudo poweroff")
     end),
-    awful.key({ modkey, "Shift"}, "v", function () awful.spawn("/home/user/.screenlayout/vertical.sh") end),
-    awful.key({ modkey, "Shift"}, "b", function () awful.spawn("/home/user/.screenlayout/only_other.sh") end),
-    awful.key({ modkey, "Shift"}, "n", function () awful.spawn("/home/user/.screenlayout/mirror.sh") end),
+    awful.key({ modkey, "Shift"}, "n", function () awful.spawn("/home/user/.screenlayout/default.sh") end),
     awful.key({ }, "XF86AudioRaiseVolume", function () awful.spawn("pactl -- set-sink-volume 0 +2%", false) end),
     awful.key({ }, "XF86AudioLowerVolume", function () awful.spawn("pactl -- set-sink-volume 0 -2%", false) end),
     awful.key({ }, "XF86AudioMute", function () awful.spawn("amixer set Master toggle", false) end),
