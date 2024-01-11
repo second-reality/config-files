@@ -1,1 +1,1 @@
-user ALL=NOPASSWD: /usr/sbin/pm-suspend, /sbin/reboot, /sbin/shutdown -h now, /sbin/poweroff, /usr/sbin/openvpn, /usr/bin/virsh, /usr/sbin/chcpu, /usr/bin/cpupower, /usr/bin/intel_gpu_frequency
+user ALL=NOPASSWD: /usr/sbin/pm-suspend, /sbin/reboot, /sbin/shutdown -h now, /sbin/poweroff, /usr/sbin/openvpn, /usr/bin/virsh, /usr/sbin/chcpu, /usr/bin/cpupower, /usr/bin/intel_gpu_frequency, /usr/bin/systemctl restart bluetooth.service

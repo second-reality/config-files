@@ -80,6 +80,7 @@ avahi-utils					install
 awesome						install
 awesome-extra					install
 azure-cli					install
+b4						install
 baobab						install
 barrier						install
 base-files					install
@@ -223,6 +224,7 @@ cups-server-common				install
 curl						install
 curlftpfs					install
 cvc4						install
+darktable					install
 dash						install
 db-util						install
 db5.3-util					install
@@ -478,6 +480,7 @@ gcc-multilib					install
 gconf-service					install
 gconf2-common					install
 gcr						install
+gdal-bin					install
 gdal-data					install
 gdal-plugins					install
 gdb						install
@@ -603,6 +606,7 @@ git-email					install
 git-filter-repo					install
 git-lfs						install
 git-man						install
+git-svn						install
 gitg						install
 gitk						install
 gjs						install
@@ -849,6 +853,7 @@ isolinux					install
 ispell						install
 isympy-common					install
 isympy3						install
+isync						install
 itop						install
 iucode-tool					install
 iw						install
@@ -967,6 +972,7 @@ libapparmor1:amd64				install
 libappimage1.0abi1:amd64			install
 libappstream-glib8:amd64			install
 libappstream4:amd64				install
+libappstream5:amd64				install
 libapr1:amd64					install
 libaprutil1:amd64				install
 libaprutil1-dbd-sqlite3:amd64			install
@@ -1126,28 +1132,31 @@ libbluetooth-dev:amd64				install
 libbluetooth3:amd64				install
 libbluray2:amd64				install
 libboost-chrono1.74.0:amd64			install
-libboost-date-time-dev:amd64			install
-libboost-date-time1.74-dev:amd64		install
-libboost-date-time1.74.0:amd64			install
 libboost-dev:amd64				install
 libboost-filesystem1.74.0:amd64			install
+libboost-filesystem1.83.0:amd64			install
 libboost-iostreams1.74.0:amd64			install
+libboost-iostreams1.83.0:amd64			install
 libboost-locale1.74.0:amd64			install
+libboost-locale1.83.0:amd64			install
 libboost-log1.74.0				install
 libboost-numpy-dev				install
-libboost-numpy1.74-dev				install
 libboost-numpy1.74.0				install
+libboost-numpy1.83-dev				install
+libboost-numpy1.83.0				install
 libboost-program-options1.74.0:amd64		install
+libboost-program-options1.83.0:amd64		install
 libboost-python1.74.0				install
+libboost-python1.83.0				install
 libboost-regex-dev:amd64			install
-libboost-regex1.74-dev:amd64			install
 libboost-regex1.74.0:amd64			install
-libboost-serialization1.74-dev:amd64		install
-libboost-serialization1.74.0:amd64		install
+libboost-regex1.83-dev:amd64			install
+libboost-regex1.83.0:amd64			install
 libboost-thread1.74.0:amd64			install
+libboost-thread1.83.0:amd64			install
 libboost-tools-dev				install
-libboost1.74-dev:amd64				install
-libboost1.74-tools-dev				install
+libboost1.83-dev:amd64				install
+libboost1.83-tools-dev				install
 libbotan-2-19:amd64				install
 libbox2d2:amd64					install
 libbpf-dev:amd64				install
@@ -1817,6 +1826,7 @@ libglx0:amd64					install
 libglx0:i386					install
 libgme0:amd64					install
 libgmic1:amd64					install
+libgmime-3.0-0:amd64				install
 libgmp-dev:amd64				install
 libgmp10:amd64					install
 libgmp10:i386					install
@@ -1889,6 +1899,7 @@ libgs-common					install
 libgs10:amd64					install
 libgs10-common					install
 libgs9-common					install
+libgsasl18:amd64				install
 libgsf-1-114:amd64				install
 libgsf-1-common					install
 libgsf-bin					install
@@ -1903,6 +1914,7 @@ libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssdp-1.2-0:amd64				install
 libgssdp-1.6-0:amd64				install
+libgssglue1:amd64				install
 libgstreamer-gl1.0-0:amd64			install
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base1.0-0:amd64		install
@@ -1994,6 +2006,7 @@ libhidapi-dev:amd64				install
 libhidapi-hidraw0:amd64				install
 libhidapi-libusb0:amd64				install
 libhiredis0.14:amd64				install
+libhiredis1.1.0:amd64				install
 libhivex0:amd64					install
 libhogweed6:amd64				install
 libhogweed6:i386				install
@@ -2080,7 +2093,6 @@ libipc-shareable-perl				install
 libipc-system-simple-perl			install
 libipsec-mb1					install
 libipt2						install
-libiptc0:amd64					install
 libiptcdata0					install
 libirs161:amd64					install
 libisc-export1105:amd64				install
@@ -2092,6 +2104,7 @@ libiscsi7:amd64					install
 libisl23:amd64					install
 libisoburn1:amd64				install
 libisofs6:amd64					install
+libisorelax-java				install
 libistack-commons-java				install
 libitext-java					install
 libitext5-java					install
@@ -2320,6 +2333,7 @@ libkmlengine1:amd64				install
 libkmlregionator1:amd64				install
 libkmlxsd1:amd64				install
 libkmod2:amd64					install
+libknopflerfish-osgi-framework-java		install
 libkomparediff2-5:amd64				install
 libkompareinterface5:amd64			install
 libkpathsea6:amd64				install
@@ -2355,6 +2369,8 @@ libldap-common					install
 libldb-dev:amd64				install
 libldb2:amd64					install
 libldm-1.0-0:amd64				install
+liblensfun-data-v1				install
+liblensfun1:amd64				install
 liblept5:amd64					install
 liblerc-dev:amd64				install
 liblerc4:amd64					install
@@ -2372,8 +2388,8 @@ libllvm11:amd64					install
 libllvm13:amd64					install
 libllvm14:amd64					install
 libllvm16:amd64					install
-libllvm16:i386					install
 libllvm17:amd64					install
+libllvm17:i386					install
 liblmdb0:amd64					install
 libloader-java					install
 liblocal-lib-perl				install
@@ -2684,6 +2700,7 @@ libmsi-1.0-0:amd64				install
 libmsi0:amd64					install
 libmspack0:amd64				install
 libmspub-0.1-1:amd64				install
+libmsv-java					install
 libmtdev-dev:amd64				install
 libmtdev1:amd64					install
 libmtp-common					install
@@ -2762,6 +2779,7 @@ libnode108:amd64				install
 libnorm1:amd64					install
 libnotify-bin					install
 libnotify4:amd64				install
+libnotmuch5					install
 libnpth0:amd64					install
 libnsl-dev:amd64				install
 libnsl2:amd64					install
@@ -2872,6 +2890,7 @@ libosinfo-1.0-0:amd64				install
 libosinfo-l10n					install
 libosmesa6:amd64				install
 libosmesa6:i386					install
+libosmgpsmap-1.0-1:amd64			install
 libosmpbf-java					install
 libostree-1-1:amd64				install
 libotr5:amd64					install
@@ -3334,6 +3353,7 @@ libserializer-java				install
 libservlet-api-java				install
 libservlet3.1-java				install
 libset-scalar-perl				install
+libsexp2:amd64					install
 libsexpp0:amd64					install
 libsfml-audio2.5:amd64				install
 libsfml-audio2.6:amd64				install
@@ -3466,6 +3486,7 @@ libstaroffice-0.0-0:amd64			install
 libstartup-notification0:amd64			install
 libstatgrab10					install
 libstax-ex-java					install
+libstax2-api-java				install
 libstb0:amd64					install
 libstdc++-12-dev:amd64				install
 libstdc++-13-dev:amd64				install
@@ -3498,6 +3519,7 @@ libsuitesparseconfig7:amd64			install
 libsuperlu5:amd64				install
 libsuperlu6:amd64				install
 libsvgsalamander-java				install
+libsvn-perl:amd64				install
 libsvn1:amd64					install
 libsvtav1enc1d1:amd64				install
 libsvtav1enc1d1:i386				install
@@ -3586,6 +3608,7 @@ libtimedate-perl				install
 libtinfo5:amd64					install
 libtinfo6:amd64					install
 libtinfo6:i386					install
+libtinyxml2-10:amd64				install
 libtinyxml2-9:amd64				install
 libtinyxml2.6.2v5:amd64				install
 libtirpc-common					install
@@ -3593,6 +3616,7 @@ libtirpc-dev:amd64				install
 libtirpc3:amd64					install
 libtk-img:amd64					install
 libtk8.6:amd64					install
+libtokyocabinet9:amd64				install
 libtomcat10-java				install
 libtomcat9-java					install
 libtomcrypt1:amd64				install
@@ -3827,6 +3851,7 @@ libwnck-3-common				install
 libwnck-common					install
 libwnck22:amd64					install
 libwoff1:amd64					install
+libwoodstox-java				install
 libwpd-0.10-10:amd64				install
 libwpe-1.0-1:amd64				install
 libwpebackend-fdo-1.0-1:amd64			install
@@ -3969,6 +3994,8 @@ libxentoolcore1:amd64				install
 libxentoollog1:amd64				install
 libxerces-c3.2:amd64				install
 libxerces2-java					install
+libxerial-sqlite-jdbc-java			install
+libxerial-sqlite-jdbc-jni:amd64			install
 libxext-dev:amd64				install
 libxext6:amd64					install
 libxext6:i386					install
@@ -4010,6 +4037,7 @@ libxml-parser-perl				install
 libxml-sax-base-perl				install
 libxml-sax-expat-perl				install
 libxml-sax-perl					install
+libxml-security-java				install
 libxml-twig-perl				install
 libxml-xpath-perl				install
 libxml-xpathengine-perl				install
@@ -4070,6 +4098,8 @@ libyajl2:amd64					install
 libyaml-0-2:amd64				install
 libyaml-cpp0.7:amd64				install
 libyaml-cpp0.8:amd64				install
+libyaml-libyaml-perl				install
+libyaml-perl					install
 libyaml-tiny-perl				install
 libyelp0:amd64					install
 libykpers-1-1:amd64				install
@@ -4100,6 +4130,7 @@ libzvbi0:amd64					install
 libzvbi0:i386					install
 libzxcvbn0:amd64				install
 libzxing2:amd64					install
+libzxing3:amd64					install
 libzzip-0-13:amd64				install
 light-locker					install
 lightdm						install
@@ -4108,20 +4139,19 @@ lightsoff					install
 likwid						install
 linux-base					install
 linux-compiler-gcc-11-x86			install
-linux-compiler-gcc-13-x86			install
 linux-cpupower					install
-linux-headers-6.5.0-4-amd64			install
-linux-headers-6.5.0-4-common			install
-linux-headers-6.5.0-5-amd64			install
-linux-headers-6.5.0-5-common			install
+linux-headers-6.6.8-amd64			install
+linux-headers-6.6.8-common			install
+linux-headers-6.6.9-amd64			install
+linux-headers-6.6.9-common			install
 linux-headers-amd64				install
 linux-image-6.0.0-5-amd64			install
-linux-image-6.5.0-4-amd64			install
-linux-image-6.5.0-5-amd64			install
+linux-image-6.6.8-amd64				install
+linux-image-6.6.9-amd64				install
 linux-image-amd64				install
-linux-kbuild-6.5.0-4				install
-linux-kbuild-6.5.0-5				install
-linux-libc-dev:amd64				install
+linux-kbuild-6.6.8				install
+linux-kbuild-6.6.9				install
+linux-libc-dev					install
 linux-libc-dev-alpha-cross			install
 linux-libc-dev-arm64-cross			install
 linux-libc-dev-hppa-cross			install
@@ -4337,6 +4367,7 @@ mtools						install
 mtp-tools					install
 mtr						install
 mupdf-tools					install
+mutt						install
 mutter-common					install
 mutter-common-bin				install
 mysql-common					install
@@ -4359,6 +4390,7 @@ needrestart					install
 nemo						install
 nemo-data					install
 nemo-fileroller					install
+neomutt						install
 neovim						install
 neovim-runtime					install
 net-tools					install
@@ -4776,6 +4808,7 @@ node-quick-lru					install
 node-qw						install
 node-randombytes				install
 node-rc						install
+node-re2:amd64					install
 node-read					install
 node-read-package-json				install
 node-read-pkg					install
@@ -4799,6 +4832,7 @@ node-repeat-string				install
 node-request					install
 node-request-capture-har			install
 node-require-directory				install
+node-require-from-string			install
 node-require-main-filename			install
 node-requires-port				install
 node-resolve					install
@@ -4985,6 +5019,7 @@ parcellite					install
 parole						install
 parted						install
 partitionmanager				install
+pass						install
 passt						install
 passwd						install
 pastebinit					install
@@ -5019,8 +5054,6 @@ pinentry-curses					install
 pinentry-gnome3					install
 pinta						install
 pipewire:amd64					install
-pipewire-alsa:amd64				install
-pipewire-audio					install
 pipewire-bin					install
 pipewire-pulse					install
 pixiewps					install
@@ -5085,6 +5118,7 @@ proot						install
 psmisc						install
 psutils						install
 publicsuffix					install
+pulseaudio					install
 pulseaudio-dlna					install
 pulseaudio-utils				install
 pv						install
@@ -5170,6 +5204,7 @@ python3-dev					install
 python3-distro					install
 python3-distro-info				install
 python3-distutils				install
+python3-dkim					install
 python3-dnspython				install
 python3-docker					install
 python3-dockerpty				install
@@ -5190,6 +5225,7 @@ python3-freetype				install
 python3-frozenlist				install
 python3-fs					install
 python3-gast					install
+python3-gdal					install
 python3-gdbm:amd64				install
 python3-gi					install
 python3-gi-cairo				install
@@ -5288,6 +5324,7 @@ python3-paramiko				install
 python3-parsedatetime				install
 python3-parso					install
 python3-passlib					install
+python3-patatt					install
 python3-peewee					install
 python3-pexpect					install
 python3-pickleshare				install
@@ -5347,7 +5384,6 @@ python3-pyroute2.protocols			install
 python3-pyrsistent:amd64			install
 python3-pysimplesoap				install
 python3-pytest					install
-python3-pythran					install
 python3-pyudev					install
 python3-pyxattr:amd64				install
 python3-regex					install
@@ -5442,6 +5478,7 @@ python3-yaml					install
 python3-yarl					install
 python3-zeroconf				install
 python3-zipp					install
+python3-zombie-imp				install
 python3.11					install
 python3.11-dev					install
 python3.11-minimal				install
@@ -5554,7 +5591,7 @@ rclone						install
 rdesktop					install
 readline-common					install
 realmd						install
-rear:amd64					install
+rear						install
 reaver						install
 recordmydesktop					install
 redshift					install
@@ -5919,6 +5956,7 @@ wireless-tools					install
 wireplumber					install
 wireshark					install
 wireshark-common				install
+wl-clipboard					install
 wodim						install
 wpasupplicant					install
 wx-common					install
@@ -6063,7 +6101,6 @@ xsltproc					install
 xss-lock					install
 xterm						install
 xtrans-dev					install
-xvfb						install
 xwayland					install
 xxd						install
 xz-utils					install
