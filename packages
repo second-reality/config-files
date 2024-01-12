@@ -606,6 +606,7 @@ git-email					install
 git-filter-repo					install
 git-lfs						install
 git-man						install
+git-publish					install
 git-svn						install
 gitg						install
 gitk						install
