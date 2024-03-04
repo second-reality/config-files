@@ -23,11 +23,12 @@ symbol = ""
 disabled = true
 
 [git_status]
-modified.enabled = true
-untracked.enabled = true
 stashed = "" # hide stashed
 
 [rust]
+disabled = true
+
+[c]
 disabled = true
 
 [package]
