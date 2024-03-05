@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# disable usb wakeup
+# cat /proc/acpi/wakeup | grep XHCI
+echo XHCI > /proc/acpi/wakeup

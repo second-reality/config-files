@@ -35,6 +35,9 @@ mkdir -p .config/parcellite
 cp -r ~/.config/parcellite .config
 mkdir -p .config/aria2
 cp -r ~/.config/aria2 .config
+rm -rf etc/
+mkdir -p etc/
+cp /etc/rc.local etc/rc.local
 mkdir -p etc/systemd
 cp /etc/systemd/resolved.conf etc/systemd/resolved.conf
 mkdir -p etc

@@ -724,7 +724,7 @@ run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-i
 -- to synchronize all clipboard buffers
 run_once("parcellite -n")
 -- screen color
-run_once("redshift")
+--run_once("redshift")
 -- keepassxc
 run_once("keepassxc")
 -- vm control
