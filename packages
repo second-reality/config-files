@@ -2590,6 +2590,7 @@ libxtst6:amd64					install
 libxv-dev:amd64					install
 libxv1:amd64					install
 libxvidcore4:amd64				install
+libxvmc1:amd64					install
 libxxf86dga1:amd64				install
 libxxf86vm-dev:amd64				install
 libxxf86vm1:amd64				install
@@ -2626,7 +2627,6 @@ lightsoff					install
 linux-base					install
 linux-cpupower					install
 linux-image-6.1.0-18-amd64			install
-linux-image-6.5.0-0.deb12.4-amd64		install
 linux-image-amd64				install
 linux-libc-dev:amd64				install
 linux-perf					install
@@ -2787,7 +2787,6 @@ polkitd-pkla					install
 poppler-data					install
 poppler-utils					install
 popularity-contest				install
-power-profiles-daemon				install
 powermgmt-base					install
 powertop					install
 ppp						install
@@ -3058,6 +3057,7 @@ remmina-plugin-secret:amd64			install
 remmina-plugin-vnc:amd64			install
 repo						install
 reportbug					install
+rfkill						install
 rhythmbox					install
 rhythmbox-data					install
 rhythmbox-plugin-cdrecorder			install
@@ -3173,6 +3173,7 @@ tcl-expect:amd64				install
 tcl8.6						install
 tex-common					install
 texinfo						install
+thermald					install
 thin-provisioning-tools				install
 thunar						install
 thunar-data					install
@@ -3183,6 +3184,8 @@ timgm6mb-soundfont				install
 tk						install
 tk8.6						install
 tk8.6-blt2.5					install
+tlp						install
+tlp-rdw						install
 tmux						install
 totem						install
 totem-common					install
@@ -3324,6 +3327,7 @@ xserver-xorg-video-all				install
 xserver-xorg-video-amdgpu			install
 xserver-xorg-video-ati				install
 xserver-xorg-video-fbdev			install
+xserver-xorg-video-intel			install
 xserver-xorg-video-nouveau			install
 xserver-xorg-video-qxl				install
 xserver-xorg-video-radeon			install
