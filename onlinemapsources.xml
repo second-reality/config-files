@@ -582,6 +582,44 @@
             <qop></qop>
         </onlinemapsource>
 
+        <onlinemapsource uid="504">
+            <name>AAA CycleMap</name>
+            <url><![CDATA[https://b.tile.thunderforest.com/cycle/{$z}/{$x}/{$y}.png]]></url>
+            <website><![CDATA[<a href="https://www.cyclemap.org/">CycleMap</a>]]></website>
+            <minzoom>0</minzoom>
+            <maxzoom>20</maxzoom>
+            <projection>MERCATORESFERICA</projection>
+            <servers></servers>
+            <httpparam name="User-Agent">Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36</httpparam>
+            <cacheable>1</cacheable>
+            <downloadable>1</downloadable>
+            <maxtilesday>0</maxtilesday>
+            <maxthreads>0</maxthreads>
+            <xop></xop>
+            <yop></yop>
+            <zop></zop>
+            <qop></qop>
+        </onlinemapsource>
+
+        <onlinemapsource uid="505">
+            <name>AAA CyclOSM</name>
+            <url><![CDATA[https://{$s}.tile-cyclosm.openstreetmap.fr/cyclosm/{$z}/{$x}/{$y}.png]]></url>
+            <website><![CDATA[<a href="https://www.cyclosm.org">CyclOSM</a>]]></website>
+            <minzoom>0</minzoom>
+            <maxzoom>20</maxzoom>
+            <projection>MERCATORESFERICA</projection>
+            <servers>a,b,c</servers>
+            <httpparam name="User-Agent">Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36</httpparam>
+            <cacheable>1</cacheable>
+            <downloadable>1</downloadable>
+            <maxtilesday>0</maxtilesday>
+            <maxthreads>0</maxthreads>
+            <xop></xop>
+            <yop></yop>
+            <zop></zop>
+            <qop></qop>
+        </onlinemapsource>
+
         <onlinemapsource uid="511">
             <name>AAA Swisstopo</name>
             <url><![CDATA[https://wmts10.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/{$z}/{$x}/{$y}.jpeg]]></url>
