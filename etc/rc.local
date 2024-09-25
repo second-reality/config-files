@@ -3,3 +3,5 @@
 # disable usb wakeup
 # cat /proc/acpi/wakeup | grep XHCI
 echo XHCI > /proc/acpi/wakeup
+# disable bt ertm, helps with controller pairing
+echo Y > /sys/module/bluetooth/parameters/disable_ertm

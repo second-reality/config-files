@@ -265,10 +265,15 @@ awful.screen.connect_for_each_screen(function(s)
         widget = wibox.widget.imagebox
     }
 
-    local net_name = "wlp113s0"
+    local wifi_name = "wlp113s0"
+    wifi_iowidget = wibox.widget.textbox()
+        vicious.register(wifi_iowidget, vicious.widgets.net,
+                         "↓${" .. wifi_name .. " down_kb}/↑${" .. wifi_name .. " up_kb}kB", up_delay)
+
+    local net_name = "enp0s31f6"
     net_iowidget = wibox.widget.textbox()
         vicious.register(net_iowidget, vicious.widgets.net,
-                         "d${" .. net_name .. " down_kb}/u${" .. net_name .. " up_kb}kB", up_delay)
+                         "↓${" .. net_name .. " down_kb}/↑${" .. net_name .. " up_kb}kB", up_delay)
 
     baticon = wibox.widget {
         image  = "/usr/share/icons/oxygen/base/16x16/devices/battery.png",
@@ -291,6 +296,8 @@ awful.screen.connect_for_each_screen(function(s)
 
     spacerwidget = wibox.widget.textbox()
         spacerwidget.text = " "
+    sepwidget = wibox.widget.textbox()
+        sepwidget.text = "|"
 
     -- Create the wibox
     s.mywibox = awful.wibar({ position = "top", height="16", screen = s })
@@ -326,6 +333,8 @@ awful.screen.connect_for_each_screen(function(s)
             spacerwidget,
             neticon,
             spacerwidget,
+            wifi_iowidget,
+            sepwidget,
             net_iowidget,
 
             spacerwidget,
@@ -470,18 +479,19 @@ globalkeys = awful.util.table.join(
 
     -- Prompt
     awful.key({ modkey },            "r",     function () awful.screen.focused().mypromptbox:run() end,
-              {description = "run prompt", group = "launcher"}),
+              {description = "run prompt", group = "launcher"})
+              --,
 
-    awful.key({ modkey }, "x",
-              function ()
-                  awful.prompt.run {
-                    prompt       = "Run Lua code: ",
-                    textbox      = awful.screen.focused().mypromptbox.widget,
-                    exe_callback = awful.util.eval,
-                    history_path = awful.util.get_cache_dir() .. "/history_eval"
-                  }
-              end,
-              {description = "lua execute prompt", group = "awesome"})
+    --awful.key({ modkey }, "x",
+    --          function ()
+    --              awful.prompt.run {
+    --                prompt       = "Run Lua code: ",
+    --                textbox      = awful.screen.focused().mypromptbox.widget,
+    --                exe_callback = awful.util.eval,
+    --                history_path = awful.util.get_cache_dir() .. "/history_eval"
+    --              }
+    --          end,
+    --          {description = "lua execute prompt", group = "awesome"})
     -- Menubar
     --awful.key({ modkey }, "p", function() menubar.show() end,
     --          {description = "show the menubar", group = "launcher"})
@@ -739,7 +749,8 @@ os.execute("numlockx")
 --disable screen saver
 os.execute("xset s off")
 -- screen mirror
-os.execute("/home/user/.screenlayout/default.sh")
+--os.execute("/home/user/.screenlayout/default.sh")
+os.execute("/home/user/.screenlayout/tv.sh")
 -- power-line communication (CPL in french)
 os.execute("/home/user/.utils/bin/keep_network_alive.sh&")
 -- set sound

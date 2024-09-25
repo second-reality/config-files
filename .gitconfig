@@ -7,6 +7,8 @@
     smtpencryption = tls
     smtpserverport = 587
     smtpuser = pierrick.bouvier@linaro.org
+    smtpBatchSize = 40
+    smtpReloginDelay = 180
 [color]
 	diff = auto
 	status = auto
@@ -37,3 +39,5 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+[rebase]
+	updateRefs = true
