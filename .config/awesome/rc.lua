@@ -724,10 +724,14 @@ end
 run_once("xfce4-power-manager")
 run_once("nm-applet")
 -- screen tearing
-run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
---  Driver      "modesetting"
--- in /etc/X11/xorg.conf (apt purge xserver-xorg-video-intel)
--- stop X, then: sudo X -configure, move xorg.conf to /etc/X11/xorg.conf
+--run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
+--cat /etc/X11/xorg.conf.d/intel.conf
+--Section "Device"
+--        Identifier "Intel"
+--#       Driver "modesetting"
+--        Driver "intel"
+--        Option "TearFree" "true"
+--EndSection
 
 -- to synchronize all clipboard buffers
 run_once("parcellite -n")

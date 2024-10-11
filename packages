@@ -81,7 +81,6 @@ bless						install
 blt						install
 bluetooth					install
 bluez						install
-bluez-cups					install
 bluez-firmware					install
 bluez-hcidump					install
 bluez-meshd					install
@@ -164,19 +163,6 @@ crun						install
 cryptsetup					install
 cryptsetup-bin					install
 cryptsetup-initramfs				install
-cups						install
-cups-browsed					install
-cups-bsd					install
-cups-client					install
-cups-common					install
-cups-core-drivers				install
-cups-daemon					install
-cups-filters					install
-cups-filters-core-drivers			install
-cups-ipp-utils					install
-cups-pk-helper					install
-cups-ppdc					install
-cups-server-common				install
 curl						install
 cuttlefish-base					install
 cuttlefish-common-build-deps			install
@@ -987,7 +973,6 @@ libctf0:amd64					install
 libcue2:amd64					install
 libcups2:amd64					install
 libcups2:i386					install
-libcupsfilters1:amd64				install
 libcurl3-gnutls:amd64				install
 libcurl3-nss:amd64				install
 libcurl4:amd64					install
@@ -1196,7 +1181,6 @@ libfont-ttf-perl				install
 libfontconfig-dev:amd64				install
 libfontconfig1:amd64				install
 libfontconfig1:i386				install
-libfontembed1:amd64				install
 libfontenc1:amd64				install
 libfonts-java					install
 libformula-java					install
@@ -1441,8 +1425,6 @@ libgupnp-av-1.0-3				install
 libgupnp-dlna-2.0-4				install
 libgupnp-igd-1.0-4:amd64			install
 libgusb2:amd64					install
-libgutenprint-common				install
-libgutenprint9					install
 libgvc6						install
 libgvnc-1.0-0:amd64				install
 libgvpr2:amd64					install
@@ -1775,9 +1757,6 @@ liblog-any-perl					install
 liblog4j1.2-java				install
 liblouis-data					install
 liblouis20:amd64				install
-liblouisutdml-bin				install
-liblouisutdml-data				install
-liblouisutdml9:amd64				install
 liblqr-1-0:amd64				install
 liblrdf0:amd64					install
 liblsan0:amd64					install
@@ -2138,7 +2117,6 @@ libpodofo0.9.8					install
 libpolkit-agent-1-0:amd64			install
 libpolkit-gobject-1-0:amd64			install
 libpolkit-qt5-1-1:amd64				install
-libpoppler-cpp0v5:amd64				install
 libpoppler-glib8:amd64				install
 libpoppler-qt5-1:amd64				install
 libpoppler126:amd64				install
@@ -3196,7 +3174,6 @@ popularity-contest				install
 powermgmt-base					install
 powertop					install
 ppp						install
-printer-driver-gutenprint			install
 pristine-tar					install
 procps						install
 proj-bin					install
@@ -3610,7 +3587,6 @@ ssh						install
 ssh-tools					install
 sshfs						install
 sshuttle					install
-ssl-cert					install
 steam:i386					install
 steam-devices					install
 steam-installer					install
