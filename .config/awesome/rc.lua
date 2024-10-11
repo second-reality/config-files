@@ -724,14 +724,7 @@ end
 run_once("xfce4-power-manager")
 run_once("nm-applet")
 -- screen tearing
---run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
---cat /etc/X11/xorg.conf.d/intel.conf
---Section "Device"
---        Identifier "Intel"
---#       Driver "modesetting"
---        Driver "intel"
---        Option "TearFree" "true"
---EndSection
+run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
 
 -- to synchronize all clipboard buffers
 run_once("parcellite -n")
