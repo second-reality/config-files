@@ -35,6 +35,8 @@ apt-show-versions				install
 apt-transport-https				install
 apt-utils					install
 arandr						install
+argyll						install
+argyll-ref					install
 aria2						install
 aspell						install
 aspell-en					install
@@ -68,6 +70,7 @@ bind9-host					install
 bind9-libs:amd64				install
 binfmt-support					install
 binutils					install
+binutils-aarch64-linux-gnu			install
 binutils-arm-none-eabi				install
 binutils-common:amd64				install
 binutils-powerpc64-linux-gnu			install
@@ -78,7 +81,6 @@ bless						install
 blt						install
 bluetooth					install
 bluez						install
-bluez-alsa-utils				install
 bluez-cups					install
 bluez-firmware					install
 bluez-hcidump					install
@@ -119,7 +121,6 @@ cdrdao						install
 cgdb						install
 cheese						install
 cheese-common					install
-chrome-gnome-shell				install
 cifs-utils					install
 clang						install
 clang-14					install
@@ -151,6 +152,8 @@ coreutils					install
 cpio						install
 cpp						install
 cpp-12						install
+cpp-12-aarch64-linux-gnu			install
+cpp-aarch64-linux-gnu				install
 cpufrequtils					install
 cracklib-runtime				install
 creduce						install
@@ -187,6 +190,7 @@ dbus-daemon					install
 dbus-session-bus-common				install
 dbus-system-bus-common				install
 dbus-user-session				install
+dbus-x11					install
 dconf-cli					install
 dconf-gsettings-backend:amd64			install
 dconf-service					install
@@ -213,6 +217,7 @@ diffutils					install
 dirmngr						install
 discover					install
 discover-data					install
+displaycal					install
 distro-info-data				install
 dkms						install
 dmeventd					install
@@ -340,15 +345,17 @@ fwupd-amd64-signed				install
 g++						install
 g++-12						install
 g++-12-multilib					install
-g++-multilib					install
 gawk						install
 gcc						install
 gcc-12						install
+gcc-12-aarch64-linux-gnu			install
+gcc-12-aarch64-linux-gnu-base:amd64		install
 gcc-12-base:amd64				install
 gcc-12-base:i386				install
+gcc-12-cross-base				install
 gcc-12-multilib					install
+gcc-aarch64-linux-gnu				install
 gcc-arm-none-eabi				install
-gcc-multilib					install
 gcr						install
 gdal-data					install
 gdal-plugins					install
@@ -363,7 +370,6 @@ ghc						install
 ghostscript					install
 gimp						install
 gimp-data					install
-gir1.2-accountsservice-1.0:amd64		install
 gir1.2-adw-1:amd64				install
 gir1.2-atk-1.0:amd64				install
 gir1.2-atspi-2.0:amd64				install
@@ -371,17 +377,15 @@ gir1.2-ayatanaappindicator3-0.1			install
 gir1.2-clutter-1.0:amd64			install
 gir1.2-cogl-1.0:amd64				install
 gir1.2-coglpango-1.0:amd64			install
+gir1.2-colord-1.0:amd64				install
+gir1.2-colordgtk-1.0:amd64			install
 gir1.2-evince-3.0:amd64				install
 gir1.2-freedesktop:amd64			install
-gir1.2-gck-1:amd64				install
-gir1.2-gcr-3:amd64				install
 gir1.2-gdesktopenums-3.0:amd64			install
 gir1.2-gdkpixbuf-2.0:amd64			install
-gir1.2-gdm-1.0					install
 gir1.2-geoclue-2.0:amd64			install
 gir1.2-geocodeglib-2.0:amd64			install
 gir1.2-glib-2.0:amd64				install
-gir1.2-gnomebluetooth-3.0:amd64			install
 gir1.2-gnomedesktop-3.0:amd64			install
 gir1.2-gnomedesktop-4.0:amd64			install
 gir1.2-goa-1.0:amd64				install
@@ -406,9 +410,6 @@ gir1.2-libosinfo-1.0:amd64			install
 gir1.2-libvirt-glib-1.0:amd64			install
 gir1.2-malcontent-0:amd64			install
 gir1.2-mediaart-2.0:amd64			install
-gir1.2-mutter-11:amd64				install
-gir1.2-nm-1.0:amd64				install
-gir1.2-nma-1.0:amd64				install
 gir1.2-notify-0.7:amd64				install
 gir1.2-packagekitglib-1.0			install
 gir1.2-pango-1.0:amd64				install
@@ -426,7 +427,6 @@ gir1.2-spiceclientgtk-3.0:amd64			install
 gir1.2-totem-1.0:amd64				install
 gir1.2-totemplparser-1.0:amd64			install
 gir1.2-tracker-3.0:amd64			install
-gir1.2-upowerglib-1.0:amd64			install
 gir1.2-vte-2.91:amd64				install
 gir1.2-webkit2-4.0:amd64			install
 gir1.2-webkit2-4.1:amd64			install
@@ -451,7 +451,6 @@ gnome-accessibility-themes			install
 gnome-backgrounds				install
 gnome-bluetooth-3-common			install
 gnome-bluetooth-sendto				install
-gnome-browser-connector				install
 gnome-calculator				install
 gnome-calendar					install
 gnome-characters				install
@@ -478,13 +477,10 @@ gnome-mines					install
 gnome-music					install
 gnome-nibbles					install
 gnome-online-accounts				install
-gnome-remote-desktop				install
 gnome-robots					install
 gnome-settings-daemon				install
 gnome-settings-daemon-common			install
-gnome-shell					install
 gnome-shell-common				install
-gnome-shell-extension-prefs			install
 gnome-software					install
 gnome-software-common				install
 gnome-sound-recorder				install
@@ -549,7 +545,6 @@ gstreamer1.0-gl:amd64				install
 gstreamer1.0-gtk3:amd64				install
 gstreamer1.0-libav:amd64			install
 gstreamer1.0-packagekit				install
-gstreamer1.0-pipewire:amd64			install
 gstreamer1.0-plugins-bad:amd64			install
 gstreamer1.0-plugins-base:amd64			install
 gstreamer1.0-plugins-base:i386			install
@@ -664,6 +659,7 @@ krita-gmic					install
 kwayland-data					install
 kwayland-integration:amd64			install
 laptop-detect					install
+lcov						install
 less						install
 lib2geom1.2.0:amd64				install
 lib32asan8					install
@@ -725,13 +721,13 @@ libarmadillo11					install
 libarpack2:amd64				install
 libarray-intspan-perl				install
 libasan8:amd64					install
+libasan8-arm64-cross				install
 libasm-java					install
 libasm1:amd64					install
 libasound2:amd64				install
 libasound2:i386					install
 libasound2-data					install
 libasound2-dev:amd64				install
-libasound2-plugin-bluez:amd64			install
 libasound2-plugins:amd64			install
 libasound2-plugins:i386				install
 libaspell15:amd64				install
@@ -751,6 +747,7 @@ libatk1.0-dev:amd64				install
 libatkmm-1.6-1v5:amd64				install
 libatomic1:amd64				install
 libatomic1:i386					install
+libatomic1-arm64-cross				install
 libatopology2:amd64				install
 libatspi2.0-0:amd64				install
 libatspi2.0-dev:amd64				install
@@ -857,8 +854,10 @@ libc-l10n					install
 libc3p0-java					install
 libc6:amd64					install
 libc6:i386					install
+libc6-arm64-cross				install
 libc6-dbg:amd64					install
 libc6-dev:amd64					install
+libc6-dev-arm64-cross				install
 libc6-dev-i386					install
 libc6-dev-x32					install
 libc6-i386					install
@@ -1204,7 +1203,6 @@ libformula-java					install
 libfreeaptx0:amd64				install
 libfreehand-0.1-1				install
 libfreerdp-client2-2:amd64			install
-libfreerdp-server2-2:amd64			install
 libfreerdp2-2:amd64				install
 libfreetype-dev:amd64				install
 libfreetype6:amd64				install
@@ -1233,13 +1231,16 @@ libgbm1:i386					install
 libgc1:amd64					install
 libgcab-1.0-0:amd64				install
 libgcc-12-dev:amd64				install
+libgcc-12-dev-arm64-cross			install
 libgcc-s1:amd64					install
 libgcc-s1:i386					install
+libgcc-s1-arm64-cross				install
 libgck-1-0:amd64				install
 libgcr-base-3-1:amd64				install
 libgcr-ui-3-1:amd64				install
 libgcrypt20:amd64				install
 libgcrypt20:i386				install
+libgd-perl					install
 libgd3:amd64					install
 libgd3:i386					install
 libgdal32					install
@@ -1357,6 +1358,7 @@ libgoa-backend-1.0-1:amd64			install
 libgom-1.0-0:amd64				install
 libgomp1:amd64					install
 libgomp1:i386					install
+libgomp1-arm64-cross				install
 libgoogle-glog-dev				install
 libgoogle-glog0v6				install
 libgpg-error-l10n				install
@@ -1482,6 +1484,7 @@ libhttp-tiny-multipart-perl			install
 libhttpclient-java				install
 libhttpcore-java				install
 libhunspell-1.7-0:amd64				install
+libhwasan0-arm64-cross				install
 libhwloc-plugins:amd64				install
 libhwloc15:amd64				install
 libhwy1:amd64					install
@@ -1550,6 +1553,7 @@ libiterator-util-perl				install
 libitext-java					install
 libitext5-java					install
 libitm1:amd64					install
+libitm1-arm64-cross				install
 libiw30:amd64					install
 libixml10:amd64					install
 libjack-jackd2-0:amd64				install
@@ -1777,6 +1781,7 @@ liblouisutdml9:amd64				install
 liblqr-1-0:amd64				install
 liblrdf0:amd64					install
 liblsan0:amd64					install
+liblsan0-arm64-cross				install
 libltc11:amd64					install
 libltdl7:amd64					install
 libltdl7:i386					install
@@ -1890,7 +1895,6 @@ libmtp-runtime					install
 libmtp9:amd64					install
 libmujs2:amd64					install
 libmunge2					install
-libmutter-11-0:amd64				install
 libmwaw-0.3-3:amd64				install
 libmypaint-1.5-1:amd64				install
 libmypaint-common				install
@@ -2103,7 +2107,6 @@ libpipeline1:amd64				install
 libpipewire-0.3-0:amd64				install
 libpipewire-0.3-common				install
 libpipewire-0.3-dev:amd64			install
-libpipewire-0.3-modules:amd64			install
 libpixie-java					install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				install
@@ -2334,6 +2337,7 @@ librngom-java					install
 librole-tiny-perl				install
 librsvg2-2:amd64				install
 librsvg2-2:i386					install
+librsvg2-bin					install
 librsvg2-common:amd64				install
 librsvg2-common:i386				install
 librsvg2-dev:amd64				install
@@ -2498,6 +2502,7 @@ libstax-ex-java					install
 libstdc++-12-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
+libstdc++6-arm64-cross				install
 libstemmer0d:amd64				install
 libstreambuffer-java				install
 libstrictures-perl				install
@@ -2597,6 +2602,7 @@ libtrove3-java					install
 libtry-tiny-perl				install
 libts0:amd64					install
 libtsan2:amd64					install
+libtsan2-arm64-cross				install
 libtspi1					install
 libtss2-esys-3.0.2-0:amd64			install
 libtss2-mu0:amd64				install
@@ -2606,7 +2612,6 @@ libtss2-tcti-cmd0:amd64				install
 libtss2-tcti-device0:amd64			install
 libtss2-tcti-mssim0:amd64			install
 libtss2-tcti-swtpm0:amd64			install
-libtss2-tctildr0:amd64				install
 libtumbler-1-0:amd64				install
 libturbojpeg0:amd64				install
 libtwolame0:amd64				install
@@ -2615,6 +2620,7 @@ libtxw2-java					install
 libtype-tiny-perl				install
 libtype-tiny-xs-perl:amd64			install
 libubsan1:amd64					install
+libubsan1-arm64-cross				install
 libuchardet0:amd64				install
 libucx0:amd64					install
 libudev-dev:amd64				install
@@ -2753,7 +2759,6 @@ libwildmidi2:amd64				install
 libwine:amd64					install
 libwine:i386					install
 libwinpr2-2:amd64				install
-libwireplumber-0.4-0:amd64			install
 libwireshark-data				install
 libwireshark16:amd64				install
 libwiretap13:amd64				install
@@ -2772,6 +2777,7 @@ libwww-mechanize-perl				install
 libwww-perl					install
 libwww-robotrules-perl				install
 libwxbase3.2-1:amd64				install
+libwxgtk-gl3.2-1:amd64				install
 libwxgtk3.2-1:amd64				install
 libx11-6:amd64					install
 libx11-6:i386					install
@@ -3166,9 +3172,6 @@ phonon4qt5:amd64				install
 phonon4qt5-backend-vlc:amd64			install
 pigz						install
 pinentry-gnome3					install
-pipewire:amd64					install
-pipewire-bin					install
-pipewire-pulse					install
 pixiewps					install
 pixz						install
 pkexec						install
@@ -3184,6 +3187,7 @@ po-debconf					install
 pocketsphinx-en-us				install
 podman						install
 policykit-1					install
+policykit-1-gnome				install
 polkitd						install
 polkitd-pkla					install
 poppler-data					install
@@ -3385,7 +3389,10 @@ python3-pysimplesoap				install
 python3-pythran					install
 python3-pyxattr:amd64				install
 python3-regex					install
+python3-renderpm:amd64				install
 python3-reportbug				install
+python3-reportlab				install
+python3-reportlab-accel:amd64			install
 python3-repoze.lru				install
 python3-requests				install
 python3-requests-toolbelt			install
@@ -3397,12 +3404,15 @@ python3-samba					install
 python3-scipy					install
 python3-scour					install
 python3-secretstorage				install
+python3-send2trash				install
 python3-setproctitle:amd64			install
 python3-setuptools				install
 python3-setuptools-whl				install
 python3-sgmllib3k				install
+python3-simplejson				install
 python3-sip					install
 python3-six					install
+python3-smartypants				install
 python3-smbc					install
 python3-sniffio					install
 python3-snowballstemmer				install
@@ -3437,6 +3447,7 @@ python3-webob					install
 python3-websockets				install
 python3-wheel					install
 python3-wrapt					install
+python3-wxgtk4.0				install
 python3-xdg					install
 python3-yaml					install
 python3-zeroconf				install
@@ -3514,6 +3525,7 @@ ristretto					install
 rlwrap						install
 rpcsvc-proto					install
 rr						install
+rst2pdf						install
 rsync						install
 rtkit						install
 rtmpdump					install
@@ -3612,7 +3624,6 @@ suckless-tools					install
 sudo						install
 sunshine					install
 swell-foop					install
-switcheroo-control				install
 swtpm						install
 swtpm-libs:amd64				install
 swtpm-tools					install
@@ -3746,7 +3757,6 @@ wine64						install
 wireguard-tools					install
 wireless-regdb					install
 wireless-tools					install
-wireplumber					install
 wireshark					install
 wireshark-common				install
 wireshark-qt					install
@@ -3764,6 +3774,7 @@ x2goclient					install
 xauth						install
 xbitmaps					install
 xbrlapi						install
+xcalib						install
 xclip						install
 xcvt						install
 xdelta						install

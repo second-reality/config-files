@@ -334,8 +334,8 @@ awful.screen.connect_for_each_screen(function(s)
             neticon,
             spacerwidget,
             wifi_iowidget,
-            sepwidget,
-            net_iowidget,
+            --sepwidget,
+            --net_iowidget,
 
             spacerwidget,
             baticon,
@@ -420,7 +420,7 @@ globalkeys = awful.util.table.join(
 
     -- My programs
     awful.key({ modkey, }, "e", function () awful.spawn("firefox") end),
-    awful.key({ modkey, }, "i", function () awful.spawn("/home/user/.data/work/repository/linux-emulation/bin//yuzu") end),
+    awful.key({ modkey, }, "i", function () awful.spawn("shadowpc") end),
     awful.key({ modkey, }, "q", function () awful.spawn("keepassxc") end),
     awful.key({ modkey, }, "w", function () awful.spawn("firefox -new-window https://www.inoreader.com") end),
     awful.key({ modkey, }, "p", function () awful.spawn("firefox -new-window http://www.spotify.com") end),
@@ -439,13 +439,11 @@ globalkeys = awful.util.table.join(
         awful.spawn("/home/user/.screenlayout/mirror.sh")
         awful.spawn("/home/user/.utils/bin/suspend.sh", false)
     end),
-    awful.key({ modkey, "Shift"}, "o", function ()
-        awful.spawn("/home/user/.screenlayout/mirror.sh")
-        awful.spawn("sudo poweroff")
-    end),
     awful.key({ modkey, "Shift"}, "n", function () awful.spawn("/home/user/.screenlayout/default.sh") end),
-    awful.key({ }, "XF86AudioRaiseVolume", function () awful.spawn("pactl -- set-sink-volume 0 +2%", false) end),
-    awful.key({ }, "XF86AudioLowerVolume", function () awful.spawn("pactl -- set-sink-volume 0 -2%", false) end),
+    awful.key({ modkey, "Shift"}, "m", function () awful.spawn("/home/user/.screenlayout/mirror.sh") end),
+    awful.key({ modkey, "Shift"}, "b", function () awful.spawn("/home/user/.screenlayout/tv.sh") end),
+    awful.key({ }, "XF86AudioRaiseVolume", function () awful.spawn("amixer -q sset Master 2%+", false) end),
+    awful.key({ }, "XF86AudioLowerVolume", function () awful.spawn("amixer -q sset Master 2%-", false) end),
     awful.key({ }, "XF86AudioMute", function () awful.spawn("amixer set Master toggle", false) end),
     awful.key({ modkey, "Shift"}, "m", function () awful.spawn("amixer set Master toggle", false) end),
 
@@ -750,7 +748,7 @@ os.execute("numlockx")
 os.execute("xset s off")
 -- screen mirror
 --os.execute("/home/user/.screenlayout/default.sh")
-os.execute("/home/user/.screenlayout/tv.sh")
+os.execute("/home/user/.screenlayout/mirror.sh")
 -- power-line communication (CPL in french)
 os.execute("/home/user/.utils/bin/keep_network_alive.sh&")
 -- set sound

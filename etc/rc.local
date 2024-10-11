@@ -2,6 +2,11 @@
 
 # disable usb wakeup
 # cat /proc/acpi/wakeup | grep XHCI
-echo XHCI > /proc/acpi/wakeup
+#echo XHCI > /proc/acpi/wakeup
 # disable bt ertm, helps with controller pairing
 echo Y > /sys/module/bluetooth/parameters/disable_ertm
+
+# disable mouse wakeup
+# lsusb | grep -i logitech (ID :$second_part)
+# grep $second_part /sys/bus/usb/devices/*/idProduct
+echo 'disabled' > $(dirname $(grep c52b /sys/bus/usb/devices/*/idProduct))/power/wakeup
