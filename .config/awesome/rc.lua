@@ -445,7 +445,6 @@ globalkeys = awful.util.table.join(
     awful.key({ }, "XF86AudioRaiseVolume", function () awful.spawn("amixer -q sset Master 2%+", false) end),
     awful.key({ }, "XF86AudioLowerVolume", function () awful.spawn("amixer -q sset Master 2%-", false) end),
     awful.key({ }, "XF86AudioMute", function () awful.spawn("amixer set Master toggle", false) end),
-    awful.key({ modkey, "Shift"}, "m", function () awful.spawn("amixer set Master toggle", false) end),
 
     awful.key({ modkey,  "Shift"}, "l",     function () awful.tag.incmwfact( 0.05)          end,
               {description = "increase master width factor", group = "layout"}),
