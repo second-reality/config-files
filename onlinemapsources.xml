@@ -523,8 +523,8 @@
 <!-- Custom maps -->
 
         <onlinemapsource uid="501">
-            <name>AAA Geoportail IGN</name>
-            <url><![CDATA[https://wxs.ign.fr/an7nvfzojv5wa96dsga5nk8w/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/jpeg]]></url>
+            <name>AAA Geoportail IGN Classique</name>
+            <url><![CDATA[https://data.geopf.fr/private/wmts?apikey=geoportail&layer=GEOGRAPHICALGRIDSYSTEMS.MAPS&style=normal&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/jpeg&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
             <website><![CDATA[<a href="https://www.geoportail.gouv.fr/donnees/carte-ign">GeoPortail</a>]]></website>
             <minzoom>0</minzoom>
             <maxzoom>20</maxzoom>
@@ -544,7 +544,7 @@
 
         <onlinemapsource uid="502">
             <name>AAA Geoportail Pentes</name>
-            <url><![CDATA[https://wxs.ign.fr/an7nvfzojv5wa96dsga5nk8w/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+            <url><![CDATA[https://data.geopf.fr/wmts?layer=GEOGRAPHICALGRIDSYSTEMS.SLOPES.MOUNTAIN&style=normal&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
             <website><![CDATA[<a href="https://www.geoportail.gouv.fr/donnees/carte-ign">GeoPortail</a>]]></website>
             <minzoom>0</minzoom>
             <maxzoom>20</maxzoom>
@@ -563,8 +563,8 @@
         </onlinemapsource>
 
         <onlinemapsource uid="503">
-            <name>AAA Geoportail Forestiere</name>
-            <url><![CDATA[https://wxs.ign.fr/an7nvfzojv5wa96dsga5nk8w/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=LANDCOVER.FORESTINVENTORY.V2&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/png]]></url>
+            <name>AAA Geoportail IGN TOP25</name>
+            <url><![CDATA[https://data.geopf.fr/private/wmts?apikey=ign_scan_ws&layer=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN25TOUR&style=normal&tilematrixset=PM&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/jpeg&TileMatrix={$z}&TileCol={$x}&TileRow={$y}]]></url>
             <website><![CDATA[<a href="https://www.geoportail.gouv.fr/donnees/carte-ign">GeoPortail</a>]]></website>
             <minzoom>0</minzoom>
             <maxzoom>20</maxzoom>
