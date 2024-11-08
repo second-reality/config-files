@@ -41,3 +41,5 @@
 	helper = !/usr/bin/gh auth git-credential
 [rebase]
 	updateRefs = true
+[advice]
+	detachedHead = false

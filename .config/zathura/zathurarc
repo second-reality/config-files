@@ -1,5 +1,0 @@
-set recolor-darkcolor "#bbbbbb"
-set recolor-lightcolor "#333333"
-set window-title-basename "true"
-set selection-clipboard "clipboard"
-#set recolor true

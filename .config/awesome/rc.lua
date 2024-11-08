@@ -419,11 +419,11 @@ globalkeys = awful.util.table.join(
               {description = "quit awesome", group = "awesome"}),
 
     -- My programs
-    awful.key({ modkey, }, "e", function () awful.spawn("firefox") end),
+    awful.key({ modkey, }, "e", function () awful.spawn("google-chrome") end),
     awful.key({ modkey, }, "i", function () awful.spawn("shadowpc") end),
     awful.key({ modkey, }, "q", function () awful.spawn("keepassxc") end),
-    awful.key({ modkey, }, "w", function () awful.spawn("firefox -new-window https://www.inoreader.com") end),
-    awful.key({ modkey, }, "p", function () awful.spawn("firefox -new-window http://www.spotify.com") end),
+    awful.key({ modkey, }, "w", function () awful.spawn("google-chrome -new-window https://www.inoreader.com") end),
+    awful.key({ modkey, }, "p", function () awful.spawn("google-chrome -new-window http://www.spotify.com") end),
     awful.key({ modkey, }, "t", function () awful.spawn("thunderbird") end),
     awful.key({ modkey, }, "y", function () awful.spawn("thunar") end),
     awful.key({ modkey, }, "u", function () awful.spawn("gnome-terminal -e htop") end),
