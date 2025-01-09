@@ -56,8 +56,6 @@ cp -r /etc/pulse/default.pa  etc/pulse
 rm -rf etc/samba
 mkdir -p etc/samba
 cp -r /etc/samba/smb.conf etc/samba
-mkdir -p .config/zathura/
-cp -r ~/.config/zathura/zathurarc .config/zathura/
 cp -r ~/.config/redshift.conf .config/
 cp -f ~/.config/starship.toml .config/
 dpkg --get-selections | grep -v deinstall > packages
