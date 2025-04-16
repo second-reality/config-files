@@ -241,3 +241,6 @@ nnoremap <c-p> :cprevious<CR>
 
 " FZF files
 nmap <C-f> :Files .<CR>
+
+" QEMU .inc files
+autocmd BufNewFile,BufRead *.inc set filetype=c
