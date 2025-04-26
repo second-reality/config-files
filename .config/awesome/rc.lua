@@ -723,7 +723,7 @@ end
 run_once("xfce4-power-manager")
 run_once("nm-applet")
 -- screen tearing
-run_once("compton --vsync opengl-swc --backend glx --glx-no-stencil --sw-opti")
+run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
 
 -- to synchronize all clipboard buffers
 run_once("parcellite -n")
