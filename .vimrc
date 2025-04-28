@@ -148,7 +148,7 @@ colorscheme wombat
 nmap <leader>s :Ggrep <C-R><C-W><CR><CR>:copen<CR>
 
 set hidden
-set cmdheight=2
+set cmdheight=1
 set updatetime=100
 set shortmess+=c
 set signcolumn=yes
