@@ -9,6 +9,7 @@ adduser						install
 adwaita-icon-theme				install
 aircrack-ng					install
 aisleriot					install
+alacritty					install
 alsa-topology-conf				install
 alsa-ucm-conf					install
 alsa-utils					install

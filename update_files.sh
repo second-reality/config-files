@@ -12,6 +12,7 @@ cp ~/.gitconfig .
 cp ~/.gitcryptmergetool.sh .
 cp ~/.tmux.conf .
 cp ~/.vimrc .
+cp ~/.alacritty.toml .
 rm -rf .vim
 mkdir -p .vim
 cp ~/.vim/coc-settings.json .vim

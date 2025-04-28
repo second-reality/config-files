@@ -114,6 +114,7 @@ alias feh='feh --auto-rotate'
 
 export LOCALE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
 export TERM=xterm-256color
 export VISUAL=/usr/bin/vim
 export EDITOR=/usr/bin/vim
@@ -144,7 +145,7 @@ bind "set completion-prefix-display-length 2"
 # do not complete hidden files
 bind "set match-hidden-files off"
 
-[ -n TMUX ] && export TERM=tmux-256color
+[ "$TMUX" != "" ] && export TERM=tmux-256color
 
 ###############################################################################
 todo()
