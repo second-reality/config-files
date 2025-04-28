@@ -39,7 +39,7 @@ Plug 'tpope/vim-dispatch' " :Make command
 Plug 'tpope/vim-fugitive' " git
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder for files
 Plug 'junegunn/fzf.vim'
-Plug 'vim-scripts/wombat256.vim' " theme
+Plug 'sheerun/vim-wombat-scheme' " theme
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'editorconfig/editorconfig-vim'
 call plug#end()
@@ -145,10 +145,7 @@ set makeprg=./build.sh
 " Plugins config
 
 " set color
-colorscheme wombat256mod
-" fix colors
-hi ColorColumn ctermbg=236 cterm=none guibg=#32322f
-hi SignColumn ctermbg=232 cterm=none guibg=#32322f
+colorscheme wombat
 
 " git grep word under cursor
 nmap <leader>s :Ggrep <C-R><C-W><CR><CR>:copen<CR>
