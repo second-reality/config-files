@@ -33,6 +33,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " auto complete
 Plug 'tpope/vim-dispatch' " :Make command
 Plug 'tpope/vim-fugitive' " git
@@ -222,12 +223,6 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 " Show status of current completer
 nnoremap <silent> <space>l  :<C-u>CocCommand workspace.showOutput<CR>
-
-" Airline
-" trailing whitespace tweak
-let g:airline#extensions#whitespace#mixed_indent_algo=1
-" customize number of lines (percentage/line/number of lines/col)
-let g:airline_section_z = '%p%% %l/%L %c'
 
 " c moves
 nnoremap <c-n> :cnext<CR>
