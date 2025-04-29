@@ -3303,6 +3303,7 @@ libwpg-0.3-3:amd64				install
 libwps-0.4-4:amd64				install
 libwrap0:amd64					install
 libwsutil16:amd64				install
+libwtmpdb0:amd64				install
 libwww-form-urlencoded-perl			install
 libwww-form-urlencoded-xs-perl:amd64		install
 libwww-mechanize-perl				install

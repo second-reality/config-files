@@ -426,7 +426,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, }, "p", function () awful.spawn("google-chrome -new-window http://www.spotify.com") end),
     awful.key({ modkey, }, "t", function () awful.spawn("thunderbird") end),
     awful.key({ modkey, }, "y", function () awful.spawn("thunar") end),
-    awful.key({ modkey, }, "u", function () awful.spawn("gnome-terminal -e htop") end),
+    awful.key({ modkey, }, "u", function () awful.spawn("alacritty -e htop") end),
     awful.key({ modkey, }, "o", function () awful.spawn("remmina") end),
     awful.key({ modkey, }, "k", function () awful.spawn("pavucontrol") end),
     awful.key({ modkey, }, "l", function ()
