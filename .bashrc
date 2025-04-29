@@ -145,7 +145,7 @@ bind "set completion-prefix-display-length 2"
 # do not complete hidden files
 bind "set match-hidden-files off"
 
-[ "$TMUX" != "" ] && export TERM=tmux-256color
+[ "$TMUX" != "" ] && export TERM=screen-256color
 
 ###############################################################################
 todo()
