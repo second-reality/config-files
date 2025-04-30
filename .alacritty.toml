@@ -1,3 +1,4 @@
 [font]
 size = 9
 normal = { family = "inconsolata" }
+italic = { style = "italic" }

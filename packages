@@ -774,6 +774,10 @@ keepassxc-full					install
 keyboard-configuration				install
 keyutils					install
 kio6						install
+kitty						install
+kitty-doc					install
+kitty-shell-integration				install
+kitty-terminfo					install
 klibc-utils					install
 kmod						install
 kpartx						install
