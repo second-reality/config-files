@@ -7,6 +7,7 @@ acpi						install
 adb						install
 adduser						install
 adwaita-icon-theme				install
+aerc						install
 aircrack-ng					install
 aisleriot					install
 alacritty					install
@@ -241,6 +242,7 @@ debian-archive-keyring				install
 debian-faq					install
 debian-goodies					install
 debian-keyring					install
+debian-tag2upload-keyring			install
 debianutils					install
 debugedit					install
 default-jre					install
@@ -2720,7 +2722,6 @@ librados-dev					install
 librados2					install
 libraptor2-0:amd64				install
 libraqm0:amd64					install
-libraqm0:i386					install
 librasqal3t64:amd64				install
 librav1e0.7:amd64				install
 librav1e0.7:i386				install
@@ -3542,6 +3543,7 @@ libz3-4:amd64					install
 libz3-4:i386					install
 libz3-dev:amd64					install
 libzbar0t64:amd64				install
+libze1:amd64					install
 libzen0t64:amd64				install
 libzimg2:amd64					install
 libzip-dev:amd64				install
@@ -3570,23 +3572,23 @@ linux-headers-6.10.11+bpo-amd64			install
 linux-headers-6.10.11+bpo-common		install
 linux-headers-6.11.10+bpo-amd64			install
 linux-headers-6.11.10+bpo-common		install
-linux-headers-6.12.12+bpo-amd64			install
-linux-headers-6.12.12+bpo-common		install
-linux-headers-6.12.22-amd64			install
-linux-headers-6.12.22-common			install
+linux-headers-6.12.25-amd64			install
+linux-headers-6.12.25-common			install
+linux-headers-6.12.27-amd64			install
+linux-headers-6.12.27-common			install
 linux-headers-6.9.10+bpo-amd64			install
 linux-headers-6.9.10+bpo-common			install
 linux-headers-amd64				install
 linux-image-6.10.11+bpo-amd64			install
 linux-image-6.11.10+bpo-amd64			install
-linux-image-6.12.12+bpo-amd64			install
-linux-image-6.12.22-amd64			install
+linux-image-6.12.25-amd64			install
+linux-image-6.12.27-amd64			install
 linux-image-6.9.10+bpo-amd64			install
 linux-image-amd64				install
 linux-kbuild-6.10.11+bpo			install
 linux-kbuild-6.11.10+bpo			install
-linux-kbuild-6.12.12+bpo			install
-linux-kbuild-6.12.22				install
+linux-kbuild-6.12.25				install
+linux-kbuild-6.12.27				install
 linux-kbuild-6.9.10+bpo				install
 linux-libc-dev					install
 linux-libc-dev-arm64-cross			install
@@ -4142,6 +4144,7 @@ p7zip-full					install
 p7zip-rar					install
 packagekit					install
 packagekit-tools				install
+packages-microsoft-prod				install
 pacman-package-manager				install
 pahole						install
 pandoc						install
@@ -4553,6 +4556,7 @@ rtmpdump					install
 ruby						install
 ruby-csv					install
 ruby-debian					install
+ruby-did-you-mean				install
 ruby-domain-name				install
 ruby-erubi					install
 ruby-ffi:amd64					install
@@ -4894,6 +4898,7 @@ zathura-ps:amd64				install
 zenity						install
 zenity-common					install
 zerofree					install
+zerotier-one					install
 zip						install
 zipcmp						install
 zipmerge					install
