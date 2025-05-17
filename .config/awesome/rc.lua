@@ -420,7 +420,7 @@ globalkeys = awful.util.table.join(
 
     -- My programs
     awful.key({ modkey, }, "e", function () awful.spawn("google-chrome") end),
-    awful.key({ modkey, }, "i", function () awful.spawn("shadowpc") end),
+    awful.key({ modkey, }, "i", function () awful.spawn("flatpak run com.moonlight_stream.Moonlight stream vm desktop") end),
     awful.key({ modkey, }, "q", function () awful.spawn("keepassxc") end),
     awful.key({ modkey, }, "w", function () awful.spawn("google-chrome -new-window https://www.inoreader.com") end),
     awful.key({ modkey, }, "p", function () awful.spawn("google-chrome -new-window http://www.spotify.com") end),

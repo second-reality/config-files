@@ -4724,6 +4724,7 @@ transmission-common				install
 transmission-gtk				install
 tree						install
 tshark						install
+ttyload						install
 tumbler						install
 tumbler-common					install
 tuxpaint					install
