@@ -40,6 +40,7 @@ Plug 'tpope/vim-fugitive' " git
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder for files
 Plug 'junegunn/fzf.vim'
 Plug 'rudism/vim-wombat'
+Plug 'p00f/alabaster.nvim'
 call plug#end()
 
 "-------------------------------------------------------------------------------
@@ -143,8 +144,9 @@ set makeprg=./build.sh
 " Plugins config
 
 " set color
-set background=dark
-colorscheme wombat
+"set background=dark
+"colorscheme wombat
+colorscheme alabaster
 
 " git grep word under cursor
 nmap <leader>s :Ggrep <C-R><C-W><CR><CR>:copen<CR>

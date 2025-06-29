@@ -1,4 +1,10 @@
 [font]
-size = 9
+size = 12
 normal = { family = "inconsolata" }
 italic = { style = "italic" }
+
+# git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/alabaster.toml"
+]

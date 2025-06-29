@@ -420,7 +420,7 @@ globalkeys = awful.util.table.join(
 
     -- My programs
     awful.key({ modkey, }, "e", function () awful.spawn("google-chrome") end),
-    awful.key({ modkey, }, "i", function () awful.spawn("flatpak run com.moonlight_stream.Moonlight stream vm desktop") end),
+    awful.key({ modkey, }, "i", function () awful.spawn("moonlight stream vm desktop") end),
     awful.key({ modkey, }, "q", function () awful.spawn("keepassxc") end),
     awful.key({ modkey, }, "w", function () awful.spawn("google-chrome -new-window https://www.inoreader.com") end),
     awful.key({ modkey, }, "p", function () awful.spawn("google-chrome -new-window http://www.spotify.com") end),
@@ -430,18 +430,17 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, }, "o", function () awful.spawn("remmina") end),
     awful.key({ modkey, }, "k", function () awful.spawn("pavucontrol") end),
     awful.key({ modkey, }, "l", function ()
-        awful.spawn("/home/user/.screenlayout/mirror.sh")
+        awful.spawn("/home/user/.screenlayout/mirror_1440p.sh")
         awful.spawn("/home/user/.utils/bin/lockscreen.sh", false)
     end),
     awful.key({ modkey, }, "b", function () awful.spawn("/home/user/.utils/bin/switch_off_screen.sh", false) end),
     awful.key({ modkey, }, "v", function () awful.spawn("virt-manager") end),
     awful.key({ modkey, "Shift"}, "s", function ()
-        awful.spawn("/home/user/.screenlayout/mirror.sh")
+        awful.spawn("/home/user/.screenlayout/mirror_1440p.sh")
         awful.spawn("/home/user/.utils/bin/suspend.sh", false)
     end),
-    awful.key({ modkey, "Shift"}, "n", function () awful.spawn("/home/user/.screenlayout/default.sh") end),
-    awful.key({ modkey, "Shift"}, "m", function () awful.spawn("/home/user/.screenlayout/mirror.sh") end),
-    awful.key({ modkey, "Shift"}, "b", function () awful.spawn("/home/user/.screenlayout/tv.sh") end),
+    awful.key({ modkey, "Shift"}, "m", function () awful.spawn("/home/user/.screenlayout/mirror_1440p.sh") end),
+    awful.key({ modkey, "Shift"}, "b", function () awful.spawn("/home/user/.screenlayout/mirror_1080p.sh") end),
     awful.key({ }, "XF86AudioRaiseVolume", function () awful.spawn("amixer -q sset Master 2%+", false) end),
     awful.key({ }, "XF86AudioLowerVolume", function () awful.spawn("amixer -q sset Master 2%-", false) end),
     awful.key({ }, "XF86AudioMute", function () awful.spawn("amixer set Master toggle", false) end),
@@ -743,8 +742,7 @@ os.execute("numlockx")
 --disable screen saver
 os.execute("xset s off")
 -- screen mirror
---os.execute("/home/user/.screenlayout/default.sh")
-os.execute("/home/user/.screenlayout/mirror.sh")
+os.execute("/home/user/.screenlayout/mirror_1440p.sh")
 -- power-line communication (CPL in french)
 os.execute("/home/user/.utils/bin/keep_network_alive.sh&")
 -- set sound
@@ -753,4 +751,5 @@ os.execute("/home/user/.utils/bin/keep_network_alive.sh&")
 -- to fix feh fullscreen
 awful.spawn.with_shell("urxvt -e exit")
 awful.spawn.with_shell("xset -dpms")
-awful.spawn.with_shell("sleep 1 && hsetroot -solid '#222222'")
+--awful.spawn.with_shell("sleep 1 && hsetroot -solid '#222222'")
+awful.spawn.with_shell("sleep 1 && hsetroot -solid '#dddddd'")
