@@ -41,6 +41,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fuzzy finder for files
 Plug 'junegunn/fzf.vim'
 Plug 'rudism/vim-wombat'
 Plug 'p00f/alabaster.nvim'
+Plug 'projekt0n/github-nvim-theme'
 call plug#end()
 
 "-------------------------------------------------------------------------------
@@ -146,7 +147,8 @@ set makeprg=./build.sh
 " set color
 "set background=dark
 "colorscheme wombat
-colorscheme alabaster
+"colorscheme alabaster
+colorscheme github_light
 
 " git grep word under cursor
 nmap <leader>s :Ggrep <C-R><C-W><CR><CR>:copen<CR>

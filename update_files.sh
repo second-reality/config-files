@@ -19,8 +19,6 @@ cp ~/.vim/coc-settings.json .vim
 mkdir .config
 rm -rf bin
 cp -r ~/.data/backup/bin/ bin
-rm -rf firefox_extensions
-cp -r /home/user/.mozilla/firefox/9rs7lmoo.default/extensions firefox_extensions
 rm -rf thunderbird_extensions
 cp -r /home/user/.thunderbird/qi7dkguj.default/extensions thunderbird_extensions
 mkdir -p .mplayer
