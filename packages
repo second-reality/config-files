@@ -287,6 +287,7 @@ dh-strip-nondeterminism				install
 dictionaries-common				install
 diffstat					install
 diffutils					install
+diodon						install
 dirmngr						install
 discover					install
 discover-data					install
@@ -1389,6 +1390,7 @@ libdevmapper-event1.02.1:amd64			install
 libdevmapper1.02.1:amd64			install
 libdigest-bubblebabble-perl			install
 libdigest-hmac-perl				install
+libdiodon0:amd64				install
 libdiscover2					install
 libdisplay-info2:amd64				install
 libdist-checkconflicts-perl			install
@@ -3699,6 +3701,7 @@ libz3-4:i386					install
 libz3-dev:amd64					install
 libzbar0t64:amd64				install
 libze1:amd64					install
+libzeitgeist-2.0-0:amd64			install
 libzen0t64:amd64				install
 libzimg2:amd64					install
 libzip-dev:amd64				install
@@ -4342,6 +4345,7 @@ pbzip2						install
 pci.ids						install
 pciutils					install
 pcscd						install
+pdf-presenter-console				install
 pdftk						install
 pdftk-java					install
 peek						install
@@ -4906,6 +4910,8 @@ systemd-timesyncd				install
 systemsettings					install
 sysvinit-utils					install
 t1utils						install
+tailscale					install
+tailscale-archive-keyring			install
 tali						install
 tar						install
 task-desktop					install
@@ -5139,6 +5145,7 @@ zathura-dev:amd64				install
 zathura-djvu:amd64				install
 zathura-pdf-poppler:amd64			install
 zathura-ps:amd64				install
+zeitgeist-core					install
 zenity						install
 zenity-common					install
 zerofree					install
