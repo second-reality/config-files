@@ -725,7 +725,8 @@ run_once("nm-applet")
 run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-if-possible --paint-on-overlay")
 
 -- to synchronize all clipboard buffers
-run_once("diodon")
+-- # https://github.com/rickyrockrat/parcellite
+run_once("parcellite")
 -- screen color
 --run_once("redshift")
 -- keepassxc

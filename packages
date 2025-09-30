@@ -147,6 +147,7 @@ calibre						install
 calibre-bin					install
 capnproto					install
 catatonit					install
+cbmc						install
 ccache						install
 ccze						install
 cdrdao						install
@@ -171,6 +172,7 @@ clang-tools-19					install
 clangd:amd64					install
 clangd-19					install
 cli-common					install
+clipit						install
 cmake						install
 cmake-data					install
 cmatrix						install
@@ -558,6 +560,7 @@ gir1.2-grilo-0.3:amd64				install
 gir1.2-gst-plugins-bad-1.0:amd64		install
 gir1.2-gst-plugins-base-1.0:amd64		install
 gir1.2-gstreamer-1.0:amd64			install
+gir1.2-gtk-2.0:amd64				install
 gir1.2-gtk-3.0:amd64				install
 gir1.2-gtk-4.0:amd64				install
 gir1.2-gtk-vnc-2.0:amd64			install
@@ -1013,11 +1016,9 @@ libavtp0:amd64					install
 libavutil-dev:amd64				install
 libavutil59:amd64				install
 libavutil59:i386				install
-libayatana-appindicator1			install
 libayatana-appindicator3-1			install
 libayatana-ido3-0.4-0:amd64			install
 libayatana-indicator3-7:amd64			install
-libayatana-indicator7:amd64			install
 libb-hooks-endofscope-perl			install
 libb-hooks-op-check-perl:amd64			install
 libb2-1:amd64					install
@@ -1359,7 +1360,6 @@ libdbus-1-3:i386				install
 libdbus-1-dev:amd64				install
 libdbusmenu-glib4:amd64				install
 libdbusmenu-gtk3-4:amd64			install
-libdbusmenu-gtk4:amd64				install
 libdc1394-25:amd64				install
 libdca0:amd64					install
 libdconf1:amd64					install
@@ -1859,6 +1859,7 @@ libgtk2.0-0t64:amd64				install
 libgtk2.0-bin					install
 libgtk2.0-cil					install
 libgtk2.0-common				install
+libgtk2.0-dev:amd64				install
 libgtk3-perl					install
 libgtkmm-3.0-1t64:amd64				install
 libgtkmm-4.0-0:amd64				install
@@ -3563,6 +3564,7 @@ libxdg-basedir1					install
 libxdmcp-dev:amd64				install
 libxdmcp6:amd64					install
 libxdmcp6:i386					install
+libxdo3:amd64					install
 libxen-dev:amd64				install
 libxencall1:amd64				install
 libxendevicemodel1:amd64			install
@@ -3730,25 +3732,23 @@ linux-headers-6.10.11+bpo-amd64			install
 linux-headers-6.10.11+bpo-common		install
 linux-headers-6.11.10+bpo-amd64			install
 linux-headers-6.11.10+bpo-common		install
-linux-headers-6.12.35+deb13-common		install
-linux-headers-6.12.38+deb13-amd64		install
-linux-headers-6.12.38+deb13-common		install
 linux-headers-6.12.41+deb13-amd64		install
 linux-headers-6.12.41+deb13-common		install
+linux-headers-6.12.48+deb13-amd64		install
+linux-headers-6.12.48+deb13-common		install
 linux-headers-6.9.10+bpo-amd64			install
 linux-headers-6.9.10+bpo-common			install
 linux-headers-amd64				install
 linux-image-6.10.11+bpo-amd64			install
 linux-image-6.11.10+bpo-amd64			install
-linux-image-6.12.38+deb13-amd64			install
 linux-image-6.12.41+deb13-amd64			install
+linux-image-6.12.48+deb13-amd64			install
 linux-image-6.9.10+bpo-amd64			install
 linux-image-amd64				install
 linux-kbuild-6.10.11+bpo			install
 linux-kbuild-6.11.10+bpo			install
-linux-kbuild-6.12.35+deb13			install
-linux-kbuild-6.12.38+deb13			install
 linux-kbuild-6.12.41+deb13			install
+linux-kbuild-6.12.48+deb13			install
 linux-kbuild-6.9.10+bpo				install
 linux-libc-dev					install
 linux-libc-dev-arm64-cross			install
@@ -3849,6 +3849,7 @@ mesa-vulkan-drivers:amd64			install
 mesa-vulkan-drivers:i386			install
 meson						install
 mime-support					install
+minisat						install
 miniupnpc					install
 mobile-atlas-creator				install
 mobile-broadband-provider-info			install
@@ -4331,7 +4332,6 @@ pandoc						install
 pandoc-data					install
 pango1.0-tools					install
 parallel					install
-parcellite					install
 parted						install
 pass						install
 passt						install
@@ -4636,6 +4636,7 @@ python3-secretstorage				install
 python3-selenium				install
 python3-send2trash				install
 python3-service-identity			install
+python3-setproctitle:amd64			install
 python3-setuptools				install
 python3-setuptools-whl				install
 python3-sgmllib3k				install
@@ -5081,6 +5082,7 @@ xdg-desktop-portal-gtk				install
 xdg-user-dirs					install
 xdg-user-dirs-gtk				install
 xdg-utils					install
+xdotool						install
 xfce4-power-manager				install
 xfce4-power-manager-data			install
 xfce4-power-manager-plugins			install
@@ -5149,7 +5151,6 @@ zeitgeist-core					install
 zenity						install
 zenity-common					install
 zerofree					install
-zerotier-one					install
 zip						install
 zipcmp						install
 zipmerge					install
