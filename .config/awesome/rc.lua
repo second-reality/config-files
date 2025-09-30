@@ -726,6 +726,7 @@ run_once("compton --backend glx --vsync opengl-mswc --glx-no-stencil --unredir-i
 
 -- to synchronize all clipboard buffers
 -- # https://github.com/rickyrockrat/parcellite
+-- package disappeared from trixie, alternatives don't work well (clipit, diodon)
 run_once("parcellite")
 -- screen color
 --run_once("redshift")
