@@ -150,8 +150,15 @@ set makeprg=./build.sh
 "colorscheme alabaster
 colorscheme github_light
 
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'relativepath', 'modified' ] ],
+      \ }
+      \ }
+
 " git grep word under cursor
 nmap <leader>s :Ggrep <C-R><C-W><CR><CR>:copen<CR>
+nmap <leader>p :CocList symbols<CR>
 
 set hidden
 set cmdheight=1

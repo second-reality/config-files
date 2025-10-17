@@ -10,3 +10,5 @@ echo Y > /sys/module/bluetooth/parameters/disable_ertm
 # lsusb | grep -i logitech (ID :$second_part)
 # grep $second_part /sys/bus/usb/devices/*/idProduct
 echo 'disabled' > $(dirname $(grep c52b /sys/bus/usb/devices/*/idProduct))/power/wakeup
+
+cpupower frequency-set -g performance
