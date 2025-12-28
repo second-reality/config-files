@@ -7,7 +7,7 @@
     "see_doc_at": "https://github.com/neoclide/coc.nvim/blob/master/data/schema.json",
     "rust-analyzer.updates.prompt": false,
     "clangd.path": "clangd-22",
-    "clangd.arguments": ["--background-index=true"],
+    "clangd.arguments": ["--background-index=true", "--header-insertion=never"],
     "inlayHint.enable": false,
     "clangd.disableSnippetCompletion": true
 }

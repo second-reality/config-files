@@ -204,6 +204,7 @@ cpp-14-aarch64-linux-gnu			install
 cpp-14-alpha-linux-gnu				install
 cpp-14-arm-linux-gnueabi			install
 cpp-14-arm-linux-gnueabihf			install
+cpp-14-for-host:amd64				install
 cpp-14-hppa-linux-gnu				install
 cpp-14-i686-linux-gnu				install
 cpp-14-loongarch64-linux-gnu			install
@@ -249,6 +250,18 @@ crun						install
 cryptsetup					install
 cryptsetup-bin					install
 cryptsetup-initramfs				install
+cups						install
+cups-browsed					install
+cups-client					install
+cups-common					install
+cups-core-drivers				install
+cups-daemon					install
+cups-filters					install
+cups-filters-core-drivers			install
+cups-ipp-utils					install
+cups-pk-helper					install
+cups-ppdc					install
+cups-server-common				install
 curl						install
 cutycapt					install
 darcs						install
@@ -429,6 +442,7 @@ fonts-vlgothic					install
 fonts-wine					install
 four-in-a-row					install
 fuse-overlayfs					install
+fuse2fs						install
 fuse3						install
 fwupd						install
 fwupd-amd64-signed				install
@@ -460,6 +474,7 @@ gcc-14-base:i386				install
 gcc-14-cross-base				install
 gcc-14-cross-base-mipsen			install
 gcc-14-cross-base-ports				install
+gcc-14-for-host:amd64				install
 gcc-14-hppa-linux-gnu				install
 gcc-14-hppa-linux-gnu-base:amd64		install
 gcc-14-hppa64-linux-gnu				install
@@ -597,6 +612,7 @@ gir1.2-xdp-1.0:amd64				install
 girepository-tools:amd64			install
 git						install
 git-crypt					install
+git-debpush					install
 git-email					install
 git-filter-repo					install
 git-lfs						install
@@ -611,6 +627,7 @@ glib-networking:amd64				install
 glib-networking-common				install
 glib-networking-services			install
 glx-alternative-mesa				install
+glycin-loaders					install
 gnome-2048					install
 gnome-accessibility-themes			install
 gnome-backgrounds				install
@@ -622,6 +639,7 @@ gnome-characters				install
 gnome-chess					install
 gnome-clocks					install
 gnome-color-manager				install
+gnome-connections				install
 gnome-contacts					install
 gnome-control-center				install
 gnome-control-center-data			install
@@ -663,6 +681,7 @@ gnome-tetravex					install
 gnome-text-editor				install
 gnome-themes-extra:amd64			install
 gnome-themes-extra-data				install
+gnome-tour					install
 gnome-tweaks					install
 gnome-user-docs					install
 gnome-user-share				install
@@ -753,6 +772,7 @@ hunspell-en-us					install
 hwdata						install
 hwinfo						install
 hwloc						install
+hyperfine					install
 hyphen-en-us					install
 i3lock						install
 i965-va-driver:amd64				install
@@ -1163,6 +1183,7 @@ libcgi-compile-perl				install
 libcgi-emulate-psgi-perl			install
 libcgi-fast-perl				install
 libcgi-pm-perl					install
+libcgif0:amd64					install
 libcglib-java					install
 libcgraph6:amd64				install
 libchamplain-0.12-0:amd64			install
@@ -1263,6 +1284,7 @@ libctf-nobfd0:amd64				install
 libctf0:amd64					install
 libcue2:amd64					install
 libcups2t64:amd64				install
+libcupsfilters1t64:amd64			install
 libcurl3-nss:amd64				install
 libcurl3t64-gnutls:amd64			install
 libcurl4-gnutls-dev:amd64			install
@@ -1494,7 +1516,6 @@ libfftw3-double3:amd64				install
 libfftw3-single3:amd64				install
 libfido2-1:amd64				install
 libfile-basedir-perl				install
-libfile-chdir-perl				install
 libfile-desktopentry-perl			install
 libfile-dirlist-perl				install
 libfile-fcntllock-perl				install
@@ -1529,6 +1550,7 @@ libfont-ttf-perl				install
 libfontconfig-dev:amd64				install
 libfontconfig1:amd64				install
 libfontconfig1:i386				install
+libfontembed1t64:amd64				install
 libfontenc-dev:amd64				install
 libfontenc1:amd64				install
 libfonts-java					install
@@ -1662,7 +1684,6 @@ libgirara-dev:amd64				install
 libgirara-gtk3-4:amd64				install
 libgirepository-1.0-1:amd64			install
 libgirepository-2.0-0:amd64			install
-libgit-wrapper-perl				install
 libgit2-1.5:amd64				install
 libgitlab-api-v4-perl				install
 libgjs0g:amd64					install
@@ -1988,6 +2009,7 @@ libjack-dev:amd64				install
 libjack0:amd64					install
 libjansi-java					install
 libjansson4:amd64				install
+libjava-websocket-java				install
 libjavascriptcoregtk-4.1-0:amd64		install
 libjavascriptcoregtk-6.0-1:amd64		install
 libjaxb-api-java				install
@@ -2222,6 +2244,9 @@ liblog-log4perl-perl				install
 liblog4j1.2-java				install
 liblouis-data					install
 liblouis20:amd64				install
+liblouisutdml-bin				install
+liblouisutdml-data				install
+liblouisutdml9t64:amd64				install
 liblqr-1-0:amd64				install
 liblrdf0:amd64					install
 liblsan0:amd64					install
@@ -2270,6 +2295,7 @@ libmarkdown2:amd64				install
 libmatch-simple-perl				install
 libmatch-simple-xs-perl				install
 libmath-base85-perl				install
+libmatio13:amd64				install
 libmatroska7:amd64				install
 libmaven-file-management-java			install
 libmaven-parent-java				install
@@ -2291,6 +2317,7 @@ libmd0:i386					install
 libmd4c0:amd64					install
 libmediaart-2.0-0:amd64				install
 libmediainfo0v5:amd64				install
+libmetacpan-client-perl				install
 libmhash2:amd64					install
 libmime-charset-perl				install
 libmime-lite-perl				install
@@ -2406,6 +2433,7 @@ libnghttp3-dev:amd64				install
 libngtcp2-16:amd64				install
 libngtcp2-crypto-gnutls-dev:amd64		install
 libngtcp2-crypto-gnutls8:amd64			install
+libngtcp2-crypto-ossl0:amd64			install
 libngtcp2-dev:amd64				install
 libnice10:amd64					install
 libnl-3-200:amd64				install
@@ -2498,13 +2526,14 @@ libopenmpt-modplug1:amd64			install
 libopenmpt0t64:amd64				install
 libopenni2-0:amd64				install
 libopenscenegraph161:amd64			install
+libopenslide0					install
 libopenthreads21:amd64				install
 libopus0:amd64					install
 libopus0:i386					install
 libopusfile0:amd64				install
 liborc-0.4-0t64:amd64				install
-liborcus-0.18-0:amd64				install
-liborcus-parser-0.18-0:amd64			install
+liborcus-0.20-0:amd64				install
+liborcus-parser-0.20-0:amd64			install
 libosinfo-1.0-0:amd64				install
 libosinfo-l10n					install
 libosmgpsmap-1.0-1:amd64			install
@@ -2589,6 +2618,7 @@ libpixman-1-0:i386				install
 libpixman-1-dev:amd64				install
 libpkcs11-helper1t64:amd64			install
 libpkgconf3:amd64				install
+libplacebo-dev:amd64				install
 libplacebo349:amd64				install
 libplack-perl					install
 libplasmaactivities6:amd64			install
@@ -2616,6 +2646,7 @@ libpodofo0.9.8t64				install
 libpolkit-agent-1-0:amd64			install
 libpolkit-gobject-1-0:amd64			install
 libpolkit-qt6-1-1:amd64				install
+libpoppler-cpp2:amd64				install
 libpoppler-glib8t64:amd64			install
 libpoppler-qt5-1t64:amd64			install
 libpoppler147:amd64				install
@@ -2638,6 +2669,7 @@ libproc-processtable-perl:amd64			install
 libproc2-0:amd64				install
 libproj25:amd64					install
 libprotobuf-c1:amd64				install
+libprotobuf-dev:amd64				install
 libprotobuf-java				install
 libprotobuf-lite32t64:amd64			install
 libprotobuf32t64:amd64				install
@@ -2855,6 +2887,7 @@ librygel-renderer-2.8-0:amd64			install
 librygel-renderer-gst-2.8-0:amd64		install
 librygel-server-2.8-0:amd64			install
 libsac-java					install
+libsafe-isa-perl				install
 libsamplerate0:amd64				install
 libsamplerate0:i386				install
 libsamplerate0-dev:amd64			install
@@ -2980,6 +3013,7 @@ libspice-client-gtk-3.0-5:amd64			install
 libspice-protocol-dev				install
 libspice-server-dev:amd64			install
 libspice-server1:amd64				install
+libspng0:amd64					install
 libspring-aop-java				install
 libspring-beans-java				install
 libspring-context-java				install
@@ -3226,6 +3260,8 @@ libvdpau-va-gl1:amd64				install
 libvdpau1:amd64					install
 libvhdi1:amd64					install
 libvidstab1.1:amd64				install
+libvips-tools					install
+libvips42t64:amd64				install
 libvirglrenderer-dev:amd64			install
 libvirglrenderer1:amd64				install
 libvirt-clients					install
@@ -3279,6 +3315,7 @@ libvte-2.91-common				install
 libvte-2.91-dev:amd64				install
 libvterm0:amd64					install
 libvtk9.3:amd64					install
+libvulkan-dev:amd64				install
 libvulkan1:amd64				install
 libvulkan1:i386					install
 libwacom-common					install
@@ -3296,7 +3333,6 @@ libwayland-dev:amd64				install
 libwayland-egl1:amd64				install
 libwayland-egl1:i386				install
 libwayland-server0:amd64			install
-libwayland-server0:i386				install
 libwbclient0:amd64				install
 libwebkit2gtk-4.1-0:amd64			install
 libwebkitgtk-6.0-4:amd64			install
@@ -3590,23 +3626,23 @@ linux-headers-6.10.11+bpo-amd64			install
 linux-headers-6.10.11+bpo-common		install
 linux-headers-6.11.10+bpo-amd64			install
 linux-headers-6.11.10+bpo-common		install
-linux-headers-6.12.41+deb13-amd64		install
-linux-headers-6.12.41+deb13-common		install
-linux-headers-6.12.48+deb13-amd64		install
-linux-headers-6.12.48+deb13-common		install
+linux-headers-6.12.57+deb13-amd64		install
+linux-headers-6.12.57+deb13-common		install
+linux-headers-6.17.8+deb13-amd64		install
+linux-headers-6.17.8+deb13-common		install
 linux-headers-6.9.10+bpo-amd64			install
 linux-headers-6.9.10+bpo-common			install
 linux-headers-amd64				install
 linux-image-6.10.11+bpo-amd64			install
 linux-image-6.11.10+bpo-amd64			install
-linux-image-6.12.41+deb13-amd64			install
-linux-image-6.12.48+deb13-amd64			install
+linux-image-6.12.57+deb13-amd64			install
+linux-image-6.17.8+deb13-amd64			install
 linux-image-6.9.10+bpo-amd64			install
 linux-image-amd64				install
 linux-kbuild-6.10.11+bpo			install
 linux-kbuild-6.11.10+bpo			install
-linux-kbuild-6.12.41+deb13			install
-linux-kbuild-6.12.48+deb13			install
+linux-kbuild-6.12.57+deb13			install
+linux-kbuild-6.17.8+deb13			install
 linux-kbuild-6.9.10+bpo				install
 linux-libc-dev					install
 linux-libc-dev-arm64-cross			install
@@ -3648,11 +3684,13 @@ llvm-19-runtime					install
 llvm-19-tools					install
 lm-sensors					install
 locales						install
+locales-all					install
 localsend					install
 login						install
 login.defs					install
 logrotate					install
 logsave						install
+loupe						install
 low-memory-monitor				install
 lsb-release					install
 lsof						install
@@ -3731,6 +3769,7 @@ mutter-common					install
 mysql-common					install
 mythes-en-us					install
 nano						install
+nanopb						install
 native-architecture				install
 nautilus					install
 nautilus-data					install
@@ -4242,6 +4281,7 @@ polkitd						install
 poppler-data					install
 poppler-utils					install
 popularity-contest				install
+power-profiles-daemon				install
 powermgmt-base					install
 powertop					install
 ppp						install
@@ -4252,12 +4292,19 @@ procps						install
 proj-bin					install
 proj-data					install
 proot						install
+protobuf-compiler				install
 psmisc						install
 psutils						install
 public-inbox					install
 publicsuffix					install
 pulseaudio					install
+pulseaudio-equalizer				install
 pulseaudio-module-bluetooth			install
+pulseaudio-module-gsettings			install
+pulseaudio-module-jack				install
+pulseaudio-module-lirc				install
+pulseaudio-module-raop				install
+pulseaudio-module-zeroconf			install
 pulseaudio-utils				install
 pv						install
 pwgen						install
@@ -4310,8 +4357,10 @@ python3-cssselect				install
 python3-cups:amd64				install
 python3-cupshelpers				install
 python3-cycler					install
+python3-dasbus					install
 python3-dateutil				install
 python3-dbus					install
+python3-dbus.mainloop.pyqt5			install
 python3-debconf					install
 python3-debian					install
 python3-debianbts				install
@@ -4682,11 +4731,8 @@ rygel						install
 rygel-playbin					install
 rygel-tracker					install
 samba						install
-samba-ad-dc					install
-samba-ad-provision				install
 samba-common					install
 samba-common-bin				install
-samba-dsdb-modules:amd64			install
 samba-libs:amd64				install
 sane-airscan					install
 sane-utils					install
@@ -4734,6 +4780,7 @@ speedtest-cli					install
 sphinx-common					install
 sphinx-rtd-theme-common				install
 spice-client-glib-usb-acl-helper		install
+spotify-client					install
 sqlite3						install
 squashfs-tools					install
 sqv						install
@@ -4742,6 +4789,7 @@ ssh						install
 ssh-tools					install
 sshfs						install
 sshuttle					install
+ssl-cert					install
 strace						install
 stress						install
 stress-ng					install
@@ -4865,7 +4913,6 @@ util-linux-locales				install
 uuid-dev:amd64					install
 uuid-runtime					install
 v4l-utils					install
-v4l2loopback-dkms				install
 v4l2loopback-utils				install
 va-driver-all:amd64				install
 va-driver-all:i386				install
