@@ -9,5 +9,7 @@
     "clangd.path": "clangd-22",
     "clangd.arguments": ["--background-index=true", "--header-insertion=never"],
     "inlayHint.enable": false,
-    "clangd.disableSnippetCompletion": true
+    "clangd.disableSnippetCompletion": true,
+    "biome.bin": "/usr/bin/biome",
+    "biome.requireConfiguration": false
 }

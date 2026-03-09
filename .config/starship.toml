@@ -31,6 +31,9 @@ disabled = true
 [c]
 disabled = true
 
+[gcloud]
+disabled = true
+
 [package]
 disabled = true
 

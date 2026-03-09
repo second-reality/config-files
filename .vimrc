@@ -14,7 +14,8 @@
 "
 " in vim:
 " :CocInstall coc-clangd coc-docker coc-json coc-marketplace coc-jedi
-" :CocInstall coc-rust-analyzer coc-sh coc-toml coc-vimlsp coc-yaml coc-flutter
+" :CocInstall coc-tsserver coc-biome
+" :CocInstall coc-rust-analyzer coc-sh coc-toml coc-vimlsp coc-yaml coc-flutter coc-biome
 "
 " # too see all extensions CocList marketplace
 " :CocList marketplace
