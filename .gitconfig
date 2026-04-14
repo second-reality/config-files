@@ -1,10 +1,10 @@
 [user]
 	name = Pierrick Bouvier
-    email = pierrick.bouvier@linaro.org
+    email = pierrick.bouvier@posteo.net
+    #email = pierrick.bouvier@linaro.org
     # gpg --list-secret-keys --keyid-format=long
     # sec rsa4096/...
-	signingkey = 7F90540D0A1CD00F
-    #email = pierrick.bouvier@posteo.net
+    #signingkey = 7F90540D0A1CD00F
 [sendemail]
     smtpserver = smtp.gmail.com
     smtpencryption = tls

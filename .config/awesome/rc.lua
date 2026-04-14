@@ -265,7 +265,7 @@ awful.screen.connect_for_each_screen(function(s)
         widget = wibox.widget.imagebox
     }
 
-    local wifi_name = "wlp0s20f3"
+    local wifi_name = "enp8s0"
     wifi_iowidget = wibox.widget.textbox()
         vicious.register(wifi_iowidget, vicious.widgets.net,
                          "↓${" .. wifi_name .. " down_kb}/↑${" .. wifi_name .. " up_kb}kB", up_delay)
@@ -434,7 +434,6 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, }, "b", function () awful.spawn("/home/user/.utils/bin/switch_off_screen.sh", false) end),
     awful.key({ modkey, }, "v", function () awful.spawn("virt-manager") end),
     awful.key({ modkey, "Shift"}, "s", function ()
-        awful.spawn("/home/user/.screenlayout/mirror_1440p.sh")
         awful.spawn("/home/user/.utils/bin/suspend.sh", false)
     end),
     awful.key({ modkey, "Shift"}, "m", function () awful.spawn("/home/user/.screenlayout/mirror_1440p.sh") end),
@@ -735,6 +734,8 @@ run_once("keepassxc")
 -- backup
 run_once("vorta")
 -- 
+--run_once("barrier")
+run_once("sunshine")
 
 os.execute("setxkbmap us qwerty-fr")
 --os.execute("setxkbmap fr")

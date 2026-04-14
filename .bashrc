@@ -192,6 +192,6 @@ fif() {
 eval "$(starship init bash)"
 
 # solve issue with x2go
-export DBUS_SESSION_BUS_ADDRESS=
+#export DBUS_SESSION_BUS_ADDRESS=
 
 . "$HOME/.cargo/env"
