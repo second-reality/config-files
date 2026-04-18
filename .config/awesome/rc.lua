@@ -737,6 +737,7 @@ run_once("vorta")
 --run_once("barrier")
 run_once("sunshine")
 
+-- set layout from /etc/X11/xorg.conf.d/00-keyboard.conf
 os.execute("setxkbmap us qwerty-fr")
 --os.execute("setxkbmap fr")
 os.execute("numlockx")
