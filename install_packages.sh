@@ -18,3 +18,5 @@ fi
 
 cat ./dpkg.list | $filter | xargs sudo apt install -y
 echo "#####ignored: $filter"
+
+pip install $(cat pip.list  | cut -f 1 -d ' ' | grep -v 'Package' | grep -v '\----------' | grep -v ntpsec) --break-system-packages
