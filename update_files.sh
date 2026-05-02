@@ -49,12 +49,10 @@ mkdir -p etc/ssh/
 cp /etc/ssh/sshd_config etc/ssh/
 rm -rf .screenlayout/
 cp -r ~/.screenlayout .
-rm -rf etc/pulse
-mkdir etc/pulse
-cp -r /etc/pulse/default.pa  etc/pulse
 mkdir -p etc/X11/xorg.conf.d/
 cp /etc/X11/xorg.conf.d/00-keyboard.conf etc/X11/xorg.conf.d/00-keyboard.conf
 cp -r ~/.config/redshift.conf .config/
 cp -f ~/.config/starship.toml .config/
 dpkg --get-selections | grep -v deinstall > packages
+pip list > pip.list
 git add .
