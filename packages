@@ -3075,6 +3075,7 @@ libstartup-notification0:amd64			install
 libstax-ex-java					install
 libstd-rust-1.85:amd64				install
 libstd-rust-1.93:amd64				install
+libstd-rust-1.94:amd64				install
 libstd-rust-dev:amd64				install
 libstdc++-12-dev:amd64				install
 libstdc++-14-dev:amd64				install
@@ -3675,9 +3676,11 @@ linux-base					install
 linux-base-6.18.12+deb13-amd64			install
 linux-base-6.19.10+deb13-amd64			install
 linux-base-6.19.11+deb13-amd64			install
+linux-base-6.19.13+deb13-amd64			install
 linux-base-amd64				install
 linux-binary-6.19.10+deb13-amd64		install
 linux-binary-6.19.11+deb13-amd64		install
+linux-binary-6.19.13+deb13-amd64		install
 linux-cpupower					install
 linux-headers-6.18.12+deb13-amd64		install
 linux-headers-6.18.12+deb13-common		install
@@ -3685,13 +3688,17 @@ linux-headers-6.19.10+deb13-amd64		install
 linux-headers-6.19.10+deb13-common		install
 linux-headers-6.19.11+deb13-amd64		install
 linux-headers-6.19.11+deb13-common		install
+linux-headers-6.19.13+deb13-amd64		install
+linux-headers-6.19.13+deb13-common		install
 linux-headers-amd64				install
 linux-image-6.19.10+deb13-amd64			install
 linux-image-6.19.11+deb13-amd64			install
+linux-image-6.19.13+deb13-amd64			install
 linux-image-amd64				install
 linux-kbuild-6.18.12+deb13			install
 linux-kbuild-6.19.10+deb13			install
 linux-kbuild-6.19.11+deb13			install
+linux-kbuild-6.19.13+deb13			install
 linux-libc-dev					install
 linux-libc-dev-alpha-cross			install
 linux-libc-dev-arm64-cross			install
@@ -3714,6 +3721,7 @@ linux-libc-dev-sh4-cross			install
 linux-libc-dev-sparc64-cross			install
 linux-modules-6.19.10+deb13-amd64		install
 linux-modules-6.19.11+deb13-amd64		install
+linux-modules-6.19.13+deb13-amd64		install
 linux-perf					install
 linux-sysctl-defaults				install
 lld:amd64					install

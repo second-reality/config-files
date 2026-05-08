@@ -4,9 +4,11 @@ aiohappyeyeballs             2.6.1
 aiohttp                      3.12.15
 aiosignal                    1.4.0
 annotated-types              0.7.0
+anyio                        4.13.0
 apsw                         3.46.0.1
 arandr                       0.1.11
 argcomplete                  3.6.2
+arrow                        1.4.0
 asciinema                    2.4.0
 astroid                      3.3.8
 asttokens                    3.0.0
@@ -30,6 +32,7 @@ build                        1.2.2
 CacheControl                 0.14.3
 cachetools                   6.1.0
 capstone                     5.0.7
+casttube                     0.2.1
 cbor                         1.0.0
 certifi                      2025.1.31
 cffi                         1.17.1
@@ -78,6 +81,8 @@ filelock                     3.18.0
 findpython                   0.6.2
 flake8                       7.1.1
 flake8-black                 0.3.6
+Flask                        3.1.3
+Flask-SQLAlchemy             3.1.1
 flatbuffers                  23.5.26
 fonttools                    4.57.0
 freetype-py                  2.5.1
@@ -97,17 +102,19 @@ gyp-next                     0.16.2
 h11                          0.14.0
 h2                           4.2.0
 hf-xet                       1.1.5
-hpack                        4.0.0
+hpack                        4.1.0
 html2text                    2025.4.15
 html5-parser                 0.4.12
+html5lib                     1.1
 html5lib-modern              1.2
 HTMLArk                      1.0.0
 httpcore                     1.0.7
 httplib2                     0.22.0
+httpx                        0.28.1
 httpx-sse                    0.4.1
 huggingface-hub              0.34.3
 humanize                     4.12.1
-hyperframe                   6.0.0
+hyperframe                   6.1.0
 hyperlink                    21.0.0
 identify                     2.6.18
 idna                         3.10
@@ -123,6 +130,7 @@ invoke                       2.2.0
 ipython                      8.35.0
 isort                        6.0.1
 iterable-io                  1.0.0
+itsdangerous                 2.2.0
 jaraco.classes               3.4.0
 jaraco.context               6.0.1
 jaraco.functools             4.1.0
@@ -149,6 +157,7 @@ legacycrypt                  0.3
 libcomps                     0.1.21
 libdnf                       0.74.0
 libvirt-python               11.3.0
+linkify-it-py                2.1.0
 logilab-common               2.1.0
 louis                        3.37.0
 lxml                         5.4.0
@@ -157,12 +166,14 @@ lz4                          4.4.0+dfsg
 magic-wormhole               0.18.0
 Mako                         1.3.9.dev0
 Markdown                     3.7
+markdown-it-py               4.0.0
 MarkupSafe                   2.1.5
 marshmallow                  3.26.1
 matplotlib                   3.10.1+dfsg1
 matplotlib-inline            0.1.7
 mccabe                       0.7.0
 mdit-py-plugins              0.5.0
+mdurl                        0.1.2
 mechanize                    0.4.10
 mercurial                    7.0.1
 meson                        1.10.1
@@ -193,6 +204,7 @@ outcome                      1.2.0
 packaging                    25.0
 paddlex                      3.1.3
 pandas                       2.3.1
+pandas-stubs                 3.0.0.260204
 paramiko                     3.5.1
 parsedatetime                2.6
 parso                        0.8.4
@@ -275,6 +287,7 @@ PyQt5_sip                    12.17.0
 PyQt6                        6.9.0
 PyQt6_sip                    13.10.0
 PyQt6-WebEngine              6.9.0
+PySocks                      1.7.1
 python-apt                   3.0.0
 python-dateutil              2.9.0
 python-debian                1.1.0+bpo13.1
@@ -290,6 +303,7 @@ PyYAML                       6.0.2
 pyzstd                       0.17.0
 qrcode                       8.2
 RapidFuzz                    3.12.2
+referencing                  0.37.0
 regex                        2024.11.6
 repo                         2
 reportbug                    13.2.0
@@ -301,6 +315,7 @@ rich                         14.3.3
 rlPyCairo                    0.3.0
 roman                        5.0
 Routes                       2.5.1
+rpds-py                      0.30.0
 rpm                          4.20.1
 rst2pdf                      0.102
 ruamel.yaml                  0.18.14
@@ -540,6 +555,7 @@ typing-inspection            0.4.1
 tzdata                       2025.2
 tzlocal                      5.3.1
 u-msgpack-python             2.8.0
+uc-micro-py                  2.0.0
 ufoLib2                      0.17.1
 ujson                        5.10.0
 unattended-upgrades          0.1
@@ -556,6 +572,7 @@ webencodings                 0.5.1
 WebOb                        1.8.9
 websocket-client             1.8.0
 websockets                   15.0.1
+Werkzeug                     3.1.8
 wheel                        0.46.1
 wifite                       2.7.0
 wrapt                        1.15.0
